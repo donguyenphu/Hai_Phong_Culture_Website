@@ -1,0 +1,124 @@
+.containerContact {
+    background: 
+        url('./image/ContactBGimage.jpg')
+        no-repeat center fixed;
+    background-size: cover;
+    height: 100%;
+    height: 800px;
+    position: relative;
+}
+.containerContact::before {
+    content: '';
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;    
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contactInformationWrapper {
+    background: rgb(40,38,178);
+    background: linear-gradient(315deg, rgba(40,38,178,1) 0%, rgb(33, 33, 35) 100%);
+    position: absolute;
+    top: 15%;
+    right: 0;
+    width: 40%;
+    height: auto;
+    margin: 30px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.contactIntroductionWrapper {
+    margin-bottom: 20px;
+}
+.contactIntroductionMain {
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 40px; */
+    font-weight: 600;
+}
+.socialWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.social {
+    font-size: 55px;
+}
+#Facebook {
+    background-image: linear-gradient(to right, rgb(23, 0, 230) , rgb(32, 32, 110));
+    background: linear-gradient(45deg, #1877F2, #0056B8);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+#X {
+    background-image: linear-gradient(to right, rgb(143, 142, 152) , rgb(72, 72, 77));
+    background: linear-gradient(45deg, #000000, #1C1C1C, #434343);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+#Instagram {
+    background-image: linear-gradient(to right #f58529, #dd2a7b, #8134af, #515bd4);
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+#LinkedIn {
+    background: linear-gradient(45deg, #0077b5, #005582);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#Github {
+    background: linear-gradient(45deg, #0077b5, #005582);
+    background: linear-gradient(45deg, #24292E, #484F58);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#Gmail {
+    background: linear-gradient(45deg, #EA4335, #FBBC05, #34A853, #4285F4);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.wayToContactWrapper {
+    margin-bottom: 30px;
+}
+#googleMap {
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+}
+.locationAndAddressWrapper {
+    display: inline-block;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #696969, #A9A9A9,#D3D3D3);
+    border-radius: 15px;
+}
+#map, #phone, #Gmail{
+    font-size: 45px;
+}
+#map {
+    background: linear-gradient(45deg, #4285F4, #34A853, #FBBC05, #EA4335);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#phone {
+    background: linear-gradient(45deg, #00C9FF, #92FE9D);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.addressAndPhoneWrapper {
+    margin-bottom: 40px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.LAdetailMain {
+    font-family: 'Noto sans', sans-serif;
+    font-size: 22px;
+}

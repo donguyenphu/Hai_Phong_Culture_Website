@@ -1,0 +1,94 @@
+.CrabNoodleSoupWrapper, .CoconutIceCreamWrapper, .SpicyBreadWrapper, .StirFriedFishPriceWrapper {
+    padding: 20px;
+    background-color: #afafaf;
+    border-radius: 15px;
+}
+.imgCNSwrapper {
+    padding: 10px;
+}
+.imgCNSmain {
+    width: 100%;
+    border-radius: 15px;
+    height: 80vh;
+    object-fit: cover;
+}
+.foodDetailWrapper {
+    padding: 20px;
+}
+.foodDetailMain {
+    text-indent: 20px;
+    line-height: 1.8;
+    font-family: 'Noto sans', sans-serif;
+    font-size: 30px;
+}
+.locationWrapper {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.BMC {
+    border-radius: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.describeLocationMain {
+    text-indent: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.introduceIngredientMain {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-left: 30px;
+    background: linear-gradient(45deg, #E60026, #FFA500, #FFD700, #008080);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+.detailIngredientWrapper {
+    list-style: none;
+    counter-reset: list-counter;
+    line-height: 1.5;
+}
+.detailIngredientMain {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    counter-increment: list-counter;
+    position: relative;
+    padding-left: 30px;
+    background: linear-gradient(45deg, #E60026, #FFA500, #FFD700, #008080);
+    -webkit-background-clip: text;
+    color: transparent; 
+    line-height: 1.6;
+}
+.detailIngredientMain::before {
+    content: counter(list-counter) ".";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    background: linear-gradient(45deg, #E60026, #FFA500, #FFD700, #008080);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+.titleFoodMain {
+    font-size: 50px;
+    font-family: 'Noto sans', sans-serif;
+    background: linear-gradient(45deg, #E60026, #FFA500, #FFD700, #008080);
+    -webkit-background-clip: text;
+    color: transparent; 
+    font-weight: 600;
+    transform: scale(1);
+    transition: 0.4s;
+    display: inline-block;
+}
+.titleFoodMain:hover {
+    transform: scale(1.2);
+}   
+.describeIngredient {
+    list-style: none;
+    font-size: 25px;
+    color: black;
+    text-indent: 20px;
+    font-weight: 500;
+}

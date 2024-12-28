@@ -1,0 +1,78 @@
+.locationTitleWrapper {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.locationTitleMain {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background: linear-gradient(45deg, #E60026, #FFA500, #FFD700, #008080);
+    -webkit-background-clip: text;
+    color: transparent; 
+    font-size: 35px;
+}
+.locationDetailMain {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+.allInfoTravelWrapper {
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #cfcfcf;
+    border-radius: 15px;
+}
+#googleMapMainDoSon, #googleMapWrapperDoSon {
+    width: 100%;
+}
+#googleMapMainDoSon {
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.OnlyImageMain, #googleMapMainDoSon {
+    transition: transform 0.3s ease;
+}
+.OnlyImageMain:hover, #googleMapMainDoSon:hover {
+    transform: translateY(-20px);
+}
+#CuisinesDoSonImageIWrapper {
+    display: flex;
+    gap: 15px;
+}
+.OnlyImageWrapper {
+    width: 25%;
+    margin-bottom: 15px;
+}
+.OnlyImageMain {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.infoAndImageWrapper {
+    width: 25%;
+    height: 100%;
+}
+.infoDoSonWrapper {
+    text-align: center;
+    width: 25%;
+}
+.infoDoSonMain {
+    font-size:25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transform: scale(1);
+    transition: 0.4s;
+    font-weight: 500;
+}
+.infoDoSonMain:hover {
+    transform: scale(1.1);
+    background: linear-gradient(45deg, #E60026, #FFA500, #FFD700, #008080);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+.infoCuisineDoSonWrapper {
+    display: flex;
+    gap: 15px;
+}

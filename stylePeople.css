@@ -1,0 +1,88 @@
+.peopleContact {
+    padding: 30px; 
+    background: linear-gradient(45deg, #E60026, #FFA500, #FFD700, #008080);
+}
+.peopleInformationWrapper {
+    background-color: rgb(35, 37, 59);
+    border-radius: 15px;
+    padding: 35px;
+}
+.titleIntroductionWrapper {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.titleIntroductionMain {
+    font-family: 'Noto sans', sans-serif;
+    font-size: 50px;
+    background-image: linear-gradient(to right, rgb(236, 7, 7), rgb(209, 74, 74));
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+.songIntroductionWrapper {
+    margin-bottom: 30px;
+}
+.songIntroductionMain {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-indent: 20px;
+    line-height: 2.5;
+    background-image: linear-gradient(to right, rgb(226, 213, 213), rgb(226, 213, 213));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.songLinkWrapper {
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.songLinkMain {
+    width: 100%;
+    border-radius: 15px;
+    height: 50vh;
+    object-fit: cover;
+}
+.seeMoreWrapper {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#ToiNguoiHaiPhong {
+    font-size: 40px;
+    background-image: linear-gradient(to right, rgb(236, 7, 7), rgb(209, 74, 74));
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+.seeMoreIntroductionWrapper {
+    margin-top: 10px;
+}
+.seeMoreIntroductionMain {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Poppins' , sans-serif;
+    background-image: linear-gradient(to right, rgb(236, 7, 7), rgb(209, 74, 74));
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+.peopleWrapper {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.peopleImageMain {
+    width: 100%;
+    border-radius: 15px;
+}
+.peopleIntroductionWrapper {
+    padding: 10px;
+}
+.peopleIntroductionMain {
+    line-height: 2.5;
+    text-indent: 20px;
+    font-size: 25px;
+    font-family: 'Poppins' , sans-serif;
+    background-image: linear-gradient(to right, rgb(226, 213, 213), rgb(226, 213, 213));
+    -webkit-background-clip: text;
+    color: transparent; 
+}
