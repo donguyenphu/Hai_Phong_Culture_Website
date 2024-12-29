@@ -46,10 +46,10 @@
     position: relative;
     width: calc(50% - 40px);
     padding: 15px;
-    border: 5px solid #ffffff;
+    border: 5px solid #ffffff00;
     border-radius: 15px;
     text-align: center;
-    background-color: #00000045;
+    background-color: #0000007d;
 }
 
 .point>div::before {
@@ -80,7 +80,7 @@
 }
 .infoMain {
     font-size: 30px;
-    color: black;
+    color: whitesmoke;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     transform: scale(1);

@@ -24,9 +24,9 @@
 .songIntroductionMain {
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     text-indent: 20px;
-    line-height: 2.5;
+    line-height: 2;
     background-image: linear-gradient(to right, rgb(226, 213, 213), rgb(226, 213, 213));
     -webkit-background-clip: text;
     color: transparent;
@@ -38,7 +38,8 @@
 .songLinkMain {
     width: 100%;
     border-radius: 15px;
-    height: 50vh;
+    /* height: 50vh; */
+    aspect-ratio: 19 / 7;
     object-fit: cover;
 }
 .seeMoreWrapper {
@@ -66,21 +67,25 @@
 .peopleWrapper {
     display: flex;
     gap: 25px;
-    align-items: center;
     margin-bottom: 30px;
 }
-
+#HaiPhongPeopleDiv1, #HaiPhongPeopleDiv2 {
+    flex: 1;
+}
 .peopleImageMain {
     width: 100%;
     border-radius: 15px;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
 }
 .peopleIntroductionWrapper {
     padding: 10px;
 }
 .peopleIntroductionMain {
-    line-height: 2.5;
+    line-height: 2;
     text-indent: 20px;
     font-size: 25px;
+    font-weight: 500;
     font-family: 'Poppins' , sans-serif;
     background-image: linear-gradient(to right, rgb(226, 213, 213), rgb(226, 213, 213));
     -webkit-background-clip: text;
