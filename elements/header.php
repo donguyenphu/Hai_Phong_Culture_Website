@@ -21,7 +21,7 @@
                 <div class="sectionLinkWrapper"><a href="culture.php" class="sectionLinkMain">Culture</a></div>
                 <div class="sectionLinkWrapper"><a href="travel.php" class="sectionLinkMain">Travel</a></div>
                 <div class="sectionLinkWrapper"><a href="cuisine.php" class="sectionLinkMain">Cuisines</a></div>
-                <div class="sectionLinkWrapper"><a href="people.php" class="sectionLinkMain">People</a></div>
+                <div class="sectionLinkWrapper"><a href="people.php" class="sectionLinkMain">People and Song</a></div>
                 <div class="sectionLinkWrapper"><a href="contact.php" class="sectionLinkMain">Contact</a></div>
             </div>
         </div>

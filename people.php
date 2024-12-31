@@ -9,8 +9,8 @@
     <div class="peopleContact">
         <div class="peopleInformationWrapper">
             <div class="titleIntroductionWrapper">
-                <h2 class="titleIntroductionMain">
-                    Travel
+                <h2 class="titleFoodMain">
+                    People
                 </h2>
             </div>
             <div class="peopleWrapper">
@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="titleIntroductionWrapper">
-                <h2 class="titleIntroductionMain">
+                <h2 class="titleFoodMain">
                     Song
                 </h2>
             </div>

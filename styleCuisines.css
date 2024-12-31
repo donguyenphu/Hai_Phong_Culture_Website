@@ -57,9 +57,6 @@
     counter-increment: list-counter;
     position: relative;
     padding-left: 30px;
-    background: linear-gradient(45deg, #E60026, #FFA500, #FFD700, #008080);
-    -webkit-background-clip: text;
-    color: transparent; 
     line-height: 1.6;
 }
 .detailIngredientMain::before {
@@ -91,4 +88,9 @@
     color: black;
     text-indent: 20px;
     font-weight: 500;
+}
+#detailIngredientMainList {
+    background: linear-gradient(45deg, #E60026, #FFA500, #FFD700, #008080);
+    -webkit-background-clip: text;
+    color: transparent; 
 }

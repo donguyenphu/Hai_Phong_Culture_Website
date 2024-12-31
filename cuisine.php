@@ -9,11 +9,6 @@
     <div class="peopleContact">
         <div class="peopleInformationWrapper">
             <div class="titleIntroductionWrapper">
-                <h1 class="titleIntroductionMain">
-                    Cuisines
-                </h1>
-            </div>
-            <div class="titleIntroductionWrapper">
                 <a href="https://www.dienmayxanh.com/vao-bep/cach-nau-banh-da-cua-ngon-dung-chuan-vi-hai-phong-01617" class="titleFoodMain">
                     Crab noodle soup
                 </a>
@@ -128,7 +123,7 @@
                         </h1>
                     </div>
                     <ul class="detailIngredientWrapper">
-                        <ul class="detailIngredientMain">
+                        <ul class="detailIngredientMain" id="detailIngredientMainList">
                             Young coconut:
                             <li class="describeIngredient">
                                 <strong>Young coconut meat:</strong> Cut into thin strips or slices, soft, fragrant, and lightly fatty.
@@ -137,7 +132,7 @@
                                 <strong>Fresh coconut water:</strong> Make the broth, naturally sweet.
                             </li>
                         </ul>
-                        <ul class="detailIngredientMain">
+                        <ul class="detailIngredientMain" id="detailIngredientMainList">
                             Jelly
                             <li class="describeIngredient">
                                 <strong>Coconut jelly:</strong> Transparent, crispy, cool, with a light taste.
@@ -146,7 +141,7 @@
                                 <strong>Jelly (thach rau cau):</strong> You can add pandan jelly, coffee or fruit jelly to enhance the flavor and color.
                             </li>
                         </ul>
-                        <ul class="detailIngredientMain">
+                        <ul class="detailIngredientMain" id="detailIngredientMainList">
                             Milk:
                             <li class="describeIngredient">
                                 <strong>Unsweetened fresh milk:</strong> Creates a sweet taste.
@@ -155,13 +150,13 @@
                                 <strong>Condensed milk:</strong> Increase sweetness and fat.
                             </li>
                         </ul>
-                        <ul class="detailIngredientMain">
+                        <ul class="detailIngredientMain" id="detailIngredientMainList">
                             Coconut milk
                             <li class="describeIngredient">
                                 <strong>Unsweetened fresh milk:</strong> Rich, fatty and fragrant, is the soul of the dish.
                             </li>
                         </ul>
-                        <ul class="detailIngredientMain">
+                        <ul class="detailIngredientMain" id="detailIngredientMainList">
                             Topping:
                             <li class="describeIngredient">
                                 <strong>Desiccated coconut or dried coconut:</strong> Increase crispness.
