@@ -69,7 +69,7 @@
     color: transparent; 
 }
 .titleFoodMain {
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Noto sans', sans-serif;
     background: linear-gradient(45deg, #E60026, #FFA500, #FFD700, #008080);
     -webkit-background-clip: text;

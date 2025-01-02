@@ -19,9 +19,9 @@
 }
 .allInfoTravelWrapper {
     padding: 20px;
-    margin-top: 50px;
     background-color: #cfcfcf;
     border-radius: 15px;
+    margin-bottom: 35px;
 }
 #googleMapMainDoSon, #googleMapWrapperDoSon {
     width: 100%;

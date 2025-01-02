@@ -20,7 +20,7 @@
 
 <head>
     <?php require_once './elements/head.php'; ?>
-    <title>Hai Phong City - Homepage</title>
+    <title>Hai Phong City - Home</title>
 </head>
 
 <body>

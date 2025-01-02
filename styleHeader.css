@@ -75,4 +75,21 @@ div {
     border-radius: 15px;
     background-color: rgb(83, 82, 82);
 }
+.overallTitleWrapper {
+    margin-bottom: 30px;
+}
+.overallTitleMain {
+    font-family: 'Noto Sans',  sans-serif;
+    font-size: 50px;
+    color: #683333;
+    font-weight: 700;
+    transform: scale(1);
+    transition: 0.4s ease all;
+}
+.overallTitleMain:hover {
+    transform: scale(1.2);
+    background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(243, 113, 113));
+    -webkit-background-clip: text;
+    color: transparent;
+}
 /* END OF HEADER TEMPLATE */

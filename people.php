@@ -2,11 +2,16 @@
 <html lang="en">
 <head>
     <?php require_once './elements/head.php'; ?>
-    <title>Hai Phong City - People</title>
+    <title>Hai Phong City - People and Song</title>
 </head>
 <body>
     <?php require_once './elements/header.php'; ?>
     <div class="peopleContact">
+        <div class="overallTitleWrapper">
+            <h1 class="overallTitleMain">
+                People and Song
+            </h1>
+        </div>
         <div class="peopleInformationWrapper">
             <div class="titleIntroductionWrapper">
                 <h2 class="titleFoodMain">

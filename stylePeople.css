@@ -1,11 +1,13 @@
 .peopleContact {
     padding: 30px; 
+    text-align: center;
     background: linear-gradient(45deg, #E60026, #FFA500, #FFD700, #008080);
 }
 .peopleInformationWrapper {
     background-color: rgb(35, 37, 59);
     border-radius: 15px;
     padding: 35px;
+    padding-bottom: 1px;
 }
 .titleIntroductionWrapper {
     text-align: center;

@@ -7,12 +7,12 @@
 <body>
     <?php require_once './elements/header.php'; ?>
     <div class="peopleContact">
+        <div class="overallTitleWrapper">
+            <h1 class="overallTitleMain">
+                Travel
+            </h1>
+        </div>
         <div class="peopleInformationWrapper">
-            <div class="titleIntroductionWrapper">
-                <h1 class="titleIntroductionMain">
-                    Travel
-                </h1>
-            </div>
             <!-- INFO START -->
             <div class="allInfoTravelWrapper">
                 <div class="titleIntroductionWrapper">

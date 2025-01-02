@@ -2,11 +2,16 @@
 <html lang="en">
 <head>
     <?php require_once './elements/head.php'; ?>
-    <title>Hai Phong City - People</title>
+    <title>Hai Phong City - Cuisines</title>
 </head>
 <body>
     <?php require_once './elements/header.php'; ?>
     <div class="peopleContact">
+        <div class="overallTitleWrapper">
+            <h1 class="overallTitleMain">
+                Cuisines
+            </h1>
+        </div>
         <div class="peopleInformationWrapper">
             <div class="titleIntroductionWrapper">
                 <a href="https://www.dienmayxanh.com/vao-bep/cach-nau-banh-da-cua-ngon-dung-chuan-vi-hai-phong-01617" class="titleFoodMain">
@@ -215,7 +220,7 @@
                         </h1>
                     </div>
                     <ul class="detailIngredientWrapper">
-                        <ul class="detailIngredientMain">
+                        <ul class="detailIngredientMain" id="detailIngredientMainList">
                             Crust:
                             <li class="describeIngredient">
                                 Small baguette, about 20-25cm long, thin crust, crispy, little filling.
@@ -224,7 +229,7 @@
                                 The crust is baked golden brown and fragrant.
                             </li>
                         </ul>
-                        <ul class="detailIngredientMain">
+                        <ul class="detailIngredientMain" id="detailIngredientMainList">
                             Pate filling:
                             <li class="describeIngredient">
                                 Made from pork liver, minced meat, lard and spices.
@@ -233,13 +238,13 @@
                                 The pate is finely ground, rich in fat, and has a rich flavor.
                             </li>
                         </ul>
-                        <ul class="detailIngredientMain">
+                        <ul class="detailIngredientMain" id="detailIngredientMainList">
                             Chili sauce:
                             <li class="describeIngredient">
                                 A typical Hai Phong chili sauce, spicy but not too harsh, with the aroma of garlic and chili.
                             </li>
                         </ul>
-                        <ul class="detailIngredientMain">
+                        <ul class="detailIngredientMain" id="detailIngredientMainList">
                             Scallion oil or butter (optional):
                             <li class="describeIngredient">
                                 A layer of scallion oil or butter is spread on the cake to increase the fattiness.
@@ -295,7 +300,7 @@
                         </h1>
                     </div>
                     <ul class="detailIngredientWrapper">
-                        <ul class="detailIngredientMain">
+                        <ul class="detailIngredientMain" id="detailIngredientMainList">
                             Sprout bean:
                             <li class="describeIngredient">
                                 A type of seafood that lives in salt or brackish water, has a soft body, about 3-5cm long, and is clear white.
@@ -304,13 +309,13 @@
                                 When processed, the tank price is often cleaned of the thin outer shell.
                             </li>
                         </ul>
-                        <ul class="detailIngredientMain">
+                        <ul class="detailIngredientMain" id="detailIngredientMainList">
                             Vietnamese coriander:
                             <li class="describeIngredient">
                                 Herbs are indispensable, helping to enhance the characteristic flavor of the dish.
                             </li>
                         </ul>
-                        <ul class="detailIngredientMain">
+                        <ul class="detailIngredientMain" id="detailIngredientMainList">
                             Spices:
                             <li class="describeIngredient">
                                 <strong>Shallots, minced garlic:</strong> Fry until fragrant.
