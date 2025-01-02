@@ -2,6 +2,7 @@
     padding: 20px;
     background-color: #afafaf;
     border-radius: 15px;
+    margin-bottom: 34px;
 }
 .imgCNSwrapper {
     padding: 10px;
@@ -93,4 +94,13 @@
     background: linear-gradient(45deg, #E60026, #FFA500, #FFD700, #008080);
     -webkit-background-clip: text;
     color: transparent; 
+}
+.imageAndContentCuisineWrapper {
+    display: flex;
+}
+.imgCNSwrapper, .foodDetailWrapper {
+    flex: 1;
+}
+.imgCNSmain {
+    object-fit: coverfoodDetailMain;
 }
