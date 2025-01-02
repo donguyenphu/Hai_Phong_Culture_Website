@@ -6,6 +6,12 @@
 }
 .imgCNSwrapper {
     padding: 10px;
+    transform: scale(1);
+    transition: 0.4s all ease-in-out;
+}
+.imgCNSwrapper:hover {
+    transform: scale(1.05);
+    transform: translateY(-20px);
 }
 .imgCNSmain {
     width: 100%;
