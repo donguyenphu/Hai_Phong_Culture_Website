@@ -9,9 +9,14 @@
     transform: scale(1);
     transition: 0.4s all ease-in-out;
 }
-.imgCNSwrapper:hover {
+.imgCNSwrapper:hover, .introduceIngredientMain:hover {
     transform: scale(1.05);
-    transform: translateY(-20px);
+    transform: translateY(-10px);
+}
+.introduceIngredientMain:hover {
+    background-image: linear-gradient(to right, rgb(236, 7, 7), rgb(209, 74, 74));
+    -webkit-background-clip: text;
+    color: transparent; 
 }
 .imgCNSmain {
     width: 100%;
@@ -54,6 +59,7 @@
     background: linear-gradient(45deg, #E60026, #FFA500, #FFD700, #008080);
     -webkit-background-clip: text;
     color: transparent; 
+    transition: 0.4s all ease-in-out;
 }
 .detailIngredientWrapper {
     list-style: none;
