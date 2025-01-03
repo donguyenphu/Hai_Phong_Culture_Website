@@ -34,6 +34,9 @@
     margin-bottom: 20px;
     justify-content: center;
 }
+.locationDetailWrapper {
+    width: 100%;
+}
 .BMC {
     border-radius: 15px;
     margin-bottom: 10px;
