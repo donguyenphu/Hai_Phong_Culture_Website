@@ -9,3 +9,5 @@ $data = [
     ['title' => 'People', 'link' => 'people.php', 'image' => 'HaiPhongPeople.jpg'],
     ['title' => 'Contact', 'link' => 'contact.php', 'image' => 'Contact.jpg'],
 ];
+
+?>

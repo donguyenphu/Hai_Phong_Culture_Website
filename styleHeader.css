@@ -91,5 +91,6 @@ div {
     background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(243, 113, 113));
     -webkit-background-clip: text;
     color: transparent;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 /* END OF HEADER TEMPLATE */
