@@ -1,3 +1,8 @@
+<?php
+    require_once './data/cuisinesInfo.php';
+    $htmlCuisines = '';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +23,7 @@
                     Crab noodle soup
                 </a>
             </div>
-            <div class="CrabNoodleSoupWrapper">
+            <div class="descriptionCuisinesWrapper">
                 <div class="imageAndContentCuisineWrapper">
                     <div class="imgCNSwrapper">
                         <img src="./image/CrabNoodleSoup.jpg" class="imgCNSmain">
@@ -63,22 +68,22 @@
                     </div>
                     <ul class="detailIngredientWrapper">
                         <li class="detailIngredientMain">
-                            Red rice paper
+                            <strong>Red rice noodles - </strong>A specialty of Hai Phong, these noodles are made from red rice and have a chewy texture.
                         </li>
                         <li class="detailIngredientMain">
-                            Field crab
+                            <strong>Field crab - </strong>Usually from freshwater crabs, which are cooked and processed to create the crab broth.
+                            <strong>Crab roe - </strong>Adds richness and flavor to the soup.
                         </li>
                         <li class="detailIngredientMain">
-                            Grilled pork rolls or meatballs
+                            <strong>Grilled pork rolls or meatballs - </strong>Added to make the broth more flavorful.
                         </li>
                         <li class="detailIngredientMain">
-                            Shrimp
+                            <strong>Shrimp - </strong>Optional but commonly included for added flavor.
                         </li>
                         <li class="detailIngredientMain">
-                            Side dishes
-                        </li>
-                        <li class="detailIngredientMain">
-                            Spices such as onion, tomato, scallion oil,...
+                            <strong>Tomato - </strong>To give the broth its characteristic reddish color and tanginess.
+                            <strong>Garlic  - </strong>Sautéed with oil to add depth to the broth.
+                            <strong>Salt - </strong>Seasoning the broth.
                         </li>
                     </ul>
                 </div>             
@@ -88,7 +93,7 @@
                     Coconut Ice Cream
                 </a>
             </div>
-            <div class="CoconutIceCreamWrapper">
+            <div class="descriptionCuisinesWrapper">
                 <div class="imageAndContentCuisineWrapper">
                     <div class="imageAndContentCuisineWrapper">
                         <div class="imgCNSwrapper">
@@ -184,7 +189,7 @@
                     Spicy bread
                 </a>
             </div>
-            <div class="SpicyBreadWrapper">
+            <div class="descriptionCuisinesWrapper">
                 <div class="imageAndContentCuisineWrapper">
                     <div class="imgCNSwrapper">
                         <img src="./image/Banh_my_que.jpg" class="imgCNSmain">
@@ -266,7 +271,7 @@
                     Stir-fried fish price
                 </a>
             </div>
-            <div class="StirFriedFishPriceWrapper">
+            <div class="descriptionCuisinesWrapper">
                 <div class="imageAndContentCuisineWrapper">
                     <div class="imgCNSwrapper">
                         <img src="./image/giaBeXao.jpeg" class="imgCNSmain">
