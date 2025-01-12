@@ -46,6 +46,11 @@
     border-radius: 15px;
     margin-bottom: 10px;
     width: 100%;
+    transform: scale(1);
+    transition: 0.4s all ease-in-out;
+}
+.BMC:hover {
+    transform: scale(1.04);
 }
 .describeLocationMain {
     text-indent: 20px;
