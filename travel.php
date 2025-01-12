@@ -34,7 +34,6 @@
             <?php
                 echo $htmlTravelStorage;
             ?>
-            <!-- INFO END -->
         </div>
     </div>
 </body>
