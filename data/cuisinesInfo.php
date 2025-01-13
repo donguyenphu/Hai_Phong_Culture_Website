@@ -24,29 +24,29 @@ $dishesInformation = [
             [
                 'nameIngredient' => 'Noodles:',
                 'moreInfo' => [
-                    '<strong>Red rice noodles - </strong>A specialty of Hai Phong, these noodles are made from red rice and have a chewy texture.',
+                    '<strong>Red rice noodles: </strong>A specialty of Hai Phong, these noodles are made from red rice and have a chewy texture.',
                 ]
             ],
             [
                 'nameIngredient' => 'Crab:',
                 'moreInfo' => [
-                    '<strong>Field crab - </strong>Usually from freshwater crabs, which are cooked and processed to create the crab broth.',
-                    '<strong>Crab roe - </strong>Adds richness and flavor to the soup.'
+                    '<strong>Field crab: </strong>Usually from freshwater crabs, which are cooked and processed to create the crab broth.',
+                    '<strong>Crab roe: </strong>Adds richness and flavor to the soup.'
                 ]
             ],
             [
                 'nameIngredient' => 'Meat:',
                 'moreInfo' => [
-                    '<strong>Grilled pork rolls or meatballs - </strong>Added to make the broth more flavorful.'
+                    '<strong>Grilled pork rolls or meatballs: </strong>Added to make the broth more flavorful.'
                 ]
             ],
             [
                 'nameIngredient' => 'Side spices:',
                 'moreInfo' => [
-                    '<strong>Shrimp - </strong>Optional but commonly included for added flavor.',
-                    '<strong>Tomato - </strong>To give the broth its characteristic reddish color and tanginess.',
-                    '<strong>Garlic  - </strong>Sautéed with oil to add depth to the broth.',
-                    '<strong>Salt - </strong>Seasoning the broth.'
+                    '<strong>Shrimp: </strong>Optional but commonly included for added flavor.',
+                    '<strong>Tomato: </strong>To give the broth its characteristic reddish color and tanginess.',
+                    '<strong>Garlic: </strong>Sautéed with oil to add depth to the broth.',
+                    '<strong>Salt: </strong>Seasoning the broth.'
                 ]
             ]
         ]
@@ -121,7 +121,7 @@ $dishesInformation = [
                 'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.596446363947!2d106.68288302417142!3d20.847996330756484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7bcd57a4cb41%3A0x684ce7b8397c8167!2zQsOhbmggbcOsIGNheSBI4bqjaSBQaMOybmcgLSBLaMOhbmggTuG6oXA!5e0!3m2!1svi!2s!4v1733568585676!5m2!1svi!2s'
             ]
         ],
-        'mainIngredient' => [
+        'mainIngredients' => [
             [
                 'nameIngredient' => 'Crust:',
                 'moreInfo' => [
@@ -151,7 +151,7 @@ $dishesInformation = [
         ]
     ],
     [
-        'title' => 'Stir-fried fish price',
+        'title' => 'Stir-fried bean sprouts',
         'linkTitle' => 'https://vnexpress.net/gia-be-xao-dac-san-thu-thach-long-kien-nhan-o-hai-phong-4637033.html',
         'mainImage' => './image/giaBeXao.jpeg',
         'description' => 'Stir-fried bean sprouts with Hai Phong is a rustic but extremely special dish of the port city, famous for its rich flavor and unique preparation method. Bean sprouts are a small seafood, shaped like bean sprouts, often stir-fried with spices and herbs to create a delicious and unique dish.',

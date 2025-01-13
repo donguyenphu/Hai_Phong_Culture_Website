@@ -1,7 +1,57 @@
 <?php
     require_once './data/cuisinesInfo.php';
     $htmlCuisines = '';
+    foreach($dishesInformation as $key => $value) {
+        $htmlCuisines .='<div class="titleIntroductionWrapper">
+                            <a href="'.$value['linkTitle'].'" class="titleFoodMain">
+                                '.$value['title'].'
+                            </a>
+                        </div>';
+        $htmlCuisines .= '<div class="descriptionCuisinesWrapper">';
+        $htmlCuisines .= '<div class="imageAndContentCuisineWrapper">
+                            <div class="imgCNSwrapper">
+                                <img src="'.$value['mainImage'].'" class="imgCNSmain">
+                            </div>
+                            <div class="foodDetailWrapper">
+                                <p class="foodDetailMain">
+                                    '.$value['description'].'
+                                </p>
+                            </div> 
+                        </div>';
+        $htmlCuisines .= '<div class="locationWrapper">';
+        foreach ($value['GoogleMapLocation'] as $key2 => $value2) {
+            $htmlCuisines.= '<div class="locationDetailWrapper">
+                                <iframe src="'.$value2['Frame'].'" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="BMC"></iframe>
+                                <div class="describeLocationWrapper">
+                                    <h2 class="describeLocationMain">
+                                        '.$value2['LocationName'].'
+                                    </h2>
+                                </div>
+                            </div>';
+        }
+        $htmlCuisines .= '</div>';
+        $htmlCuisines .= '<div class="ingredientWrapper">
+                            <div class="introduceIngredientWrapper">
+                                <h1 class="introduceIngredientMain">
+                                    Main ingredient:
+                                </h1>
+                            </div>
+                            <ul class="detailIngredientWrapper">';
 
+        foreach ($value['mainIngredients'] as $key3 => $value3) {
+            $htmlCuisines .='<ul class="detailIngredientMain" id="detailIngredientMainList">
+                                '.$value3['nameIngredient'];
+            foreach ($value3['moreInfo'] as $key4 => $value4) {
+                $htmlCuisines .= '<li class="describeIngredient">';
+                $htmlCuisines .= $value4;
+                $htmlCuisines .= '</li>';
+            }
+            $htmlCuisines .= '</ul>';
+        } 
+        $htmlCuisines .= '</ul>';
+        $htmlCuisines .= '</div>';
+        $htmlCuisines .= '</div>';
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +68,10 @@
             </h1>
         </div>
         <div class="peopleInformationWrapper">
-            <div class="titleIntroductionWrapper">
+            <?php
+                echo $htmlCuisines; 
+            ?>
+            <!-- <div class="titleIntroductionWrapper">
                 <a href="https://www.dienmayxanh.com/vao-bep/cach-nau-banh-da-cua-ngon-dung-chuan-vi-hai-phong-01617" class="titleFoodMain">
                     Crab noodle soup
                 </a>
@@ -106,6 +159,7 @@
                     </ul>
                 </div>             
             </div>
+
             <div class="titleIntroductionWrapper">
                 <a href="https://vnexpress.net/doi-song-cooking-che-dua-dam-hai-phong-4600276.html" class="titleFoodMain">
                     Coconut Ice Cream
@@ -199,6 +253,7 @@
                     </ul>
                 </div>
             </div>
+
             <div class="titleIntroductionWrapper">
                 <a href="https://www.dienmayxanh.com/vao-bep/cach-lam-banh-mi-cay-hai-phong-thom-ngon-chuan-vi-05808" class="titleFoodMain">
                     Spicy bread
@@ -281,6 +336,7 @@
                     </ul>
                 </div>
             </div>
+
             <div class="titleIntroductionWrapper">
                 <a href="https://vnexpress.net/gia-be-xao-dac-san-thu-thach-long-kien-nhan-o-hai-phong-4637033.html" class="titleFoodMain">
                     Stir-fried bean sprouts
@@ -359,7 +415,7 @@
                         </ul>
                     </ul>
                 </div> 
-            </div>
+            </div> -->
         </div> 
     </div>
 </body>
