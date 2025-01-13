@@ -21,7 +21,34 @@ $dishesInformation = [
             ]
         ],
         'mainIngredients' => [
-            'Red rice paper', 'Field crab', 'Grilled pork rolls or meatballs', 'Shrimp', 'Spices such as onion, tomato, scallion oil,...'
+            [
+                'nameIngredient' => 'Noodles:',
+                'moreInfo' => [
+                    '<strong>Red rice noodles - </strong>A specialty of Hai Phong, these noodles are made from red rice and have a chewy texture.',
+                ]
+            ],
+            [
+                'nameIngredient' => 'Crab:',
+                'moreInfo' => [
+                    '<strong>Field crab - </strong>Usually from freshwater crabs, which are cooked and processed to create the crab broth.',
+                    '<strong>Crab roe - </strong>Adds richness and flavor to the soup.'
+                ]
+            ],
+            [
+                'nameIngredient' => 'Meat:',
+                'moreInfo' => [
+                    '<strong>Grilled pork rolls or meatballs - </strong>Added to make the broth more flavorful.'
+                ]
+            ],
+            [
+                'nameIngredient' => 'Side spices:',
+                'moreInfo' => [
+                    '<strong>Shrimp - </strong>Optional but commonly included for added flavor.',
+                    '<strong>Tomato - </strong>To give the broth its characteristic reddish color and tanginess.',
+                    '<strong>Garlic  - </strong>Sautéed with oil to add depth to the broth.',
+                    '<strong>Salt - </strong>Seasoning the broth.'
+                ]
+            ]
         ]
     ],
     [
@@ -41,6 +68,37 @@ $dishesInformation = [
             [
                 'LocationName' => 'Dừa dầm cô Vinh',
                 'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.639877297973!2d106.68909347417132!3d20.846243780757888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7ba0015a8103%3A0xdd5fa0b6121edc02!2zROG7q2EgROG6p20gQ8O0IFZpbmg!5e0!3m2!1svi!2s!4v1733569366514!5m2!1svi!2s'
+            ]
+        ],
+        'mainIngredients' => [
+            [
+                'nameIngredient' => 'Young coconut:',
+                'moreInfo' => [
+                    '<strong>Young coconut meat:</strong> Cut into thin strips or slices, soft, fragrant, and lightly fatty.',
+                    '<strong>Fresh coconut water:</strong> Make the broth, naturally sweet.'
+                ]
+            ],
+            [
+                'nameIngredient' => 'Jelly:',
+                'moreInfo' => [
+                    '<strong>Coconut jelly:</strong> Transparent, crispy, cool, with a light taste.',
+                    '<strong>Jelly (thạch rau câu):</strong> You can add pandan jelly, coffee or fruit jelly to enhance the flavor and color.'
+                ]
+            ],
+            [
+                'nameIngredient' => 'Milk:',
+                'moreInfo' => [
+                    '<strong>Unsweetened fresh milk:</strong> Creates a sweet taste.',
+                    '<strong>Condensed milk:</strong> Increase sweetness and fat.',
+                    '<strong>Coconut milk:</strong> Rich, fatty and fragrant, is the soul of the dish.'
+                ]
+            ],
+            [
+                'nameIngredient' => 'Topping:',
+                'moreInfo' => [
+                    '<strong>Desiccated coconut or dried coconut:</strong> Increase crispness.',
+                    '<strong>Basil seeds, coconut pearls, or nuts (optional):</strong> Adds interest to food.'
+                ]
             ]
         ]
     ],
@@ -62,6 +120,34 @@ $dishesInformation = [
                 'LocationName' => 'Bánh mì cay Hải Phòng - Khánh Nạp',
                 'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.596446363947!2d106.68288302417142!3d20.847996330756484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7bcd57a4cb41%3A0x684ce7b8397c8167!2zQsOhbmggbcOsIGNheSBI4bqjaSBQaMOybmcgLSBLaMOhbmggTuG6oXA!5e0!3m2!1svi!2s!4v1733568585676!5m2!1svi!2s'
             ]
+        ],
+        'mainIngredient' => [
+            [
+                'nameIngredient' => 'Crust:',
+                'moreInfo' => [
+                    'Small baguette, about 20-25cm long, thin crust, crispy, little filling.',
+                    'The crust is baked golden brown and fragrant.'
+                ]
+            ],
+            [
+                'nameIngredient' => 'Pate filling:',
+                'moreInfo' => [
+                    'Made from pork liver, minced meat, lard and spices.',
+                    'The pate is finely ground, rich in fat, and has a rich flavor.'
+                ]
+            ],
+            [
+                'nameIngredient' => 'Chili sauce:',
+                'moreInfo' => [
+                    'A typical Hai Phong chili sauce, spicy but not too harsh, with the aroma of garlic and chili.',
+                ]
+            ],
+            [
+                'nameIngredient' => 'Scallion oil or butter (optional):',
+                'moreInfo' => [
+                    'A layer of scallion oil or butter is spread on the cake to increase the fattiness.'
+                ]
+            ]
         ]
     ],
     [
@@ -81,6 +167,29 @@ $dishesInformation = [
             [
                 'LocationName' => 'Giá Bể Xào, Gỏi',
                 'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.548722772593!2d106.66639357073532!3d20.849921938221744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b0034579b4b%3A0x797a0871c07a559b!2zR2nDoSBC4buDIFjDoG8sIEfhu49p!5e0!3m2!1svi!2s!4v1733577074253!5m2!1svi!2s'
+            ]
+        ],
+        'mainIngredients' => [
+            [
+                'nameIngredient' => 'Sprout bean:',
+                'moreInfo' => [
+                    'A type of seafood that lives in salt or brackish water, has a soft body, about 3-5cm long, and is clear white.',
+                    'When processed, the tank price is often cleaned of the thin outer shell.'
+                ]
+            ],
+            [
+                'nameIngredient' => 'Vietnamese coriander:',
+                'moreInfo' => [
+                    '<strong>Herbs - </strong>Indispensable, helping to enhance the characteristic flavor of the dish.'
+                ]
+            ],
+            [
+                'nameIngredient' => 'Spices:',
+                'moreInfo' => [
+                    '<strong>Shallots, minced garlic - </strong> Fry until fragrant.',
+                    '<strong>Cooking oil, fish sauce, seasoning powder, pepper - </strong>Enhance rich flavor.',
+                    '<strong>Chili - </strong>Creates a mild spicy taste.'
+                ]
             ]
         ]
     ]

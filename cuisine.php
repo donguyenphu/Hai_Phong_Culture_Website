@@ -67,24 +67,42 @@
                         </h1>
                     </div>
                     <ul class="detailIngredientWrapper">
-                        <li class="detailIngredientMain">
-                            <strong>Red rice noodles - </strong>A specialty of Hai Phong, these noodles are made from red rice and have a chewy texture.
-                        </li>
-                        <li class="detailIngredientMain">
-                            <strong>Field crab - </strong>Usually from freshwater crabs, which are cooked and processed to create the crab broth.
-                            <strong>Crab roe - </strong>Adds richness and flavor to the soup.
-                        </li>
-                        <li class="detailIngredientMain">
-                            <strong>Grilled pork rolls or meatballs - </strong>Added to make the broth more flavorful.
-                        </li>
-                        <li class="detailIngredientMain">
-                            <strong>Shrimp - </strong>Optional but commonly included for added flavor.
-                        </li>
-                        <li class="detailIngredientMain">
-                            <strong>Tomato - </strong>To give the broth its characteristic reddish color and tanginess. 
-                            <strong>Garlic  - </strong>Sautéed with oil to add depth to the broth.
-                            <strong>Salt - </strong>Seasoning the broth.
-                        </li>
+                        <ul class="detailIngredientMain" id="detailIngredientMainList">
+                            Noodles:
+                            <li class="describeIngredient">
+                                <strong>Red rice noodles - </strong>A specialty of Hai Phong, these noodles are made from red rice and have a chewy texture.
+                            </li>
+                        </ul>
+                        <ul class="detailIngredientMain" id="detailIngredientMainList">
+                            Crab:
+                            <li class="describeIngredient">
+                                <strong>Field crab - </strong>Usually from freshwater crabs, which are cooked and processed to create the crab broth.
+                            </li>
+                            <li class="describeIngredient">
+                                <strong>Crab roe - </strong>Adds richness and flavor to the soup.
+                            </li>
+                        </ul>
+                        <ul class="detailIngredientMain" id="detailIngredientMainList">
+                            Meat:
+                            <li class="describeIngredient">
+                                <strong>Grilled pork rolls or meatballs - </strong>Added to make the broth more flavorful.
+                            </li>
+                        </ul>
+                        <ul class="detailIngredientMain" id="detailIngredientMainList">
+                            Side spices:
+                            <li class="describeIngredient">
+                                <strong>Shrimp - </strong>Optional but commonly included for added flavor.
+                            </li>
+                            <li class="describeIngredient">
+                                <strong>Tomato - </strong>To give the broth its characteristic reddish color and tanginess.
+                            </li>
+                            <li class="describeIngredient">
+                                <strong>Garlic  - </strong>Sautéed with oil to add depth to the broth.
+                            </li>
+                            <li class="describeIngredient">
+                                <strong>Salt - </strong>Seasoning the broth.
+                            </li>
+                        </ul>
                     </ul>
                 </div>             
             </div>
@@ -149,12 +167,12 @@
                             </li>
                         </ul>
                         <ul class="detailIngredientMain" id="detailIngredientMainList">
-                            Jelly
+                            Jelly:
                             <li class="describeIngredient">
                                 <strong>Coconut jelly:</strong> Transparent, crispy, cool, with a light taste.
                             </li>
                             <li class="describeIngredient">
-                                <strong>Jelly (thach rau cau):</strong> You can add pandan jelly, coffee or fruit jelly to enhance the flavor and color.
+                                <strong>Jelly (thạch rau câu):</strong> You can add pandan jelly, coffee or fruit jelly to enhance the flavor and color.
                             </li>
                         </ul>
                         <ul class="detailIngredientMain" id="detailIngredientMainList">
@@ -165,11 +183,8 @@
                             <li class="describeIngredient">
                                 <strong>Condensed milk:</strong> Increase sweetness and fat.
                             </li>
-                        </ul>
-                        <ul class="detailIngredientMain" id="detailIngredientMainList">
-                            Coconut milk
                             <li class="describeIngredient">
-                                <strong>Unsweetened fresh milk:</strong> Rich, fatty and fragrant, is the soul of the dish.
+                                <strong>Coconut milk:</strong> Rich, fatty and fragrant, is the soul of the dish.
                             </li>
                         </ul>
                         <ul class="detailIngredientMain" id="detailIngredientMainList">
@@ -268,7 +283,7 @@
             </div>
             <div class="titleIntroductionWrapper">
                 <a href="https://vnexpress.net/gia-be-xao-dac-san-thu-thach-long-kien-nhan-o-hai-phong-4637033.html" class="titleFoodMain">
-                    Stir-fried fish price
+                    Stir-fried bean sprouts
                 </a>
             </div>
             <div class="descriptionCuisinesWrapper">
@@ -327,19 +342,19 @@
                         <ul class="detailIngredientMain" id="detailIngredientMainList">
                             Vietnamese coriander:
                             <li class="describeIngredient">
-                                Herbs are indispensable, helping to enhance the characteristic flavor of the dish.
+                                <strong>Herbs - </strong>Indispensable, helping to enhance the characteristic flavor of the dish.
                             </li>
                         </ul>
                         <ul class="detailIngredientMain" id="detailIngredientMainList">
                             Spices:
                             <li class="describeIngredient">
-                                <strong>Shallots, minced garlic:</strong> Fry until fragrant.
+                                <strong>Shallots, minced garlic - </strong> Fry until fragrant.
                             </li>
                             <li class="describeIngredient">
-                                <strong>Cooking oil, fish sauce, seasoning powder, pepper:</strong> Enhance rich flavor.
+                                <strong>Cooking oil, fish sauce, seasoning powder, pepper - </strong>Enhance rich flavor.
                             </li>
                             <li class="describeIngredient">
-                                <strong>Chili:</strong> Creates a mild spicy taste.
+                                <strong>Chili - </strong>Creates a mild spicy taste.
                             </li>
                         </ul>
                     </ul>
