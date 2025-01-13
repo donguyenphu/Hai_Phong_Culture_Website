@@ -81,7 +81,7 @@
                             <strong>Shrimp - </strong>Optional but commonly included for added flavor.
                         </li>
                         <li class="detailIngredientMain">
-                            <strong>Tomato - </strong>To give the broth its characteristic reddish color and tanginess.
+                            <strong>Tomato - </strong>To give the broth its characteristic reddish color and tanginess. 
                             <strong>Garlic  - </strong>Sautéed with oil to add depth to the broth.
                             <strong>Salt - </strong>Seasoning the broth.
                         </li>
