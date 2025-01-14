@@ -68,7 +68,7 @@
                             <i class="fa-solid fa-angles-down" id="ToiNguoiHaiPhong"></i>
                             <div class="seeMoreIntroductionWrapper">
                                 <h3 class="seeMoreIntroductionMain">
-                                    See more about our song here
+                                    Listen to our city's song here
                                 </h3>
                             </div>
                         </a>

@@ -18,6 +18,11 @@
     background-image: linear-gradient(to right, rgb(236, 7, 7), rgb(209, 74, 74));
     -webkit-background-clip: text;
     color: transparent; 
+    transition: 0.4s all ease-in-out;
+    transform: scale(1);
+}
+.titleIntroductionMain:hover {
+    transform: scale(1.2);
 }
 .songIntroductionWrapper {
     margin-bottom: 30px;
@@ -54,6 +59,18 @@
     -webkit-background-clip: text;
     color: transparent; 
 }
+#ToiNguoiHaiPhong:hover {
+    font-size: 50px;
+    animation: bounce 0.8s infinite;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
 .seeMoreIntroductionWrapper {
     margin-top: 10px;
     margin-bottom: 34px;
@@ -64,7 +81,12 @@
     font-family: 'Poppins' , sans-serif;
     background-image: linear-gradient(to right, rgb(236, 7, 7), rgb(209, 74, 74));
     -webkit-background-clip: text;
-    color: transparent;  
+    color: transparent;
+    transition: 0.4s all ease-in-out;
+    transform: scale(1);  
+}
+.seeMoreIntroductionMain:hover {
+    transform: scale(1.1);
 }
 .peopleWrapper {
     display: flex;

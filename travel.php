@@ -11,7 +11,7 @@
         }
         $htmlTravelStorage.='</div>';
         $htmlTravelStorage .= '<div class="titleIntroductionWrapper">
-                                    <a href="'.$value['descriptionPHP'].'" class="titleIntroductionMain">'.$value['title'].'</a>
+                                    <a href="'.$value['descriptionPHP'].'"><h2 class="titleIntroductionMain">'.$value['title'].'</h1></a>
                                 </div>';
         $htmlTravelStorage.='</div>';
     }

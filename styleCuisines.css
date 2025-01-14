@@ -79,6 +79,11 @@
     position: relative;
     padding-left: 30px;
     line-height: 1.6;
+    transform: scale(1);
+    transition: 0.2s all ease-in-out;
+}
+.detailIngredientMain:hover {
+    transform: scale(1.02);
 }
 .detailIngredientMain::before {
     content: counter(list-counter) ".";
