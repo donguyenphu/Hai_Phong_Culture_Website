@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php require_once '../elements/head.php'; ?>
-    <title>Hai Phong City - Cat Ba Island</title>
+    <title>Hai Phong City - Lan Ha Bay</title>
 </head>
 <body>
     <?php require_once '../elements/header.php'; ?>

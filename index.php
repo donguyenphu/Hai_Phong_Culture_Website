@@ -24,7 +24,9 @@
 </head>
 
 <body>
-    <?php require_once './elements/header.php'; ?>
+    <?php require_once './elements/header.php'; 
+        echo $curName.' '.basename(__FILE__);
+    ?>
     <div class="container">
         <div class="timeline">
             <!-- 7 elements -->
