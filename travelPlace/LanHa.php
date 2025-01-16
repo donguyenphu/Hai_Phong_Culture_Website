@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php require_once '../elements/head.php'; ?>
+    <?php require_once '../travelPlace/headTravelPlace.php'; ?>
     <title>Hai Phong City - Lan Ha Bay</title>
 </head>
 <body>
-    <?php require_once '../elements/header.php'; ?>
+    <?php require_once '../travelPlace/headerTravelPlace.php'; ?>
     <div class="peopleContact">
         <div class="peopleInformationWrapper">
             <div class="titleIntroductionWrapper">
@@ -43,10 +43,10 @@
             </div>
             <div id="CuisinesDoSonImageIWrapper">
                 <div class="OnlyImageWrapper">
-                    <a href="https://www.youtube.com/watch?v=uRUWJXmEhJc"><img src="./image/SamTrungNuongLanHa.jpg" class="OnlyImageMain"></a>
+                    <a href="https://www.youtube.com/watch?v=uRUWJXmEhJc"><img src="../image/SamTrungNuongLanHa.jpg" class="OnlyImageMain"></a>
                 </div>
                 <div class="OnlyImageWrapper">
-                    <a href="https://www.youtube.com/watch?v=uRUWJXmEhJc"><img src="./image/gheXanhLanHa.jpg" class="OnlyImageMain"></a>
+                    <a href="https://www.youtube.com/watch?v=uRUWJXmEhJc"><img src="../image/gheXanhLanHa.jpg" class="OnlyImageMain"></a>
                 </div>
             </div>
             <div class="infoCuisineDoSonWrapper">

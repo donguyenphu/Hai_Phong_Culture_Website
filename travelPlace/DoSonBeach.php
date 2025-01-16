@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php require_once '../elements/head.php'; ?>
+    <?php require_once '../travelPlace/headTravelPlace.php'; ?>
     <title>Hai Phong City - Do Son Beach</title>
 </head>
 <body>
-    <?php require_once '../elements/header.php'; ?>
+    <?php require_once '../travelPlace/headerTravelPlace.php'; ?>
     <div class="peopleContact">
         <div class="peopleInformationWrapper">
             <div class="titleIntroductionWrapper">
