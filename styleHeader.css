@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 .sectionLinkWrapper .active {
-    background-color: white;
+    color: red;
 }
 a {
     text-decoration: none;

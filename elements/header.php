@@ -1,31 +1,51 @@
 <?php
-    $curName = basename(__FILE__);
+$currentUrl = $_SERVER["SCRIPT_NAME"];
+$fileName = pathinfo($currentUrl, PATHINFO_BASENAME);
+
+$menus = [
+    ['name' => 'Home', 'link' => 'index.php'],
+    ['name' => 'History', 'link' => 'history.php'],
+    ['name' => 'Culture', 'link' => 'culture.php'],
+    [
+        'name' => 'Travel',
+        'link' => 'travel.php',
+        'child' => ['LanHa.php', 'CatBaIsland.php', 'DoSonBeach']
+    ],
+    ['name' => 'Cuisines', 'link' => 'cuisine.php'],
+    ['name' => 'People and Song', 'link' => 'people.php'],
+    ['name' => 'Contact', 'link' => 'contact.php'],
+];
+
+$htmlMenu = '';
+foreach ($menus as $key => $value) {
+    $active = '';
+    if ($fileName == $value['link'] || (isset($value['child']) && in_array($fileName, $value['child']))) {
+        $active = 'active';
+    }
+
+    $htmlMenu .= '<div class="sectionLinkWrapper"><a href="' . $level . $value['link'] . '" class="sectionLinkMain ' . $active . '">' . $value['name'] . '</a></div>';
+}
+
 ?>
 <header>
     <!-- illustrated image of Hai Phong -->
     <!-- link section -->
     <div class="imageAndSidebarWrapper">
         <div class="imageHeaderWrapper">
-            <img src="./image/hai-phong-la-thanh-pho-to-chuc-chinh-quyen-do-thi-thu-4.jpg" class="imageHeaderMain">
+            <img src="<?php echo $level; ?>image/hai-phong-la-thanh-pho-to-chuc-chinh-quyen-do-thi-thu-4.jpg" class="imageHeaderMain">
         </div>
         <div class="sidebarWrapper">
             <div class="logoWebsiteWrapper">
                 <div class="fullBrand">
                     <div class="logo">
-                        <img src="./image/HaiPhongLogo.png" class="logoMain">
+                        <img src="<?php echo $level; ?>image/HaiPhongLogo.png" class="logoMain">
                     </div>
                     <a href="index.html" class="brandName">Hai Phong</a>
                 </div>
             </div>
             <div class="allSectionWrapper">
                 <!--  Home,His, cul,travel, cui,peo&mus,con-->
-                <div class="sectionLinkWrapper <?php echo $curName == 'index.php' ? 'active' : '';?>"><a href="index.php" class="sectionLinkMain">Home</a></div>
-                <div class="sectionLinkWrapper <?php echo $curName == 'history.php' ? 'active' : '';?>"><a href="history.php" class="sectionLinkMain">History</a></div>
-                <div class="sectionLinkWrapper <?php echo $curName == 'culture.php' ? 'active' : '';?>"><a href="culture.php" class="sectionLinkMain">Culture</a></div>
-                <div class="sectionLinkWrapper <?php echo $curName == 'travel.php' ? 'active' : '';?>"><a href="travel.php" class="sectionLinkMain">Travel</a></div>
-                <div class="sectionLinkWrapper <?php echo $curName == 'cuisine.php' ? 'active' : '';?>"><a href="cuisine.php" class="sectionLinkMain">Cuisines</a></div>
-                <div class="sectionLinkWrapper <?php echo $curName == 'people.php' ? 'active' : '';?>"><a href="people.php" class="sectionLinkMain">People and Song</a></div>
-                <div class="sectionLinkWrapper <?php echo $curName == 'contact.php' ? 'active' : '';?>"><a href="contact.php" class="sectionLinkMain">Contact</a></div>
+                <?php echo $htmlMenu; ?>
             </div>
         </div>
     </div>

@@ -1,22 +1,28 @@
+<?php
+$level = '../';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <?php require_once '../travelPlace/headTravelPlace.php'; ?>
+    <?php require_once '../elements/head.php'; ?>
     <title>Hai Phong City - Lan Ha Bay</title>
 </head>
+
 <body>
-    <?php require_once '../travelPlace/headerTravelPlace.php'; ?>
+    <?php require_once '../elements/header.php'; ?>
     <div class="peopleContact">
         <div class="peopleInformationWrapper">
             <div class="titleIntroductionWrapper">
                 <a class="titleFoodMain" href="./">
                     Lan Ha Bay
                 </a>
-            </div> 
+            </div>
             <div id="DoSonBeachWrapper">
                 <div class="locationTitleWrapper">
                     <h3 class="locationTitleMain">
-                        Location: 
+                        Location:
                     </h3>
                     <p class="locationDetailMain">Ben Beo Port, Cat Ba Island, Cat Hai District, Hai Phong City, Vietnam</p>
                 </div>
@@ -25,7 +31,7 @@
                 </div>
                 <div class="locationTitleWrapper">
                     <h3 class="locationTitleMain">
-                        Time to travel: 
+                        Time to travel:
                     </h3>
                     <p class="locationDetailMain">April to June, September to November</p>
                 </div>
@@ -72,4 +78,5 @@
         </div>
     </div>
 </body>
+
 </html>

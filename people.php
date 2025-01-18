@@ -1,9 +1,15 @@
+<?php
+$level = './';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <?php require_once './elements/head.php'; ?>
     <title>Hai Phong City - People and Song</title>
 </head>
+
 <body>
     <?php require_once './elements/header.php'; ?>
     <div class="peopleContact">
@@ -63,7 +69,7 @@
                     <img src="./image/BucTuongHaiPhong.jpg" class="songLinkMain">
                 </div>
                 <div class="seeMoreWrapper">
-                    <div class="arrownSeeMoreWrapper"> 
+                    <div class="arrownSeeMoreWrapper">
                         <a href="https://www.youtube.com/watch?v=k49gP1FX5eo" class="seeMoreMain">
                             <i class="fa-solid fa-angles-down" id="ToiNguoiHaiPhong"></i>
                             <div class="seeMoreIntroductionWrapper">
@@ -78,4 +84,5 @@
         </div>
     </div>
 </body>
+
 </html>

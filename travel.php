@@ -1,4 +1,5 @@
 <?php
+    $level = './';
     require_once './data/travelInfo.php';
     $htmlTravelStorage = '';
     foreach ($travelLocation as $key => $value) {

@@ -80,7 +80,7 @@
 .imageIntroduceTravel {
     flex: 1;
     transition: all 0.5s ease-in-out;
-    transform: scale(1);
+    border-radius: 15px;
 }
 .imageIntroduceMain {
     width: 100%;
@@ -91,7 +91,6 @@
 .imageIntroduceTravel:hover {
     transform: translateY(-10px);
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
 }
 .travelImageStorage {
     display: flex;

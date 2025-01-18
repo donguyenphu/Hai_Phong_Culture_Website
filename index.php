@@ -1,18 +1,20 @@
 <?php
-    require_once 'data/home.php';
-    $html = '';
-    foreach($data as $key => $value) {
-        $html .= '<div class="point">
+
+$level = './';
+require_once 'data/home.php';
+$html = '';
+foreach ($data as $key => $value) {
+    $html .= '<div class="point">
                     <div>
                         <div class="infoWrapper">
-                            <a class="infoMain" href="./'.$value['link'].'">'.$value['title'].'</a>
+                            <a class="infoMain" href="./' . $value['link'] . '">' . $value['title'] . '</a>
                         </div>
                         <div class="imageWrapper">
-                            <img src="./image/'.$value['image'].'" class="imageMain">
+                            <img src="./image/' . $value['image'] . '" class="imageMain">
                         </div>
                     </div>
                 </div>';
-    }
+}
 ?>
 
 <!DOCTYPE html>
@@ -24,13 +26,13 @@
 </head>
 
 <body>
-    <?php require_once './elements/header.php'; 
+    <?php require_once './elements/header.php';
     ?>
     <div class="container">
         <div class="timeline">
             <!-- 7 elements -->
             <?php
-                echo $html;
+            echo $html;
             ?>
         </div>
     </div>

@@ -1,4 +1,5 @@
 <?php
+    $level = './';
     require_once './data/cuisinesInfo.php';
     $htmlCuisines = '';
     foreach($dishesInformation as $key => $value) {
@@ -8,6 +9,7 @@
                             </a>
                         </div>';
         $htmlCuisines .= '<div class="descriptionCuisinesWrapper">';
+        
         $htmlCuisines .= '<div class="imageAndContentCuisineWrapper">
                             <div class="imgCNSwrapper">
                                 <img src="'.$value['mainImage'].'" class="imgCNSmain">
@@ -36,7 +38,7 @@
                                     Main ingredient:
                                 </h1>
                             </div>
-                            <ul class="detailIngredientWrapper">';
+                            <div class="detailIngredientWrapper">';
 
         foreach ($value['mainIngredients'] as $key3 => $value3) {
             $htmlCuisines .='<ul class="detailIngredientMain" id="detailIngredientMainList">
@@ -51,6 +53,9 @@
         $htmlCuisines .= '</ul>';
         $htmlCuisines .= '</div>';
         $htmlCuisines .= '</div>';
+
+
+        // $htmlCuisines .= ($title . $desc . $googleMap . $mainIn);
     }
 ?>
 <!DOCTYPE html>
