@@ -7,7 +7,7 @@
                             <a href="'.$value['linkTitle'].'" class="titleFoodMain">
                                 '.$value['title'].'
                             </a>
-                        </div>';
+                        </div>'; 
         $htmlCuisines .= '<div class="descriptionCuisinesWrapper">';
         
         $htmlCuisines .= '<div class="imageAndContentCuisineWrapper">
@@ -42,7 +42,7 @@
 
         foreach ($value['mainIngredients'] as $key3 => $value3) {
             $htmlCuisines .='<ul class="detailIngredientMain" id="detailIngredientMainList">
-                                '.$value3['nameIngredient'];
+                                '.($key3+1).'.'.$value3['nameIngredient'];
             foreach ($value3['moreInfo'] as $key4 => $value4) {
                 $htmlCuisines .= '<li class="describeIngredient">';
                 $htmlCuisines .= $value4;
