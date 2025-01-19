@@ -50,7 +50,7 @@
             }
             $htmlCuisines .= '</ul>';
         } 
-        $htmlCuisines .= '</ul>';
+        $htmlCuisines .= '</div>';
         $htmlCuisines .= '</div>';
         $htmlCuisines .= '</div>';
 

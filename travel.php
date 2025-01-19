@@ -4,6 +4,9 @@
     $htmlTravelStorage = '';
     foreach ($travelLocation as $key => $value) {
         $htmlTravelStorage.='<div class="allInfoTravelWrapper">';
+        $htmlTravelStorage .= '<div class="titleIntroductionWrapper">
+                                    <a href="'.$value['descriptionPHP'].'"><h2 class="titleIntroductionMain">'.$value['title'].'</h1></a>
+                                </div>';
         $htmlTravelStorage.='<div class="travelImageStorage">';
         foreach ($value['imageStorage'] as $key2 => $value2) {
             $htmlTravelStorage .=  '<div class="imageIntroduceTravel">
@@ -11,9 +14,6 @@
                                     </div>';
         }
         $htmlTravelStorage.='</div>';
-        $htmlTravelStorage .= '<div class="titleIntroductionWrapper">
-                                    <a href="'.$value['descriptionPHP'].'"><h2 class="titleIntroductionMain">'.$value['title'].'</h1></a>
-                                </div>';
         $htmlTravelStorage.='</div>';
     }
 ?>
