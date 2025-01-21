@@ -11,6 +11,11 @@
 .sectionLinkWrapper .active {
     color: red;
 }
+.sectionLinkWrapper:hover {
+    transform: scale(1.3);
+    margin-left: 10px;
+    margin-right: 10px;
+}
 a {
     text-decoration: none;
 }
@@ -68,6 +73,7 @@ div {
     color: #fff;
 }
 .sectionLinkWrapper {
+    transition: 0.4s all ease-in-out;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 8px;
@@ -89,7 +95,7 @@ div {
 }
 .overallTitleMain:hover {
     transform: scale(1.4);
-    background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 0, 0));
+    background-image: linear-gradient(to right, rgb(255, 6, 6), rgb(255, 126, 126));
     -webkit-background-clip: text;
     color: transparent;
     /* text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); */
