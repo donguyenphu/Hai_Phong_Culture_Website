@@ -54,13 +54,10 @@
         $htmlCuisines .= '</div>';
         $htmlCuisines .= '</div>';
         $htmlCuisines .= '</div>';
-
-
-        // $htmlCuisines .= ($title . $desc . $googleMap . $mainIn);
     }
     foreach ($dishesInformation as $key => $value) {
         $htmlOverallCuisines .='<div class="titleIntroductionWrapper">
-                            <a href="'.$value['linkTitle'].'" class="titleFoodMain">
+                            <a href="'.'./cuisineDishes/'.$value['linkTitle'].'" class="titleFoodMain">
                                 '.$value['title'].'
                             </a>
                         </div>'; 

@@ -3,8 +3,9 @@
 $dishesInformation = [
     [
         'title' => 'Crab noodle soup',
-        'linkTitle' => 'https://www.dienmayxanh.com/vao-bep/cach-nau-banh-da-cua-ngon-dung-chuan-vi-hai-phong-01617',
-        'mainImage' => './image/CrabNoodleSoup.jpg',
+        // 'linkTitle' => 'https://www.dienmayxanh.com/vao-bep/cach-nau-banh-da-cua-ngon-dung-chuan-vi-hai-phong-01617',
+        'linkTitle' => 'crabNoodleSoup.php',
+        'mainImage' => "image/CrabNoodleSoup.jpg",
         'description' => 'Hai Phong crab noodle soup brings a rich, fatty but not greasy feeling, combined with the fresh taste of raw vegetables, the soft chewiness of rice noodles and the strong taste of the sea from crab and shrimp. A memorable dish!',
         'GoogleMapLocation' => [
             [
@@ -53,8 +54,9 @@ $dishesInformation = [
     ],
     [
         'title' => 'Coconut Ice Cream',
-        'linkTitle' => 'https://vnexpress.net/doi-song-cooking-che-dua-dam-hai-phong-4600276.html',
-        'mainImage' => './image/CoconutIceCream.jpg',
+        // 'linkTitle' => 'https://vnexpress.net/doi-song-cooking-che-dua-dam-hai-phong-4600276.html',
+        'linkTitle' => 'coconutIceCream.php',
+        'mainImage' => 'image/CoconutIceCream.jpg',
         'description' => 'This dish is perfect for hot summer days or when you want to enjoy a unique, easy-to-eat dessert.The cool, crispy jelly layer, soft, chewy coconut meat, mixed with cool coconut milk, creates a refreshing feeling from the first bite.',
         'GoogleMapLocation' => [
             [
@@ -104,8 +106,9 @@ $dishesInformation = [
     ],
     [
         'title' => 'Spicy bread',
-        'linkTitle' => 'hhttps://www.dienmayxanh.com/vao-bep/cach-lam-banh-mi-cay-hai-phong-thom-ngon-chuan-vi-05808',
-        'mainImage' => './image/Banh_my_que.jpg',
+        // 'linkTitle' => 'hhttps://www.dienmayxanh.com/vao-bep/cach-lam-banh-mi-cay-hai-phong-thom-ngon-chuan-vi-05808',
+        'linkTitle' => 'spicyBread.php',
+        'mainImage' => 'image/Banh_my_que.jpg',
         'description' => 'Hai Phong spicy bread, also known as baguette, is a famous street food specialty of Hai Phong. With its compact shape, crispy crust, fragrant pate filling, combined with the characteristic spicy taste of chili sauce, this dish has become a culinary symbol of the port city.',
         'GoogleMapLocation' => [
             [
@@ -152,8 +155,9 @@ $dishesInformation = [
     ],
     [
         'title' => 'Stir-fried bean sprouts',
-        'linkTitle' => 'https://vnexpress.net/gia-be-xao-dac-san-thu-thach-long-kien-nhan-o-hai-phong-4637033.html',
-        'mainImage' => './image/giaBeXao.jpeg',
+        // 'linkTitle' => 'https://vnexpress.net/gia-be-xao-dac-san-thu-thach-long-kien-nhan-o-hai-phong-4637033.html',
+        'linkTitle' => 'stirfriedBeanSprouts.php',
+        'mainImage' => 'image/giaBeXao.jpeg',
         'description' => 'Stir-fried bean sprouts with Hai Phong is a rustic but extremely special dish of the port city, famous for its rich flavor and unique preparation method. Bean sprouts are a small seafood, shaped like bean sprouts, often stir-fried with spices and herbs to create a delicious and unique dish.',
         'GoogleMapLocation' => [
             [
