@@ -75,7 +75,7 @@
         </div>
         <div class="peopleInformationWrapper">
             <?php
-                echo $htmlOverallCuisines; 
+                echo $htmlCuisines; 
             ?>
             <!-- overall view of cuisines -->
         </div> 

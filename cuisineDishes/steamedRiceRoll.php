@@ -1,6 +1,6 @@
 <?php
     $level = '../';
-    require_once './data/cuisinesInfo.php';
+    require_once '../data/cuisinesInfo.php';
     $htmlCuisines = '';
     $htmlOverallCuisines = '';
     foreach($dishesInformation[$keyCuisineInfo] as $key => $value) {
@@ -72,7 +72,7 @@
         </div>
         <div class="peopleInformationWrapper">
             <?php
-                echo $htmlOverallCuisines; 
+                echo $htmlCuisines; 
             ?>
             <!-- overall view of cuisines -->
         </div> 

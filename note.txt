@@ -1,0 +1,43 @@
+Frontend
+
+Admin
+    - Quan ly Home Section
+        /admin/home-section/index.php
+        /admin/home-section/create.php
+        /admin/home-section/edit.php?id=xxx
+        /admin/home-section/delete.php?id=xxx
+    - Quan ly mon an
+        /admin/cuisine/index.php
+        /admin/cuisine/create.php
+        /admin/cuisine/edit.php?id=xxx
+        /admin/cuisine/delete.php?id=xxx
+    - Quan ly quan an
+        /admin/cuisine-map/index.php
+        /admin/cuisine-map/create.php
+        /admin/cuisine-map/edit.php?id=xxx
+        /admin/cuisine-map/delete.php?id=xxx
+    - Quan ly thanh phan
+        /admin/cuisine-xx/index.php
+        /admin/cuisine-xx/create.php
+        /admin/cuisine-xx/edit.php?id=xxx
+        /admin/cuisine-xx/delete.php?id=xxx
+    - Quan ly chi tiet thanh phan
+        /admin/cuisine-yy/index.php
+        /admin/cuisine-yy/create.php
+        /admin/cuisine-yy/edit.php?id=xxx
+        /admin/cuisine-yy/delete.php?id=xxx
+
+
+
+1. Thử phân tích database cho những phần còn lại của website haiphong
+2. Học video sử dụng AdminLTE: https://adminlte.io/
+3. Tạo ra đầy đủ tất cả giao diện cho chức năng sẽ làm
+    - 4 module
+    - 1 module có 4 trang -> quy về 2 trang: index, form (create, edit)
+4. Tạo bảng dữ liệu thực tế trong phpmyadmin hoặc mysqlworkbench
+5. Code: làm chuẩn 1 module -> copy ra các module khác
+    - Vào thẳng phpmyadmin -> nhập dữ liệu demo
+    - Làm trang index.php -> load dữ liệu
+    - Làm delete
+    - Làm create.php
+    - Làm edit.php
