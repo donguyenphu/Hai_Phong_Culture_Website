@@ -6,7 +6,7 @@ $dishesInformation = [
         // 'linkTitle' => 'https://www.dienmayxanh.com/vao-bep/cach-nau-banh-da-cua-ngon-dung-chuan-vi-hai-phong-01617',
         'linkTitle' => 'crabNoodleSoup.php',
         'mainImage' => "image/CrabNoodleSoup.jpg",
-        'description' => 'Hai Phong crab noodle soup brings a rich, fatty but not greasy feeling, combined with the fresh taste of raw vegetables, the soft chewiness of rice noodles and the strong taste of the sea from crab and shrimp. A memorable dish!',
+        'description' => 'Hai Phong crab noodle soup (bánh đa cua) brings a rich, fatty but not greasy feeling, combined with the fresh taste of raw vegetables, the soft chewiness of rice noodles and the strong taste of the sea from crab and shrimp. A memorable dish!',
         'GoogleMapLocation' => [
             [
                 'LocationName' => 'Bún cá cay thằng Bờm',
@@ -57,7 +57,7 @@ $dishesInformation = [
         // 'linkTitle' => 'https://vnexpress.net/doi-song-cooking-che-dua-dam-hai-phong-4600276.html',
         'linkTitle' => 'coconutIceCream.php',
         'mainImage' => 'image/CoconutIceCream.jpg',
-        'description' => 'This dish is perfect for hot summer days or when you want to enjoy a unique, easy-to-eat dessert.The cool, crispy jelly layer, soft, chewy coconut meat, mixed with cool coconut milk, creates a refreshing feeling from the first bite.',
+        'description' => 'Coconut Ice Cream (dừa dầm) is perfect for hot summer days or when you want to enjoy a unique, easy-to-eat dessert.The cool, crispy jelly layer, soft, chewy coconut meat, mixed with cool coconut milk, creates a refreshing feeling from the first bite.',
         'GoogleMapLocation' => [
             [
                 'LocationName' => 'Dừa dầm Hiền Béo',
@@ -109,7 +109,7 @@ $dishesInformation = [
         // 'linkTitle' => 'hhttps://www.dienmayxanh.com/vao-bep/cach-lam-banh-mi-cay-hai-phong-thom-ngon-chuan-vi-05808',
         'linkTitle' => 'spicyBread.php',
         'mainImage' => 'image/Banh_my_que.jpg',
-        'description' => 'Hai Phong spicy bread, also known as baguette, is a famous street food specialty of Hai Phong. With its compact shape, crispy crust, fragrant pate filling, combined with the characteristic spicy taste of chili sauce, this dish has become a culinary symbol of the port city.',
+        'description' => 'Hai Phong spicy bread (bánh mỳ cay), also known as baguette, is a famous street food specialty of Hai Phong. With its compact shape, crispy crust, fragrant pate filling, combined with the characteristic spicy taste of chili sauce, this dish has become a culinary symbol of the port city.',
         'GoogleMapLocation' => [
             [
                 'LocationName' => 'Bánh mì cay bà già Lê Lợi Hải Phòng',
@@ -158,7 +158,7 @@ $dishesInformation = [
         // 'linkTitle' => 'https://vnexpress.net/gia-be-xao-dac-san-thu-thach-long-kien-nhan-o-hai-phong-4637033.html',
         'linkTitle' => 'stirfriedBeanSprouts.php',
         'mainImage' => 'image/giaBeXao.jpeg',
-        'description' => 'Stir-fried bean sprouts with Hai Phong is a rustic but extremely special dish of the port city, famous for its rich flavor and unique preparation method. Bean sprouts are a small seafood, shaped like bean sprouts, often stir-fried with spices and herbs to create a delicious and unique dish.',
+        'description' => 'Stir-fried bean sprouts (Gía bể xào) with Hai Phong is a rustic but extremely special dish of the port city, famous for its rich flavor and unique preparation method. Bean sprouts are a small seafood, shaped like bean sprouts, often stir-fried with spices and herbs to create a delicious and unique dish.',
         'GoogleMapLocation' => [
             [
                 'LocationName' => 'Giá bể chợ Chu Văn An',
@@ -202,7 +202,7 @@ $dishesInformation = [
         // 'linkTitle' => 'https://vnexpress.net/gia-be-xao-dac-san-thu-thach-long-kien-nhan-o-hai-phong-4637033.html',
         'linkTitle' => 'steamedRiceRoll.php',
         'mainImage' => 'image/SteamedRiceRoll.jpg',
-        'description' => 'Stir-fried bean sprouts with Hai Phong is a rustic but extremely special dish of the port city, famous for its rich flavor and unique preparation method. Bean sprouts are a small seafood, shaped like bean sprouts, often stir-fried with spices and herbs to create a delicious and unique dish.',
+        'description' => 'Steamed rice roll (bánh cuốn) is a traditional Vietnamese dish made from thin, steamed rice sheets. The delicate rice sheets are rolled with a savory filling of minced pork, wood ear mushrooms, and shallots. It is typically served with slices of Vietnamese pork sausage (chả lụa), bean sprouts, fresh herbs, and crispy fried shallots, accompanied by a tangy and slightly sweet fish sauce for dipping.',
         'GoogleMapLocation' => [
             [
                 'LocationName' => 'Giá bể chợ Chu Văn An',
