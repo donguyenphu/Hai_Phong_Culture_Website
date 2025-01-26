@@ -196,6 +196,50 @@ $dishesInformation = [
                 ]
             ]
         ]
+    ],
+    [
+        'title' => 'Steamed Rice Roll',
+        // 'linkTitle' => 'https://vnexpress.net/gia-be-xao-dac-san-thu-thach-long-kien-nhan-o-hai-phong-4637033.html',
+        'linkTitle' => 'steamedRiceRoll.php',
+        'mainImage' => 'image/SteamedRiceRoll.jpg',
+        'description' => 'Stir-fried bean sprouts with Hai Phong is a rustic but extremely special dish of the port city, famous for its rich flavor and unique preparation method. Bean sprouts are a small seafood, shaped like bean sprouts, often stir-fried with spices and herbs to create a delicious and unique dish.',
+        'GoogleMapLocation' => [
+            [
+                'LocationName' => 'Giá bể chợ Chu Văn An',
+                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.4841982122052!2d106.6863720741717!3d20.852525180753084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b12548392fb%3A0x9e1ed33104652852!2zR2nDoSBi4buDIGNo4bujIENodSBWxINuIEFu!5e0!3m2!1svi!2s!4v1733576908943!5m2!1svi!2s'
+            ],
+            [
+                'LocationName' => 'Bà Minh-Giá bể',
+                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.557874648664!2d106.68248877417157!3d20.8495526807553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7a8e8aac1ec3%3A0xb1f20750f9892a23!2zQsOgIE1pbmgtR2nDoSBi4buD!5e0!3m2!1svi!2s!4v1733576990085!5m2!1svi!2s'
+            ],
+            [
+                'LocationName' => 'Giá Bể Xào, Gỏi',
+                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.548722772593!2d106.66639357073532!3d20.849921938221744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b0034579b4b%3A0x797a0871c07a559b!2zR2nDoSBC4buDIFjDoG8sIEfhu49p!5e0!3m2!1svi!2s!4v1733577074253!5m2!1svi!2s'
+            ]
+        ],
+        'mainIngredients' => [
+            [
+                'nameIngredient' => 'Sprout bean:',
+                'moreInfo' => [
+                    'A type of seafood that lives in salt or brackish water, has a soft body, about 3-5cm long, and is clear white.',
+                    'When processed, the tank price is often cleaned of the thin outer shell.'
+                ]
+            ],
+            [
+                'nameIngredient' => 'Vietnamese coriander:',
+                'moreInfo' => [
+                    '<strong>Herbs - </strong>Indispensable, helping to enhance the characteristic flavor of the dish.'
+                ]
+            ],
+            [
+                'nameIngredient' => 'Spices:',
+                'moreInfo' => [
+                    '<strong>Shallots, minced garlic - </strong> Fry until fragrant.',
+                    '<strong>Cooking oil, fish sauce, seasoning powder, pepper - </strong>Enhance rich flavor.',
+                    '<strong>Chili - </strong>Creates a mild spicy taste.'
+                ]
+            ]
+        ]
     ]
 ];
 
