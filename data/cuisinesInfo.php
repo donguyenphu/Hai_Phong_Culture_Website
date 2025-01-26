@@ -202,41 +202,58 @@ $dishesInformation = [
         // 'linkTitle' => 'https://vnexpress.net/gia-be-xao-dac-san-thu-thach-long-kien-nhan-o-hai-phong-4637033.html',
         'linkTitle' => 'steamedRiceRoll.php',
         'mainImage' => 'image/SteamedRiceRoll.jpg',
-        'description' => 'Steamed rice roll (bánh cuốn) is a traditional Vietnamese dish made from thin, steamed rice sheets. The delicate rice sheets are rolled with a savory filling of minced pork, wood ear mushrooms, and shallots. It is typically served with slices of Vietnamese pork sausage (chả lụa), bean sprouts, fresh herbs, and crispy fried shallots, accompanied by a tangy and slightly sweet fish sauce for dipping.',
+        'description' => 'Steamed rice roll (bánh cuốn) is a traditional Vietnamese dish made from thin, steamed rice sheets. The delicate rice sheets are rolled with a savory filling of minced pork, wood ear mushrooms, and shallots. It is typically served with slices of Vietnamese pork sausage , bean sprouts, fresh herbs, and crispy fried shallots, accompanied by a tangy and slightly sweet fish sauce for dipping.',
         'GoogleMapLocation' => [
             [
-                'LocationName' => 'Giá bể chợ Chu Văn An',
-                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.4841982122052!2d106.6863720741717!3d20.852525180753084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b12548392fb%3A0x9e1ed33104652852!2zR2nDoSBi4buDIGNo4bujIENodSBWxINuIEFu!5e0!3m2!1svi!2s!4v1733576908943!5m2!1svi!2s'
+                'LocationName' => 'Bánh Cuốn Bà Bảy',
+                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.466391486077!2d106.67169917073596!3d20.853243538213693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7a8a0ac7dbad%3A0x13e043a6366793b8!2zQsOhbmggQ3Xhu5FuIELDoCBC4bqjeQ!5e0!3m2!1sen!2s!4v1737877317847!5m2!1sen!2s'
             ],
             [
-                'LocationName' => 'Bà Minh-Giá bể',
-                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.557874648664!2d106.68248877417157!3d20.8495526807553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7a8e8aac1ec3%3A0xb1f20750f9892a23!2zQsOgIE1pbmgtR2nDoSBi4buD!5e0!3m2!1svi!2s!4v1733576990085!5m2!1svi!2s'
+                'LocationName' => 'Bánh cuốn Quyên',
+                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14913.946577104434!2d106.65793365541992!3d20.85242649999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7a8a064dff89%3A0xc8eda5cb0b353a17!2zQsOhbmggY3Xhu5FuIFF1ecOqbg!5e0!3m2!1sen!2s!4v1737877739262!5m2!1sen!2s'
             ],
             [
-                'LocationName' => 'Giá Bể Xào, Gỏi',
-                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.548722772593!2d106.66639357073532!3d20.849921938221744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b0034579b4b%3A0x797a0871c07a559b!2zR2nDoSBC4buDIFjDoG8sIEfhu49p!5e0!3m2!1svi!2s!4v1733577074253!5m2!1svi!2s'
+                'LocationName' => 'Bánh cuốn ngon',
+                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59656.14964724893!2d106.65470214999999!3d20.85151035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7bca41223361%3A0x8d0510a29d90dd78!2zQsOhbmggY3Xhu5FuIG5nb24!5e0!3m2!1sen!2s!4v1737877670807!5m2!1sen!2s'
             ]
         ],
         'mainIngredients' => [
             [
-                'nameIngredient' => 'Sprout bean:',
+                'nameIngredient' => 'Rice rolls (the wrapper):',
                 'moreInfo' => [
-                    'A type of seafood that lives in salt or brackish water, has a soft body, about 3-5cm long, and is clear white.',
-                    'When processed, the tank price is often cleaned of the thin outer shell.'
+                    '<strong>Rice flour - </strong> 200g (use regular rice flour, not glutinous rice flour).',
+                    '<strong>Tapioca starch - </strong> 50g (helps make the rolls softer and more elastic).',
+                    '<strong>Water - </strong> 700-750ml.',
+                    '<strong>Cooking oil - </strong> 1-2 teaspoons (to prevent sticking).',
+                    '<strong>Salt - </strong>1/2 teaspoon.'
                 ]
             ],
             [
-                'nameIngredient' => 'Vietnamese coriander:',
+                'nameIngredient' => 'The filling:',
                 'moreInfo' => [
-                    '<strong>Herbs - </strong>Indispensable, helping to enhance the characteristic flavor of the dish.'
+                    '<strong>Ground pork - </strong> 200g (can substitute with shrimp or chicken if preferred).',
+                    '<strong>Wood ear mushrooms - </strong> 20g (soak until soft, then finely chop).',
+                    '<strong>Shallots - </strong> 2-3 bulbs (minced).',
+                    '<strong>Seasonings - </strong> Fish sauce, seasoning powder, ground pepper, sugar.'
                 ]
             ],
             [
-                'nameIngredient' => 'Spices:',
+                'nameIngredient' => 'The dipping sauce:',
                 'moreInfo' => [
-                    '<strong>Shallots, minced garlic - </strong> Fry until fragrant.',
-                    '<strong>Cooking oil, fish sauce, seasoning powder, pepper - </strong>Enhance rich flavor.',
-                    '<strong>Chili - </strong>Creates a mild spicy taste.'
+                    '<strong>Fish sauce - </strong> 3 tablespoons.',
+                    '<strong>Sugar - </strong> 2 tablespoons.',
+                    '<strong>Warm water - </strong> 4 tablespoons.',
+                    '<strong>Lime juice - </strong> 1-2 teaspoons.',
+                    '<strong>Fresh chili and minced garlic - </strong> Adjust to taste.'
+                ]
+            ],
+            [
+                'nameIngredient' => 'Serving:',
+                'moreInfo' => [
+                    '<strong>Vietnamese pork sausage or cinnamon pork sausage - </strong> Sliced.',
+                    '<strong>Bean sprouts - </strong> Washed and briefly blanched.',
+                    '<strong>Crispy fried shallots - </strong> Golden and crunchy.',
+                    '<strong>Fresh herbs - </strong> Such as lettuce, cilantro, and basil.'
                 ]
             ]
         ]
