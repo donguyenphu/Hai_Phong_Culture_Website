@@ -24,7 +24,7 @@
         ],
         [
             'title' => 'Do Son',
-            'descriptionPHP' => './travelPlace/LanHa.php',
+            'descriptionPHP' => './travelPlace/DoSonBeach.php',
             'imageStorage' => [
                 [
                     'link' => 'https://dulich3mien.vn/hai-phong/bai-bien-do-son/',

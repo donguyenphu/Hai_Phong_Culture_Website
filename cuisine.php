@@ -94,7 +94,6 @@
             <?php
                 echo $htmlOverallCuisines; 
             ?>
-            <!-- overall view of cuisines -->
         </div> 
     </div>
 </body>

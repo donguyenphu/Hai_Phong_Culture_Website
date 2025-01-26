@@ -15,9 +15,9 @@ $level = '../';
     <div class="peopleContact">
         <div class="peopleInformationWrapper">
             <div class="titleIntroductionWrapper">
-                <a class="titleFoodMain" href="./">
+                <h2 class="titleFoodMain">
                     Lan Ha Bay
-                </a>
+                </h2>
             </div>
             <div id="DoSonBeachWrapper">
                 <div class="locationTitleWrapper">
@@ -37,7 +37,7 @@ $level = '../';
                 </div>
                 <div class="locationTitleWrapper">
                     <h3 class="locationTitleMain">
-                        *Note
+                        *Note:
                     </h3>
                     <p class="locationDetailMain">Try to avoid July and August because the danger of the rainy and stormy season in northern Vietnam and June for peole who do not like crowd</p>
                 </div>
@@ -46,33 +46,20 @@ $level = '../';
                         Cuisines:
                     </h3>
                 </div>
-            </div>
-            <div id="CuisinesDoSonImageIWrapper">
-                <div class="OnlyImageWrapper">
-                    <a href="https://www.youtube.com/watch?v=uRUWJXmEhJc"><img src="../image/SamTrungNuongLanHa.jpg" class="OnlyImageMain"></a>
-                </div>
-                <div class="OnlyImageWrapper">
-                    <a href="https://www.youtube.com/watch?v=uRUWJXmEhJc"><img src="../image/gheXanhLanHa.jpg" class="OnlyImageMain"></a>
-                </div>
-            </div>
-            <div class="infoCuisineDoSonWrapper">
-                <div class="infoDoSonWrapper">
-                    <h3 class="infoDoSonMain">Lan Ha grilled sea cucumber eggs</h3>
-                </div>
-                <div class="infoDoSonWrapper">
-                    <h3 class="infoDoSonMain">Cat Ba blue crab</h3>
-                </div>
-                <div class="infoDoSonWrapper">
-                    <h3 class="infoDoSonMain">Lan Ha geoduck</h3>
-                </div>
-                <div class="infoDoSonWrapper">
-                    <h3 class="infoDoSonMain">Lan Ha Salted Mantis Shrimp</h3>
-                </div>
-                <div class="infoDoSonWrapper">
-                    <h3 class="infoDoSonMain">Squid dishes</h3>
-                </div>
-                <div class="infoDoSonWrapper">
-                    <h3 class="infoDoSonMain">Lan Ha salt fried crab</h3>
+                <div class="descriptionCuisinesWrapper">
+                    <div class="imageAndContentCuisineWrapper">
+                        <div class="imgCNSwrapper">
+                            <img src="" class="imgCNSmain">
+                        </div>
+                        <div class="foodDetailWrapper">
+                            <div class="infoDoSonWrapper">
+                                <h3 class="infoDoSonMain">Lan Ha geoduck</h3>
+                            </div>
+                            <p class="foodDetailMain">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
+                            </p>
+                        </div> 
+                    </div>
                 </div>
             </div>
         </div>

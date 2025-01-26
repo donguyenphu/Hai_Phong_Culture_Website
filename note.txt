@@ -41,3 +41,35 @@ Admin
     - Làm delete
     - Làm create.php
     - Làm edit.php
+
+Frontend: display 
+Backend(admin): render code, database
+
+<div class="infoDoSonWrapper">
+    <h3 class="infoDoSonMain">Lan Ha grilled sea cucumber eggs</h3>
+</div>
+<div class="infoDoSonWrapper">
+    <h3 class="infoDoSonMain">Cat Ba blue crab</h3>
+</div>
+<div class="infoDoSonWrapper">
+    <h3 class="infoDoSonMain">Lan Ha geoduck</h3>
+</div>
+<div class="infoDoSonWrapper">
+    <h3 class="infoDoSonMain">Lan Ha Salted Mantis Shrimp</h3>
+</div>
+<div class="infoDoSonWrapper">
+    <h3 class="infoDoSonMain">Squid dishes</h3>
+</div>
+<div class="infoDoSonWrapper">
+    <h3 class="infoDoSonMain">Lan Ha salt fried crab</h3>
+</div>
+
+
+<div class="CuisinesDoSonImageIWrapper">
+    <div class="OnlyImageWrapper">
+        <a href="https://www.youtube.com/watch?v=uRUWJXmEhJc"><img src="../image/SamTrungNuongLanHa.jpg" class="OnlyImageMain"></a>
+    </div>
+    <div class="OnlyImageWrapper">
+        <a href="https://www.youtube.com/watch?v=uRUWJXmEhJc"><img src="../image/gheXanhLanHa.jpg" class="OnlyImageMain"></a>
+    </div>
+</div>
