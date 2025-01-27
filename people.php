@@ -83,24 +83,24 @@ $level = './';
             </div>
             <div class="titleIntroductionWrapper">
                 <h2 class="titleFoodMain">
-                    Event personality
+                    Events
                 </h2>
             </div>
             <div class="eventInfoAndImageWrapper">
                 <div class="twoImageWrapper">
                     <div class="firstImageWrapper">
-                        <img src="./image/BucTuongHaiPhong.jpg" class="firstImageMain">
+                        <img src="./image/QuangHuyNguyen.jpg" class="firstImageMain">
                     </div>
                     <div class="secondImageWrapper">
-                        <img src="./image/BucTuongHaiPhong.jpg" class="secondImageMain">
+                        <img src="./image/NguyenThaiSon.jpg" class="secondImageMain">
                     </div>
                 </div>
                 <div class="twoInfoWrapper">
                     <div class="infoDoSonWrapper">
-                        <h3 class="infoDoSonMain">Lan Ha geoduck</h3>
+                        <a href=""><h3 class="Events">Events personality</h3></a>
                     </div>
-                    <p class="songIntroductionMain Events">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aperiam rem a explicabo consectetur hic, sunt, provident molestiae optio animi sequi magnam obcaecati dignissimos ea laudantium iure aspernatur asperiores voluptatem.
+                    <p class="songIntroductionMain">
+                        Meeting my teachers, Mr Huy and Mr Son, 2 important people in each Culture and Art events of Hai Phong city.
                     </p>
                 </div>
             </div>

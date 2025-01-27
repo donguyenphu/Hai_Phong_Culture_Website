@@ -141,10 +141,30 @@
     border: 2px solid black;
 }
 .firstImageWrapper {
-    overflow: hidden;
+   overflow: hidden;
 }
 .secondImageMain {
     position: absolute;
     left: 50%;
     bottom: -35%;
+}
+.firstImageMain {
+    aspect-ratio: 10 / 9;
+    object-fit: cover;
+}
+.secondImageMain {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+.Events {
+    color: black;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: 0.4s all ease-in-out;
+    font-weight: 500;
+}
+.Events:hover {
+    transform: scale(1.15);
+    color: red;
 }
