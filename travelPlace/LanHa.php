@@ -46,7 +46,7 @@ $level = '../';
                         Cuisines:
                     </h3>
                 </div>
-                <div class="descriptionCuisinesWrapper">
+                <div class="allInfoTravelWrapper">
                     <div class="imageAndContentCuisineWrapper">
                         <div class="imgCNSwrapper">
                             <img src="" class="imgCNSmain">
@@ -55,7 +55,7 @@ $level = '../';
                             <div class="infoDoSonWrapper">
                                 <h3 class="infoDoSonMain">Lan Ha geoduck</h3>
                             </div>
-                            <p class="foodDetailMain">
+                            <p class="foodDetailMain cuisine">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
                             </p>
                         </div> 

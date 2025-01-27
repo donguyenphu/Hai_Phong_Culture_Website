@@ -61,14 +61,14 @@
                                 '.$value['title'].'
                             </a>
                         </div>'; 
-        $htmlOverallCuisines .= '<div class="descriptionCuisinesWrapper">';
+        $htmlOverallCuisines .= '<div class="allInfoTravelWrapper">';
 
         $htmlOverallCuisines .= '<div class="imageAndContentCuisineWrapper">
                             <div class="imgCNSwrapper">
                                 <img src="'.$value['mainImage'].'" class="imgCNSmain">
                             </div>
                             <div class="foodDetailWrapper">
-                                <p class="foodDetailMain">
+                                <p class="foodDetailMain cuisine">
                                     '.$value['description'].'
                                 </p>
                             </div> 

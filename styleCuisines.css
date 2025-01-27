@@ -1,9 +1,3 @@
-.descriptionCuisinesWrapper {
-    padding: 20px;
-    background-color: #cfcfcf;
-    border-radius: 15px;
-    margin-bottom: 34px;
-}
 .imgCNSwrapper {
     padding: 10px;
     transition: 0.4s all ease-in-out;
@@ -33,10 +27,18 @@
     line-height: 1.8;
     font-family: 'Noto sans', sans-serif;
     font-size: 25px;
+    color: #ddd
+}
+.cuisine {
+    text-indent: 20px;
+    line-height: 1.8;
+    font-family: 'Noto sans', sans-serif;
+    font-size: 25px;
+    color: black
 }
 .locationWrapper {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     padding: 20px;
     justify-content: center;
 }
@@ -58,6 +60,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     text-align: center;
+    color: #ddd
 }
 .introduceIngredientMain {
     font-family: 'Roboto', sans-serif;
@@ -113,7 +116,7 @@
 .describeIngredient {
     list-style: none;
     font-size: 25px;
-    color: black;
+    color: #ddd;
     text-indent: 20px;
     font-weight: 500;
 }

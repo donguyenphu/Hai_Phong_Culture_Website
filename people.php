@@ -81,6 +81,29 @@ $level = './';
                     </div>
                 </div>
             </div>
+            <div class="titleIntroductionWrapper">
+                <h2 class="titleFoodMain">
+                    Event personality
+                </h2>
+            </div>
+            <div class="eventInfoAndImageWrapper">
+                <div class="twoImageWrapper">
+                    <div class="firstImageWrapper">
+                        <img src="./image/BucTuongHaiPhong.jpg" class="firstImageMain">
+                    </div>
+                    <div class="secondImageWrapper">
+                        <img src="./image/BucTuongHaiPhong.jpg" class="secondImageMain">
+                    </div>
+                </div>
+                <div class="twoInfoWrapper">
+                    <div class="infoDoSonWrapper">
+                        <h3 class="infoDoSonMain">Lan Ha geoduck</h3>
+                    </div>
+                    <p class="songIntroductionMain Events">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aperiam rem a explicabo consectetur hic, sunt, provident molestiae optio animi sequi magnam obcaecati dignissimos ea laudantium iure aspernatur asperiores voluptatem.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
