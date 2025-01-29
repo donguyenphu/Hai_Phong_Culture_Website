@@ -16,7 +16,11 @@ $menus = [
         'link' => 'cuisine.php',
         'child' => ['crabNoodleSoup.php', 'spicyBread.php', 'steamedRiceRoll.php', 'stirfriedBeanSprouts.php', 'coconutIceCream.php']
     ],
-    ['name' => 'People and Song', 'link' => 'people.php'],
+    [
+        'name' => 'People and Song', 
+        'link' => 'people.php',
+        'child' => ['eventsPersonality.php']
+    ],
     ['name' => 'Contact', 'link' => 'contact.php'],
 ];
 

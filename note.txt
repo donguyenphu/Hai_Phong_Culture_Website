@@ -1,3 +1,4 @@
+remember to add index.php above 'admin'
 Frontend
 
 Admin
@@ -73,3 +74,32 @@ Backend(admin): render code, database
         <a href="https://www.youtube.com/watch?v=uRUWJXmEhJc"><img src="../image/gheXanhLanHa.jpg" class="OnlyImageMain"></a>
     </div>
 </div>
+
+
+Operation failed: There was an error while applying the SQL script to the database.
+Executing:
+INSERT INTO `hai_phong_culture_database`.`cuisine` (`id`, `name`, `image`, `description`, `status`, `order`, `travel_location_id`) VALUES ('0', 'Crab noodle soup', './image/CrabNoodleSoup.jpg', 'Hai Phong crab noodle soup (bánh đa cua) brings a rich, fatty but not greasy feeling, combined with the fresh taste of raw vegetables, the soft chewiness of rice noodles and the strong taste of the sea from crab and shrimp. A memorable dish!', '1', '0', '0');
+INSERT INTO `hai_phong_culture_database`.`cuisine` (`id`, `name`, `image`, `description`, `status`, `order`, `travel_location_id`) VALUES ('1', 'Coconut Ice Cream', './image/CoconutIceCream.jpg', 'Coconut Ice Cream (dừa dầm) is perfect for hot summer days or when you want to enjoy a unique, easy-to-eat dessert.The cool, crispy jelly layer, soft, chewy coconut meat, mixed with cool coconut milk, creates a refreshing feeling from the first bite.', '1', '1', '1');
+INSERT INTO `hai_phong_culture_database`.`cuisine` (`id`, `name`, `image`, `description`, `status`, `order`, `travel_location_id`) VALUES ('2', 'Spicy bread', './image/Banh_my_que.jpg', 'Hai Phong spicy bread (bánh mỳ cay), also known as baguette, is a famous street food specialty of Hai Phong. With its compact shape, crispy crust, fragrant pate filling, combined with the characteristic spicy taste of chili sauce, this dish has become a culinary symbol of the port city.', '1', '2', '2');
+INSERT INTO `hai_phong_culture_database`.`cuisine` (`id`, `name`, `image`, `description`, `status`, `order`, `travel_location_id`) VALUES ('3', 'Stir-fried bean sprouts', './image/giaBeXao.jpeg', 'Stir-fried bean sprouts (Gía bể xào) with Hai Phong is a rustic but extremely special dish of the port city, famous for its rich flavor and unique preparation method. Bean sprouts are a small seafood, shaped like bean sprouts, often stir-fried with spices and herbs to create a delicious and unique dish.', '1', '3', '3');
+INSERT INTO `hai_phong_culture_database`.`cuisine` (`id`, `name`, `image`, `description`, `status`, `order`, `travel_location_id`) VALUES ('4', 'Steamed Rice Roll', './SteamedRiceRoll.jpg', 'Steamed rice roll (bánh cuốn) is a traditional Vietnamese dish made from thin, steamed rice sheets. The delicate rice sheets are rolled with a savory filling of minced pork, wood ear mushrooms, and shallots. It is typically served with slices of Vietnamese pork sausage , bean sprouts, fresh herbs, and crispy fried shallots, accompanied by a tangy and slightly sweet fish sauce for dipping.', '1', '4', '4');
+
+ERROR 1452: 1452: Cannot add or update a child row: a foreign key constraint fails (`hai_phong_culture_database`.`cuisine`, CONSTRAINT `cuisine_fk8` FOREIGN KEY (`travel_location_id`) REFERENCES `travel_location_info` (`id`))
+SQL Statement:
+INSERT INTO `hai_phong_culture_database`.`cuisine` (`id`, `name`, `image`, `description`, `status`, `order`, `travel_location_id`) VALUES ('0', 'Crab noodle soup', './image/CrabNoodleSoup.jpg', 'Hai Phong crab noodle soup (bánh đa cua) brings a rich, fatty but not greasy feeling, combined with the fresh taste of raw vegetables, the soft chewiness of rice noodles and the strong taste of the sea from crab and shrimp. A memorable dish!', '1', '0', '0')
+
+ERROR 1452: 1452: Cannot add or update a child row: a foreign key constraint fails (`hai_phong_culture_database`.`cuisine`, CONSTRAINT `cuisine_fk8` FOREIGN KEY (`travel_location_id`) REFERENCES `travel_location_info` (`id`))
+SQL Statement:
+INSERT INTO `hai_phong_culture_database`.`cuisine` (`id`, `name`, `image`, `description`, `status`, `order`, `travel_location_id`) VALUES ('1', 'Coconut Ice Cream', './image/CoconutIceCream.jpg', 'Coconut Ice Cream (dừa dầm) is perfect for hot summer days or when you want to enjoy a unique, easy-to-eat dessert.The cool, crispy jelly layer, soft, chewy coconut meat, mixed with cool coconut milk, creates a refreshing feeling from the first bite.', '1', '1', '1')
+
+ERROR 1452: 1452: Cannot add or update a child row: a foreign key constraint fails (`hai_phong_culture_database`.`cuisine`, CONSTRAINT `cuisine_fk8` FOREIGN KEY (`travel_location_id`) REFERENCES `travel_location_info` (`id`))
+SQL Statement:
+INSERT INTO `hai_phong_culture_database`.`cuisine` (`id`, `name`, `image`, `description`, `status`, `order`, `travel_location_id`) VALUES ('2', 'Spicy bread', './image/Banh_my_que.jpg', 'Hai Phong spicy bread (bánh mỳ cay), also known as baguette, is a famous street food specialty of Hai Phong. With its compact shape, crispy crust, fragrant pate filling, combined with the characteristic spicy taste of chili sauce, this dish has become a culinary symbol of the port city.', '1', '2', '2')
+
+ERROR 1452: 1452: Cannot add or update a child row: a foreign key constraint fails (`hai_phong_culture_database`.`cuisine`, CONSTRAINT `cuisine_fk8` FOREIGN KEY (`travel_location_id`) REFERENCES `travel_location_info` (`id`))
+SQL Statement:
+INSERT INTO `hai_phong_culture_database`.`cuisine` (`id`, `name`, `image`, `description`, `status`, `order`, `travel_location_id`) VALUES ('3', 'Stir-fried bean sprouts', './image/giaBeXao.jpeg', 'Stir-fried bean sprouts (Gía bể xào) with Hai Phong is a rustic but extremely special dish of the port city, famous for its rich flavor and unique preparation method. Bean sprouts are a small seafood, shaped like bean sprouts, often stir-fried with spices and herbs to create a delicious and unique dish.', '1', '3', '3')
+
+ERROR 1452: 1452: Cannot add or update a child row: a foreign key constraint fails (`hai_phong_culture_database`.`cuisine`, CONSTRAINT `cuisine_fk8` FOREIGN KEY (`travel_location_id`) REFERENCES `travel_location_info` (`id`))
+SQL Statement:
+INSERT INTO `hai_phong_culture_database`.`cuisine` (`id`, `name`, `image`, `description`, `status`, `order`, `travel_location_id`) VALUES ('4', 'Steamed Rice Roll', './SteamedRiceRoll.jpg', 'Steamed rice roll (bánh cuốn) is a traditional Vietnamese dish made from thin, steamed rice sheets. The delicate rice sheets are rolled with a savory filling of minced pork, wood ear mushrooms, and shallots. It is typically served with slices of Vietnamese pork sausage , bean sprouts, fresh herbs, and crispy fried shallots, accompanied by a tangy and slightly sweet fish sauce for dipping.', '1', '4', '4')

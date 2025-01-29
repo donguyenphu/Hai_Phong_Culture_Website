@@ -1,7 +1,7 @@
 <?php
 
 $level = './';
-require_once 'data/home.php';
+require_once './data/home.php';
 $html = '';
 foreach ($data as $key => $value) {
     $html .= '<div class="point">

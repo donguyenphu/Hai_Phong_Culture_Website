@@ -56,14 +56,14 @@
     text-align: center;
 }
 .infoDoSonMain {
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     transition: 0.4s;
     font-weight: 500;
 }
 .infoDoSonMain:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
     background: linear-gradient(45deg, #E60026, #FFA500, #FFD700, #008080);
     -webkit-background-clip: text;
     color: transparent; 

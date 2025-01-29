@@ -1,5 +1,5 @@
 <?php
-$level = '../';
+    $level = '../';
 ?>
 
 <!DOCTYPE html>
@@ -54,6 +54,81 @@ $level = '../';
                         <div class="foodDetailWrapper">
                             <div class="infoDoSonWrapper">
                                 <h3 class="infoDoSonMain">Lan Ha geoduck</h3>
+                            </div>
+                            <p class="foodDetailMain cuisine">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
+                            </p>
+                        </div> 
+                    </div>
+                </div>
+                <div class="allInfoTravelWrapper">
+                    <div class="imageAndContentCuisineWrapper">
+                        <div class="imgCNSwrapper">
+                            <img src="../image/gheXanhLanHa.jpg" class="imgCNSmain">
+                        </div>
+                        <div class="foodDetailWrapper">
+                            <div class="infoDoSonWrapper">
+                                <h3 class="infoDoSonMain">Cat Ba blue crab</h3>
+                            </div>
+                            <p class="foodDetailMain cuisine">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
+                            </p>
+                        </div> 
+                    </div>
+                </div>
+                <div class="allInfoTravelWrapper">
+                    <div class="imageAndContentCuisineWrapper">
+                        <div class="imgCNSwrapper">
+                            <img src="../image/SamTrungNuongLanHa.jpg" class="imgCNSmain">
+                        </div>
+                        <div class="foodDetailWrapper">
+                            <div class="infoDoSonWrapper">
+                                <h3 class="infoDoSonMain">Lan Ha grilled sea cucumber eggs</h3>
+                            </div>
+                            <p class="foodDetailMain cuisine">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
+                            </p>
+                        </div> 
+                    </div>
+                </div>
+                <div class="allInfoTravelWrapper">
+                    <div class="imageAndContentCuisineWrapper">
+                        <div class="imgCNSwrapper">
+                            <img src="" class="imgCNSmain">
+                        </div>
+                        <div class="foodDetailWrapper">
+                            <div class="infoDoSonWrapper">
+                                <h3 class="infoDoSonMain">Lan Ha Salted Mantis Shrimp</h3>
+                            </div>
+                            <p class="foodDetailMain cuisine">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
+                            </p>
+                        </div> 
+                    </div>
+                </div>
+                <div class="allInfoTravelWrapper">
+                    <div class="imageAndContentCuisineWrapper">
+                        <div class="imgCNSwrapper">
+                            <img src="" class="imgCNSmain">
+                        </div>
+                        <div class="foodDetailWrapper">
+                            <div class="infoDoSonWrapper">
+                                <h3 class="infoDoSonMain">Squid dishes</h3>
+                            </div>
+                            <p class="foodDetailMain cuisine">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
+                            </p>
+                        </div> 
+                    </div>
+                </div>
+                <div class="allInfoTravelWrapper">
+                    <div class="imageAndContentCuisineWrapper">
+                        <div class="imgCNSwrapper">
+                            <img src="" class="imgCNSmain">
+                        </div>
+                        <div class="foodDetailWrapper">
+                            <div class="infoDoSonWrapper">
+                                <h3 class="infoDoSonMain">Lan Ha salt fried crab</h3>
                             </div>
                             <p class="foodDetailMain cuisine">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?

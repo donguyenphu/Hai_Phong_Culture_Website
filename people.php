@@ -83,7 +83,7 @@ $level = './';
             </div>
             <div class="titleIntroductionWrapper">
                 <h2 class="titleFoodMain">
-                    Events
+                    Hai Phong's figures
                 </h2>
             </div>
             <div class="eventInfoAndImageWrapper">
@@ -97,7 +97,9 @@ $level = './';
                 </div>
                 <div class="twoInfoWrapper">
                     <div class="infoDoSonWrapper">
-                        <a href=""><h3 class="Events">Events personality</h3></a>
+                        <a href="./events/eventsPersonality.php">
+                            <h3 class="Events">Events personality</h3>
+                        </a>
                     </div>
                     <p class="songIntroductionMain">
                         Meeting my teachers, Mr Huy and Mr Son, 2 important people in each Culture and Art events of Hai Phong city.
