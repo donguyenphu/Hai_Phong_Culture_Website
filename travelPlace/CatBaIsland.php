@@ -41,46 +41,97 @@ $level = '../';
                     </h3>
                 </div>
             </div>
-            <div id="CuisinesDoSonImageIWrapper">
-                <div class="OnlyImageWrapper">
-                    <a href="https://www.youtube.com/watch?v=uRUWJXmEhJc"><img src="<?php echo $level; ?>image/horseShoeCrab.jpg" class="OnlyImageMain"></a>
-                </div>
-                <div class="OnlyImageWrapper">
-                    <a href="https://www.dienmayxanh.com/vao-bep/cach-lam-ca-song-ca-mu-hap-gung-hanh-ngon-ngot-chieu-dai-gia-08854"><img src="<?php echo $level; ?>image/CatBaGrouper.jpg" class="OnlyImageMain"></a>
-                </div>
-                <div class="OnlyImageWrapper">
-                    <a href="https://chefdzung.com.vn/cach-che-bien-tu-hai-hap-sa.html"><img src="<?php echo $level; ?>image/CatBaGeoduck.jpg" class="OnlyImageMain"></a>
-                </div>
-                <div class="OnlyImageWrapper">
-                    <a href="https://haisan.online/be-be-sot-me-139782.html"></a><img src="<?php echo $level; ?>image/CatBaMantisShrimp.jpg" class="OnlyImageMain">
-                </div>
-                <div class="OnlyImageWrapper">
-                    <a href="https://kingfoodmart.com/bai-viet/2-cach-che-bien-tom-hum-ngon-tuyet-dinh?srsltid=AfmBOopNtXfSZ7nFF87SHxr_wG6_B6vTHzOZcMq02rLp3lizq9gpWmlb"></a><img src="<?php echo $level; ?>image/CatBaLobster.jpg" class="OnlyImageMain">
-                </div>
-                <div class="OnlyImageWrapper">
-                    <a href="https://www.dienmayxanh.com/vao-bep/cach-lam-bun-tom-hai-phong-chua-chua-ngot-ngot-la-mieng-thom-08299"><img src="<?php echo $level; ?>image/vermicelliWithShrimp.jpg" class="OnlyImageMain"></a>
+            <div class="allInfoTravelWrapper">
+                <div class="imageAndContentCuisineWrapper">
+                    <div class="imgCNSwrapper">
+                        <img src="<?php echo $level; ?>image/horseShoeCrab.jpg" class="imgCNSmain">
+                    </div>
+                    <div class="foodDetailWrapper">
+                        <div class="infoDoSonWrapper">
+                            <h3 class="infoDoSonMain">Cat Ba horseshoe crab</h3>
+                        </div>
+                        <p class="foodDetailMain cuisine">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
+                        </p>
+                    </div> 
                 </div>
             </div>
-            <div class="infoCuisineDoSonWrapper">
-                <div class="infoDoSonWrapper">
-                    <h3 class="infoDoSonMain">Cat Ba horseshoe crab</h3>
-                </div>
-                <div class="infoDoSonWrapper">
-                    <h3 class="infoDoSonMain">Cat Ba grouper</h3>
-                </div>
-                <div class="infoDoSonWrapper">
-                    <h3 class="infoDoSonMain">Cat Ba geoduck</h3>
-                </div>
-                <div class="infoDoSonWrapper">
-                    <h3 class="infoDoSonMain">Cat Ba mantis shrimp</h3>
-                </div>
-                <div class="infoDoSonWrapper">
-                    <h3 class="infoDoSonMain">Cat Ba lobster</h3>
-                </div>
-                <div class="infoDoSonWrapper">
-                    <h3 class="infoDoSonMain">Cat Ba vermicelli with shrimp</h3>
+            <div class="allInfoTravelWrapper">
+                <div class="imageAndContentCuisineWrapper">
+                    <div class="imgCNSwrapper">
+                        <img src="<?php echo $level; ?>image/CatBaGrouper.jpg" class="imgCNSmain">
+                    </div>
+                    <div class="foodDetailWrapper">
+                        <div class="infoDoSonWrapper">
+                            <h3 class="infoDoSonMain">Cat Ba grouper</h3>
+                        </div>
+                        <p class="foodDetailMain cuisine">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
+                        </p>
+                    </div> 
                 </div>
             </div>
+            <div class="allInfoTravelWrapper">
+                <div class="imageAndContentCuisineWrapper">
+                    <div class="imgCNSwrapper">
+                        <img src="<?php echo $level; ?>image/CatBaGeoduck.jpg" class="imgCNSmain">
+                    </div>
+                    <div class="foodDetailWrapper">
+                        <div class="infoDoSonWrapper">
+                            <h3 class="infoDoSonMain">Cat Ba geoduck</h3>
+                        </div>
+                        <p class="foodDetailMain cuisine">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
+                        </p>
+                    </div> 
+                </div>
+            </div>
+            <div class="allInfoTravelWrapper">
+                <div class="imageAndContentCuisineWrapper">
+                    <div class="imgCNSwrapper">
+                        <img src="<?php echo $level; ?>image/CatBaMantisShrimp.jpg" class="imgCNSmain">
+                    </div>
+                    <div class="foodDetailWrapper">
+                        <div class="infoDoSonWrapper">
+                            <h3 class="infoDoSonMain">Cat Ba mantis shrimp</h3>
+                        </div>
+                        <p class="foodDetailMain cuisine">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
+                        </p>
+                    </div> 
+                </div>
+            </div>
+            <div class="allInfoTravelWrapper">
+                <div class="imageAndContentCuisineWrapper">
+                    <div class="imgCNSwrapper">
+                        <img src="<?php echo $level; ?>image/CatBaLobster.jpg" class="imgCNSmain">
+                    </div>
+                    <div class="foodDetailWrapper">
+                        <div class="infoDoSonWrapper">
+                            <h3 class="infoDoSonMain">Cat Ba lobster</h3>
+                        </div>
+                        <p class="foodDetailMain cuisine">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
+                        </p>
+                    </div> 
+                </div>
+            </div>
+            <div class="allInfoTravelWrapper">
+                <div class="imageAndContentCuisineWrapper">
+                    <div class="imgCNSwrapper">
+                        <img src="<?php echo $level; ?>image/vermicelliWithShrimp.jpg" class="imgCNSmain">
+                    </div>
+                    <div class="foodDetailWrapper">
+                        <div class="infoDoSonWrapper">
+                            <h3 class="infoDoSonMain">Cat Ba vermicelli with shrimp</h3>
+                        </div>
+                        <p class="foodDetailMain cuisine">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
+                        </p>
+                    </div> 
+                </div>
+            </div>
+            <!-- leave the original name below each cuisine -->
         </div>
     </div>
 </body>

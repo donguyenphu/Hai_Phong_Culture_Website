@@ -41,34 +41,67 @@ $level = '../';
                     </h3>
                 </div>
             </div>
-            <div id="CuisinesDoSonImageIWrapper">
-                <div class="OnlyImageWrapper">
-                    <a href="https://cookpad.com/vn/cong-thuc/14151698-n%E1%BB%99m-s%E1%BB%A9a-d%E1%BB%93-s%C6%A1n-h%E1%BA%A3i-phongs"><img src="./image/NomSuaDoSon.jpg" class="OnlyImageMain"></a>
-                </div>
-                <div class="OnlyImageWrapper">
-                    <a href="https://www.youtube.com/watch?v=jFZ16SZYRTs"><img src="./image/LauCuaDongNemCuaBe.jpg" class="OnlyImageMain"></a>
-                </div>
-                <div class="OnlyImageWrapper">
-                    <a href="https://www.vitot.vn/blogs/cong-thuc-nau-ngon/7-cach-lam-mon-ca-moi-1-mot-nang?srsltid=AfmBOopJk8o-j36zgqFlKLfcQzmx4ZDkLyE4pNsBs-nu3U6MPbDQoBiW"><img src="./image/CaMoiMotNangDoSon.jpeg" class="OnlyImageMain"></a>
-                </div>
-                <div class="OnlyImageWrapper">
-                    <a href="https://xaydungso.vn/blog/biet-cach-che-bien-hai-san-do-son-tro-thanh-mon-an-ngon-vi-cb.html"><img src="./image/HaiSanDoSon.jpg" class="OnlyImageMain"></a>
-                </div>
-            </div>
-            <div class="infoCuisineDoSonWrapper">
-                <div class="infoDoSonWrapper">
-                    <h3 class="infoDoSonMain">Do Son jellyfish salad</h3>
-                </div>
-                <div class="infoDoSonWrapper">
-                    <h3 class="infoDoSonMain">Do Son crab hotpot, crab spring rolls</h3>
-                </div>
-                <div class="infoDoSonWrapper">
-                    <h3 class="infoDoSonMain">Do Son sun-dried anchovies</h3>
-                </div>
-                <div class="infoDoSonWrapper">
-                    <h3 class="infoDoSonMain">Do Son fresh seafood</h3>
+            <div class="allInfoTravelWrapper">
+                <div class="imageAndContentCuisineWrapper">
+                    <div class="imgCNSwrapper">
+                        <img src="<?php echo $level; ?>image/NomSuaDoSon.jpg" class="imgCNSmain">
+                    </div>
+                    <div class="foodDetailWrapper">
+                        <div class="infoDoSonWrapper">
+                            <h3 class="infoDoSonMain">Do Son jellyfish salad</h3>
+                        </div>
+                        <p class="foodDetailMain cuisine">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
+                        </p>
+                    </div> 
                 </div>
             </div>
+            <div class="allInfoTravelWrapper">
+                <div class="imageAndContentCuisineWrapper">
+                    <div class="imgCNSwrapper">
+                        <img src="<?php echo $level; ?>image/LauCuaDongNemCuaBe.jpg" class="imgCNSmain">
+                    </div>
+                    <div class="foodDetailWrapper">
+                        <div class="infoDoSonWrapper">
+                            <h3 class="infoDoSonMain">Do Son crab hotpot, crab spring rolls</h3>
+                        </div>
+                        <p class="foodDetailMain cuisine">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
+                        </p>
+                    </div> 
+                </div>
+            </div>
+            <div class="allInfoTravelWrapper">
+                <div class="imageAndContentCuisineWrapper">
+                    <div class="imgCNSwrapper">
+                        <img src="<?php echo $level; ?>image/CaMoiMotNangDoSon.jpeg" class="imgCNSmain">
+                    </div>
+                    <div class="foodDetailWrapper">
+                        <div class="infoDoSonWrapper">
+                            <h3 class="infoDoSonMain">Do Son sun-dried anchovies</h3>
+                        </div>
+                        <p class="foodDetailMain cuisine">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
+                        </p>
+                    </div> 
+                </div>
+            </div>
+            <div class="allInfoTravelWrapper">
+                <div class="imageAndContentCuisineWrapper">
+                    <div class="imgCNSwrapper">
+                        <img src="<?php echo $level; ?>image/HaiSanDoSon.jpg" class="imgCNSmain">
+                    </div>
+                    <div class="foodDetailWrapper">
+                        <div class="infoDoSonWrapper">
+                            <h3 class="infoDoSonMain">Do Son fresh seafood</h3>
+                        </div>
+                        <p class="foodDetailMain cuisine">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
+                        </p>
+                    </div> 
+                </div>
+            </div>
+            <!-- leave the original name below each cuisine -->
         </div>
     </div>
 </body>

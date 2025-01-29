@@ -49,7 +49,7 @@
                 <div class="allInfoTravelWrapper">
                     <div class="imageAndContentCuisineWrapper">
                         <div class="imgCNSwrapper">
-                            <img src="" class="imgCNSmain">
+                            <img src="<?php echo $level?>image/LanHaGeoduck.jpg" class="imgCNSmain">
                         </div>
                         <div class="foodDetailWrapper">
                             <div class="infoDoSonWrapper">
@@ -94,7 +94,7 @@
                 <div class="allInfoTravelWrapper">
                     <div class="imageAndContentCuisineWrapper">
                         <div class="imgCNSwrapper">
-                            <img src="" class="imgCNSmain">
+                            <img src="<?php echo $level?>image/LanHaSaltedMantisShrimp.jpg" class="imgCNSmain">
                         </div>
                         <div class="foodDetailWrapper">
                             <div class="infoDoSonWrapper">
@@ -109,11 +109,11 @@
                 <div class="allInfoTravelWrapper">
                     <div class="imageAndContentCuisineWrapper">
                         <div class="imgCNSwrapper">
-                            <img src="" class="imgCNSmain">
+                            <img src="<?php echo $level?>image/LanHaSaltedFriedCrab.jpg" class="imgCNSmain">
                         </div>
                         <div class="foodDetailWrapper">
                             <div class="infoDoSonWrapper">
-                                <h3 class="infoDoSonMain">Squid dishes</h3>
+                                <h3 class="infoDoSonMain">Lan Ha salted fried crab</h3>
                             </div>
                             <p class="foodDetailMain cuisine">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
@@ -121,21 +121,7 @@
                         </div> 
                     </div>
                 </div>
-                <div class="allInfoTravelWrapper">
-                    <div class="imageAndContentCuisineWrapper">
-                        <div class="imgCNSwrapper">
-                            <img src="" class="imgCNSmain">
-                        </div>
-                        <div class="foodDetailWrapper">
-                            <div class="infoDoSonWrapper">
-                                <h3 class="infoDoSonMain">Lan Ha salt fried crab</h3>
-                            </div>
-                            <p class="foodDetailMain cuisine">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
-                            </p>
-                        </div> 
-                    </div>
-                </div>
+                <!-- leave the original name below each cuisine -->
             </div>
         </div>
     </div>

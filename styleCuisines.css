@@ -5,7 +5,7 @@
     align-items: center;
 }
 .imgCNSwrapper:hover {
-    transform: translateY(-10px);
+    transform: translateY(-15px);
 }
 .introduceIngredientMain:hover {
     background-image: linear-gradient(to right, rgb(236, 7, 7), rgb(209, 74, 74));

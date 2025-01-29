@@ -9,7 +9,7 @@ $menus = [
     [
         'name' => 'Travel',
         'link' => 'travel.php',
-        'child' => ['LanHa.php', 'CatBaIsland.php', 'DoSonBeach']
+        'child' => ['LanHa.php', 'CatBaIsland.php', 'DoSonBeach.php']
     ],
     [
         'name' => 'Cuisines', 
