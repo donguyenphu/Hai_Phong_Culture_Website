@@ -30,6 +30,7 @@
                                     </p>
                                 </div> 
                             </div>';
+            // location
             $htmlCuisines .= '<div class="locationWrapper">';
             foreach ($value['GoogleMapLocation'] as $key2 => $value2) {
                 $htmlCuisines.= '<div class="locationDetailWrapper">
@@ -42,6 +43,7 @@
                                 </div>';
             }
             $htmlCuisines .= '</div>';
+            // ingredient
             $htmlCuisines .= '<div class="ingredientWrapper">
                                 <div class="introduceIngredientWrapper">
                                     <h1 class="introduceIngredientMain">
@@ -62,6 +64,22 @@
             } 
             $htmlCuisines .= '</div>';
             $htmlCuisines .= '</div>';
+            // end Ingredient Wrapper
+            if (isset($value['video'])) {
+                $htmlCuisines .= '<div class="introduceIngredientWrapper">
+                                    <h1 class="introduceIngredientMain">
+                                        Eating the cuisine:
+                                    </h1>
+                                </div>';
+                $htmlCuisines .= '<div class = "videosWrapper">';
+                foreach ($value['video'] as $value2) {
+                    $htmlCuisines .= '<div class = "onlyVideoWrapper">';
+                    $htmlCuisines .= '<video controls = "" class = "onlyVideoMain" src="'.$value2.'" type="video/mp4" src="'.$value2.'" type="video/mp4"></video>';
+                    $htmlCuisines .= '</div>';
+                }
+                $htmlCuisines .= '</div>';   
+            }
+            // end
             $htmlCuisines .= '</div>';
         }
     }

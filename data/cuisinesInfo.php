@@ -256,7 +256,8 @@ $dishesInformation = [
                     '<strong>Fresh herbs - </strong> Such as lettuce, cilantro, and basil.'
                 ]
             ]
-        ]
+        ],
+        'video' => ['../image/SteamedRiceRolls1.mp4','../image/SteamedRiceRolls2.mp4']
     ]
 ];
 
