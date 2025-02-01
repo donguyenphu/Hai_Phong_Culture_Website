@@ -14,7 +14,7 @@ $menus = [
     [
         'name' => 'Cuisines', 
         'link' => 'cuisine.php',
-        'child' => ['crabNoodleSoup.php', 'spicyBread.php', 'steamedRiceRoll.php', 'stirfriedBeanSprouts.php', 'coconutIceCream.php']
+        'child' => ['crabNoodleSoup.php', 'spicyBread.php', 'steamedRiceRoll.php', 'stirfriedBeanSprouts.php', 'coconutIceCream.php', 'FreshPhoRolls.php']
     ],
     [
         'name' => 'People and Song', 
