@@ -1,6 +1,6 @@
 <?php
     require_once '../data/cuisinesInfo.php';
-    $sequence = ['crabNoodleSoup.php', 'coconutIceCream.php', 'spicyBread.php', 'stirfriedBeanSprouts.php', 'steamedRiceRoll.php', 'FreshPhoRolls.php'];
+    $sequence = ['crabNoodleSoup.php', 'coconutIceCream.php', 'spicyBread.php', 'stirfriedBeanSprouts.php', 'steamedRiceRoll.php', 'FreshSpringRolls.php'];
     $currentUrl = $_SERVER["SCRIPT_NAME"];
     $fileName = pathinfo($currentUrl, PATHINFO_BASENAME);
     $keyCuisineInfo = 0;

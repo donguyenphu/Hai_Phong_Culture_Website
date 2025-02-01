@@ -262,60 +262,42 @@ $dishesInformation = [
     [
         'title' => 'Fresh Spring Rolls',
         // 'linkTitle' => 'https://vnexpress.net/gia-be-xao-dac-san-thu-thach-long-kien-nhan-o-hai-phong-4637033.html',
-        'linkTitle' => 'FreshPhoRolls.php',
-        'mainImage' => 'image/SteamedRiceRoll.jpg',
-        'description' => 'Steamed rice roll (bánh cuốn) is a traditional Vietnamese dish made from thin, steamed rice sheets. The delicate rice sheets are rolled with a savory filling of minced pork, wood ear mushrooms, and shallots. It is typically served with slices of Vietnamese pork sausage , bean sprouts, fresh herbs, and crispy fried shallots, accompanied by a tangy and slightly sweet fish sauce for dipping.',
+        'linkTitle' => 'FreshSpringRolls.php',
+        'mainImage' => 'image/VietnameseSpringRolls.jpg',
+        'description' => 'Vietnamese (phở cuốn) is a traditional Vietnamese dish consisted of spring rolls filled with a variety of food categories, including vegetables, beef, and so on. The combination of taste from different kinds of food focused on the spring roll gives you a sense of satisfaction.',
         'GoogleMapLocation' => [
             [
-                'LocationName' => 'Bánh Cuốn Bà Bảy',
-                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.466391486077!2d106.67169917073596!3d20.853243538213693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7a8a0ac7dbad%3A0x13e043a6366793b8!2zQsOhbmggQ3Xhu5FuIELDoCBC4bqjeQ!5e0!3m2!1sen!2s!4v1737877317847!5m2!1sen!2s'
+                'LocationName' => 'Phở chiên phồng Nguyễn Gia',
+                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119317.74009876305!2d106.5273578433594!3d20.844649699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b471bccf627%3A0x84ad29b4660a14d2!2zUGjhu58gY2hpw6puIHBo4buTbmcgTmd1eeG7hW4gR2lh!5e0!3m2!1sen!2s!4v1738385277266!5m2!1sen!2s'
             ],
             [
-                'LocationName' => 'Bánh cuốn Quyên',
-                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14913.946577104434!2d106.65793365541992!3d20.85242649999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7a8a064dff89%3A0xc8eda5cb0b353a17!2zQsOhbmggY3Xhu5FuIFF1ecOqbg!5e0!3m2!1sen!2s!4v1737877739262!5m2!1sen!2s'
+                'LocationName' => 'Hàng Cuốn Lê Hồng Phong, Hải Phòng',
+                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119317.74009876305!2d106.5273578433594!3d20.844649699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b84fd204df9%3A0x463f8e7adbdf511f!2zSMOgbmcgQ3Xhu5FuIEzDqiBI4buTbmcgUGhvbmcsIEjhuqNpIFBow7JuZw!5e0!3m2!1sen!2s!4v1738385345822!5m2!1sen!2s'
             ],
             [
-                'LocationName' => 'Bánh cuốn ngon',
-                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59656.14964724893!2d106.65470214999999!3d20.85151035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7bca41223361%3A0x8d0510a29d90dd78!2zQsOhbmggY3Xhu5FuIG5nb24!5e0!3m2!1sen!2s!4v1737877670807!5m2!1sen!2s'
+                'LocationName' => 'Quán Ớt Xanh - Bánh tráng cuốn thịt heo',
+                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119317.74009876305!2d106.5273578433594!3d20.844649699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7ae961ad1a07%3A0x2ff3886b0169344!2zUXXDoW4g4buadCBYYW5oIC0gQsOhbmggdHLDoW5nIGN14buRbiB0aOG7i3QgaGVv!5e0!3m2!1sen!2s!4v1738385414345!5m2!1sen!2s'
             ]
         ],
         'mainIngredients' => [
             [
-                'nameIngredient' => 'Rice rolls (the wrapper):',
-                'moreInfo' => [
-                    '<strong>Rice flour - </strong> 200g (use regular rice flour, not glutinous rice flour).',
-                    '<strong>Tapioca starch - </strong> 50g (helps make the rolls softer and more elastic).',
-                    '<strong>Water - </strong> 700-750ml.',
-                    '<strong>Cooking oil - </strong> 1-2 teaspoons (to prevent sticking).',
-                    '<strong>Salt - </strong>1/2 teaspoon.'
-                ]
-            ],
-            [
                 'nameIngredient' => 'The filling:',
                 'moreInfo' => [
-                    '<strong>Ground pork - </strong> 200g (can substitute with shrimp or chicken if preferred).',
-                    '<strong>Wood ear mushrooms - </strong> 20g (soak until soft, then finely chop).',
-                    '<strong>Shallots - </strong> 2-3 bulbs (minced).',
-                    '<strong>Seasonings - </strong> Fish sauce, seasoning powder, ground pepper, sugar.'
+                    '<strong>Rice noodle sheets  - </strong>(10 - 15 sheets) soft, large, and flexible.',
+                    '<strong>Beef - </strong>200 - 300g commonly flank steak, brisket, or sirloin, thinly sliced.',
+                    '<strong>One small cucumber - </strong> julienned',
+                    '<strong>Bean sprouts (optional) - </strong> 100g.',
+                    '<strong>Vegetables  - </strong>6 - 7 leaves'
                 ]
             ],
             [
                 'nameIngredient' => 'The dipping sauce:',
                 'moreInfo' => [
-                    '<strong>Fish sauce - </strong> 3 tablespoons.',
+                    '<strong>Fish sauce - </strong> 4 tablespoons.',
                     '<strong>Sugar - </strong> 2 tablespoons.',
-                    '<strong>Warm water - </strong> 4 tablespoons.',
+                    '<strong>Warm water - </strong> 3 - 4 tablespoons.',
                     '<strong>Lime juice - </strong> 1-2 teaspoons.',
                     '<strong>Fresh chili and minced garlic - </strong> Adjust to taste.'
-                ]
-            ],
-            [
-                'nameIngredient' => 'Serving:',
-                'moreInfo' => [
-                    '<strong>Vietnamese pork sausage or cinnamon pork sausage - </strong> Sliced.',
-                    '<strong>Bean sprouts - </strong> Washed and briefly blanched.',
-                    '<strong>Crispy fried shallots - </strong> Golden and crunchy.',
-                    '<strong>Fresh herbs - </strong> Such as lettuce, cilantro, and basil.'
                 ]
             ]
         ],
