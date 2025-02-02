@@ -26,6 +26,7 @@ foreach ($data as $key => $value) {
 </head>
 
 <body>
+    <div id="preloader"></div>
     <?php require_once './elements/header.php';
     ?>
     <div class="container">
@@ -36,6 +37,7 @@ foreach ($data as $key => $value) {
             ?>
         </div>
     </div>
+    <script src="./loader/loader.js"></script>
 </body>
 
 </html>

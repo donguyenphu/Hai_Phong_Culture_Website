@@ -9,6 +9,7 @@
     <title>Hai Phong City - Culture</title>
 </head>
 <body>
+    <div id="preloader"></div>
     <?php require_once './elements/header.php'; ?>
     <div class="peopleContact">
         <div class="overallTitleWrapper">
@@ -19,5 +20,6 @@
         <div class="peopleInformationWrapper">
         </div>
     </div>
+    <script src="./loader/loader.js"></script>
 </body>
 </html>

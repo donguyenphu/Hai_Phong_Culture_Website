@@ -100,4 +100,12 @@ div {
     color: transparent;
     /* text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); */
 }
+#preloader {
+    background: black url('./image/299.gif') no-repeat center center;
+    background-size: 100% auto;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+}
 /* END OF HEADER TEMPLATE */
