@@ -11,6 +11,7 @@ $level = '../';
 </head>
 
 <body>
+    <div id="preloader"></div>
     <?php require_once '../elements/header.php'; ?>
     <div class="peopleContact">
         <div class="peopleInformationWrapper">
@@ -104,6 +105,7 @@ $level = '../';
             <!-- leave the original name below each cuisine -->
         </div>
     </div>
+    <script src="../loader/loader.js"></script>
 </body>
 
 </html>
