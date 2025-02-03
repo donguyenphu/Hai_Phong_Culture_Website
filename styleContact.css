@@ -31,7 +31,7 @@
     height: auto;
     margin: 30px;
     border-radius: 20px;
-    text-align: center;
+    /* text-align: center; */
     padding: 20px;
 }
 .contactIntroductionWrapper {
@@ -49,6 +49,12 @@
 }
 .social {
     font-size: 55px;
+}
+.socialItemWrapper {
+    transition: 0.36s all ease-in-out;
+}
+.socialItemWrapper:hover {
+    transform: translateY(-10px);
 }
 #Facebook {
     background-image: linear-gradient(to right, rgb(23, 0, 230) , rgb(32, 32, 110));
@@ -120,5 +126,6 @@
 }
 .LAdetailMain {
     font-family: 'Noto sans', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 500;
 }

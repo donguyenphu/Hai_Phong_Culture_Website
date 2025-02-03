@@ -24,13 +24,13 @@ $level = './';
                         <a href="https://www.facebook.com/bestofsuy/" id="Facebook" class="social"><i class="fa-brands fa-square-facebook"></i></a>
                     </div>
                     <div class="socialItemWrapper">
-                        <a href="https://twitter.com/" id="X" class="social"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://x.com/DoNguyenPhu" id="X" class="social"><i class="fa-brands fa-square-x-twitter"></i></a>
                     </div>
                     <div class="socialItemWrapper">
                         <a href="https://www.instagram.com/phujk32/" id="Instagram" class="social"><i class="fa-brands fa-square-instagram"></i></a>
                     </div>
                     <div class="socialItemWrapper">
-                        <a href="https://www.linkedin.com/" id="LinkedIn" class="social"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/nguy%C3%AAn-ph%C3%BA-%C4%91%E1%BB%97-47986330b/" id="LinkedIn" class="social"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
                     <div class="socialItemWrapper">
                         <a href="https://github.com/donguyenphu" id="Github" class="social"><i class="fa-brands fa-square-github"></i></a>
@@ -39,32 +39,30 @@ $level = './';
             </div>
             <div class="locationAndAddressWrapper">
                 <div class="addressAndPhoneWrapper">
-                    <!-- <i class="fa-solid fa-map-location-dot" id="map"></i> -->
                     <div class="mapWrapper">
                         <i class="fa-solid fa-map-location-dot" id="map"></i>
                     </div>
                     <div class="LAdetailWrapper">
-                        <h1 class="LAdetailMain">Address: Number 64/96 Le Ich Moc, Thuy Nguyen District, Hai Phong City</h1>
+                        <p class="LAdetailMain">Address: Number 64/96 Le Ich Moc, Thuy Nguyen District, Hai Phong City</p>
                     </div>
                 </div>
                 <div class="addressAndPhoneWrapper">
-                    <!-- <i class="fa-solid fa-phone-volume" id="phone"></i> -->
-                    <div class="phoneWrapper">
+                    <div class="mapWrapper">
                         <i class="fa-solid fa-phone-volume" id="phone"></i>
                     </div>
                     <div class="LAdetailWrapper">
-                        <h1 class="LAdetailMain">Phone: (+84) 849566286</h1>
+                        <p class="LAdetailMain">Phone: (+84) 849566286</p>
                     </div>
                 </div>
                 <div class="addressAndPhoneWrapper">
-                    <!-- <i class="fa-solid fa-phone-volume" id="phone"></i> -->
-                    <div class="gmailWrapper">
+                    <div class="mapWrapper">
                         <i class="fa-solid fa-square-envelope" id="Gmail"></i>
                     </div>
                     <div class="LAdetailWrapper">
-                        <h1 class="LAdetailMain">Gmail: donguyenphu022008@gmail.com</h1>
+                        <p class="LAdetailMain">Gmail: donguyenphu022008@gmail.com</p>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
