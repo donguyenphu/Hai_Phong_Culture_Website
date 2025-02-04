@@ -168,3 +168,6 @@
     transform: scale(1.15);
     color: red;
 }
+#eventsPersonality {
+    aspect-ratio: 5/6;
+}

@@ -133,6 +133,24 @@
 .imgCNSwrapper, .foodDetailWrapper {
     flex: 1;    
 }
+/*  */
+.popUpCNSmain img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+.popUpCNSmain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+/*  */
 .imgCNSmain {
     object-fit: cover;
     height: 100%;
