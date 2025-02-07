@@ -33,6 +33,17 @@
                             <p class="foodDetailMain cuisine">
                                 Mr Huy's full name is Nguyen Quang Huy, my drawing teacher.He is also the chairman of the Hai Phong city people's congress.He has attended and played an important role in cultural events in Hai Phong citys and also drawn a variety of pictures with different categories . I have studied drawing Mr Huy for 4 years. We have had so much memories. Mr Huy is such a kind and helpul person. He instructs me essentials drawing technique and also ways to make a drawing picture beautiful.
                             </p>
+                            <div class="eventsImagesWrapper">
+                                <div class="eventsOnlyImageWrapper">
+                                    <img src="../image/NguyenQuangHuy2.jpg">
+                                </div>
+                                <div class="eventsOnlyImageWrapper">
+                                    <img src="../image/NguyenQuangHuy3.jpg">
+                                </div>
+                                <div class="eventsOnlyImageWrapper">
+                                    <img src="../image/NguyenQuangHuy4.jpg">
+                                </div>
+                            </div>
                         </div> 
                     </div>
                 </div>
@@ -55,6 +66,17 @@
                                 Mr Son is a dedicated and passionate in teaching students. He finds different music sheet for his students to practise and also modifies technique in each piano sheet
                                 He organizes many important events in Hai Phong city, such as: Tet holiday, New year festival,etc
                             </p>
+                            <div class="eventsImagesWrapper">
+                                <div class="eventsOnlyImageWrapper">
+                                    <img src="../image/NguyenThaiSon2.jpg">
+                                </div>
+                                <div class="eventsOnlyImageWrapper">
+                                    <img src="../image/NguyenThaiSon5.jpg">
+                                </div>
+                                <div class="eventsOnlyImageWrapper">
+                                    <img src="../image/NguyenThaiSon4.jpg">
+                                </div>
+                            </div>
                         </div> 
                     </div>
                 </div>

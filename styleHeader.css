@@ -8,6 +8,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
 body {
     transition: opacity 0.8s ease-in-out;
 }

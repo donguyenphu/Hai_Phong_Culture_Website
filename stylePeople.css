@@ -171,3 +171,16 @@
 #eventsPersonality {
     aspect-ratio: 5/6;
 }
+.eventsImagesWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.eventsOnlyImageWrapper {
+    width: 20%;
+    height: 50vh;
+    transition: 0.8s all ease-in-out;
+}
+.eventsOnlyImageWrapper:hover {
+    width: 60%;
+}
