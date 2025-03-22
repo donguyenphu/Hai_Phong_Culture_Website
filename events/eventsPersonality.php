@@ -1,12 +1,14 @@
 <?php
-    $level = '../';
+$level = '../';
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <?php require_once '../elements/head.php'; ?>
     <title>Hai Phong City - Events</title>
 </head>
+
 <body>
     <div id="preloader"></div>
     <?php require_once '../elements/header.php'; ?>
@@ -32,19 +34,19 @@
                             </p>
                             <div class="eventsImagesWrapper">
                                 <div class="eventsOnlyImageWrapper">
-                                    <img src="../image/NguyenQuangHuy1.jpg" class = "eventsImage">
+                                    <img src="../image/NguyenQuangHuy1.jpg" class="eventsImage">
                                 </div>
                                 <div class="eventsOnlyImageWrapper">
-                                    <img src="../image/NguyenQuangHuy2.jpg" class = "eventsImage">
+                                    <img src="../image/NguyenQuangHuy2.jpg" class="eventsImage">
                                 </div>
                                 <div class="eventsOnlyImageWrapper">
-                                    <img src="../image/NguyenQuangHuy3.jpg" class = "eventsImage">
+                                    <img src="../image/NguyenQuangHuy3.jpg" class="eventsImage">
                                 </div>
                                 <div class="eventsOnlyImageWrapper">
-                                    <img src="../image/NguyenQuangHuy4.jpg" class = "eventsImage">
+                                    <img src="../image/NguyenQuangHuy4.jpg" class="eventsImage">
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -65,24 +67,31 @@
                             </p>
                             <div class="eventsImagesWrapper">
                                 <div class="eventsOnlyImageWrapper">
-                                    <img src="../image/NguyenThaiSon1.jpg" class = "eventsImage">
+                                    <img src="../image/NguyenThaiSon1.jpg" class="eventsImage">
                                 </div>
                                 <div class="eventsOnlyImageWrapper">
-                                    <img src="../image/NguyenThaiSon2.jpg" class = "eventsImage">
+                                    <img src="../image/NguyenThaiSon2.jpg" class="eventsImage">
                                 </div>
                                 <div class="eventsOnlyImageWrapper">
-                                    <img src="../image/NguyenThaiSon5.jpg" class = "eventsImage">
+                                    <img src="../image/NguyenThaiSon5.jpg" class="eventsImage">
                                 </div>
                                 <div class="eventsOnlyImageWrapper">
-                                    <img src="../image/NguyenThaiSon4.jpg" class = "eventsImage">
+                                    <img src="../image/NguyenThaiSon4.jpg" class="eventsImage">
                                 </div>
                             </div>
-                        </div> 
+                            <div class="popUpWrapper">
+                                <div class="popUpImageOnlyWrapper">
+                                    <span class="close"><i class="fa-solid fa-xmark"></i></span>
+                                    <img src="" class="popUpImageOnlyMain">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <?php require_once '../elements/script.php';?>
+    <?php require_once '../elements/script.php'; ?>
 </body>
+
 </html>

@@ -18,7 +18,7 @@ body {
     transition: opacity 0.8s ease-in-out;
 }
 .sectionLinkWrapper .active {
-    color: #ff7979;
+    color: #e70000;
 }
 .sectionLinkWrapper:hover {
     transform: scale(1.2);
@@ -95,7 +95,7 @@ div {
     font-family: 'Noto Sans',  sans-serif;
     font-size: 50px;
     text-align: center;
-    color: #683333;
+    color: #e70000;
     font-weight: 700;
     transform: scale(1);
     transition: 0.4s ease all;

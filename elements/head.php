@@ -18,3 +18,4 @@
 <link rel="stylesheet" href="<?php echo $level; ?>stylePeople.css">
 <link rel="stylesheet" href="<?php echo $level; ?>styleCuisines.css">
 <link rel="stylesheet" href="<?php echo $level; ?>styleTravel.css">
+<link rel="stylesheet" href="<?php echo $level; ?>stylePopUpImage.css">
