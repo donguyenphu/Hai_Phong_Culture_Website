@@ -35,13 +35,13 @@
                             </p>
                             <div class="eventsImagesWrapper">
                                 <div class="eventsOnlyImageWrapper">
-                                    <img src="../image/NguyenQuangHuy2.jpg">
+                                    <img src="../image/NguyenQuangHuy2.jpg" class = "eventsImage">
                                 </div>
                                 <div class="eventsOnlyImageWrapper">
-                                    <img src="../image/NguyenQuangHuy3.jpg">
+                                    <img src="../image/NguyenQuangHuy3.jpg" class = "eventsImage">
                                 </div>
                                 <div class="eventsOnlyImageWrapper">
-                                    <img src="../image/NguyenQuangHuy4.jpg">
+                                    <img src="../image/NguyenQuangHuy4.jpg" class = "eventsImage">
                                 </div>
                             </div>
                         </div> 
@@ -68,13 +68,13 @@
                             </p>
                             <div class="eventsImagesWrapper">
                                 <div class="eventsOnlyImageWrapper">
-                                    <img src="../image/NguyenThaiSon2.jpg">
+                                    <img src="../image/NguyenThaiSon2.jpg" class = "eventsImage">
                                 </div>
                                 <div class="eventsOnlyImageWrapper">
-                                    <img src="../image/NguyenThaiSon5.jpg">
+                                    <img src="../image/NguyenThaiSon5.jpg" class = "eventsImage">
                                 </div>
                                 <div class="eventsOnlyImageWrapper">
-                                    <img src="../image/NguyenThaiSon4.jpg">
+                                    <img src="../image/NguyenThaiSon4.jpg" class = "eventsImage">
                                 </div>
                             </div>
                         </div> 
@@ -83,6 +83,6 @@
             </div>
         </div>
     </div>
-    <script src="../loader/loader.js"></script>
+    <?php require_once '../elements/script.php';?>
 </body>
 </html>

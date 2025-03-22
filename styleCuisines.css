@@ -1,11 +1,13 @@
 .imgCNSwrapper {
-    padding: 10px;
     transition: 0.4s all ease-in-out;
     display: flex;
     align-items: center;
+    border-radius: 15px;
 }
 .imgCNSwrapper:hover {
-    transform: translateY(-15px);
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+    border: 1px solid black;
 }
 .introduceIngredientMain:hover {
     background-image: linear-gradient(to right, rgb(236, 7, 7), rgb(209, 74, 74));

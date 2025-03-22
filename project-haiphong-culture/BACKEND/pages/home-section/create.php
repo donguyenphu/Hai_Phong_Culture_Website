@@ -1,33 +1,82 @@
+<!-- DATABASE - ADD -->
 <?php
-    require_once './functions.php';
-    require_once './Database.class.php';
-    $htmlData = '';
-    $initServer =[
+  require_once './functions.php';
+  require_once './Database.class.php';
+  $name = '';
+  $imageLink = '';
+  $url = '';
+  $created_at = '';
+  $updated_at = '';
+  $errorName = '';
+  $errorImageLink = '';
+  $errorURL = '';
+  $status = 0;
+  if (isset($_POST['name']) && isset($_POST['imageLink']) && isset($_POST['url'])) {
+    $name = $_POST['name'];
+    $imageLink = $_POST['imageLink'];
+    $url = $_POST['url'];
+    $status = isset($_POST['status']) ? 1 : 0;
+    $data  = [
+      'name' => $name,
+      'url' => $url
+    ];
+
+    $validate = new Validate($data);
+    $validate->addRule('name', 'string', 5, 20);
+    $validate->addRule('url', 'url');
+    $validate->addRule('order', 'int', 1);
+    $validate->run();
+    $validate->getResult();
+    $validate->getErrors();
+    $validate->showError();
+    if (!checkNameLength($name)) {
+      if (!strlen(trim($name))) {
+        $errorName = '<strong class="text-info">Please fill your name</strong>';
+      }
+      else {
+        $errorName = '<strong class="text-danger">Your name has an invalid length</strong>';
+      }
+    }
+    if (!checkAttachedLink($url)) {
+      if (!strlen(trim($url))) {
+        $errorURL = '<strong class="text-danger">Please fill the attached link</strong>';
+      }
+      else {
+        $errorURL = '<strong class="text-danger">Your URL has an invalid length</strong>';
+      }
+    }
+    if (!checkImageLink(trim($imageLink))) {
+      if (!strlen(trim($imageLink))) {
+        $errorImageLink = '<strong class="text-danger">Please fill the image link</strong>';
+      }
+      else {
+        $errorImageLink = '<strong class="text-danger">Your image link has an invalid length</strong>';
+      }
+    }
+
+    if ($errorName == '' && $errorImageLink == '' && $errorURL == '') {
+      $initServer =[
         'server' => 'localhost',
         'username' => 'root',
         'password' => '',
         'database' => 'hai_phong_culture_database',
         'table' => 'home_section'
       ];
-    $user = new Database($initServer);
-    $getAll = 'SELECT * FROM '.$user -> getTable();
-    $allElemenets = $user -> recordQueryResult($getAll);
-    foreach ($allElemenets as $key => $value) {
-        $htmlData .= '<tr class="align-middle">
-                        <td>'.$value['id'].'</td>
-                        <td>'.$value['name'].'</td>
-                        <td>'.$value['image'].'</td>
-                        <td>'.$value['url'].'</td>
-                        <td>'.$value['status'].'</td>
-                        <td>'.$value['order'].'</td>
-                        <td>'.$value['created_at'].'</td>
-                        <td>'.$value['updated_at'].'</td>
-                        <td>
-                            <a href="edit.php?id='.$value['id'].'" class="btn btn-sm btn-primary">Edit</a>
-                            <a href="delete.php?id='.$value['id'].'" class="btn btn-sm btn-danger" type="button">Delete</a>
-                        </td>
-                    </tr>';
+      $InfoStorage = new Database($initServer);
+      $getAll = 'SELECT * FROM '.$InfoStorage -> getTable();
+      $allElemenets = $InfoStorage -> recordQueryResult($getAll);
+      $data = [
+        'name' => trim($name),
+        'image' => trim($imageLink),
+        'url' => trim($url),
+        'status' => $status,
+        'id' => count($allElemenets) + 1
+      ];
+      $InfoStorage -> insert($data, 'single');
+      header("Location: index.php");
+      exit();
     }
+  }
 ?>
 
 <!doctype html>
@@ -101,11 +150,6 @@
         <!--end::Header-->
         <!--begin::Sidebar-->
         <?php require_once '../home-section/nav-left.php'; ?>
-
-
-
-
-
         <main class="app-main">
             <!--begin::App Content Header-->
             <div class="app-content-header">
@@ -114,12 +158,12 @@
                     <!--begin::Row-->
                     <div class="row">
                         <div class="col-sm-6">
-                            <h3 class="mb-0">Database - Homepage</h3>
+                            <h3 class="mb-0">Database - Add</h3>
                         </div>
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-end">
                                 <li class="breadcrumb-item"><a href="../home-section/index.php">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Database - Homepage</li>
+                                <li class="breadcrumb-item active" aria-current="page">Database - Add</li>
                             </ol>
                         </div>
                     </div>
@@ -131,65 +175,49 @@
             <!--begin::App Content-->
             <!--end::App Content-->
             <div class="card-body">
-                <a href="./create.php" class="btn btn-primary" wire:navigate="">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-plus">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M12 5l0 14"></path>
-                        <path d="M5 12l14 0"></path>
-                    </svg>
-                    Create
-                </a>
-                <div class="card mb-4">
-                    <div class="card-header">
-                        <h3 class="card-title">Striped Full Width Table</h3>
+                <div class="card card-primary card-outline mb-4">
+                  <div class="card-header"><div class="card-title"><strong class="text-default">Home section - Add</strong></div></div>
+                  <!-- FORM STARTS -->
+                  <form action="" method="POST">
+                    <!--begin::Body-->
+                    <!-- id, name, image, url, status, order, created_at, updated_at -->
+                    <!-- if !isset on status => off , isset => on -->
+                    <div class="card-body">
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" value="" name="name">
+                        <?php
+                          echo $errorName;
+                        ?>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">File attached</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" value="" name="url">
+                        <?php
+                          echo $errorURL;
+                        ?>
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1" name="status">
+                        <label class="form-check-label" for="exampleCheck1">Status:</label>
+                      </div>
+                      <div class="input-group mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02" name="imageLink">
+                        <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                        <?php
+                          echo $errorImageLink;
+                        ?>
+                      </div>
                     </div>
-                    <!-- /.card-header -->
-                    <div class="card-body p-0">
-                        <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th style="width: 10px">id</th>
-                                    <th style="width: 20px">name</th>
-                                    <th>image</th>
-                                    <th>url</th>
-                                    <th style="width: 10px">status</th>
-                                    <th style="width: 10px">order</th>
-                                    <th>created_at</th>
-                                    <th>updated_at</th>
-                                    <th>Actions</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <?php
-                                    echo $htmlData;
-                                ?>
-                            </tbody>
-                            <thead>
-                                <tr>
-                                    <th style="width: 10px">id</th>
-                                    <th style="width: 20px">name</th>
-                                    <th>image</th>
-                                    <th>url</th>
-                                    <th style="width: 10px">status</th>
-                                    <th style="width: 10px">order</th>
-                                    <th>created_at</th>
-                                    <th>updated_at</th>
-                                    <th>Actions</th>
-                                </tr>
-                            </thead>
-                        </table>
+                    <!--end::Body-->
+                    <!--begin::Footer-->
+                    <div class="card-footer">
+                      <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+                      <a type="button" class="btn btn-warning" href="./index.php">Cancel</a>
                     </div>
-                    <!-- /.card-body -->
-                    <div class="card-footer clearfix">
-                        <ul class="pagination pagination-sm m-0 float-end">
-                            <li class="page-item"><a class="page-link" href="#">«</a></li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item"><a class="page-link" href="#">»</a></li>
-                        </ul>
-                    </div>
-                    <!-- /.card-footer -->
+                    <!--end::Footer-->
+                  </form>
+                  <!-- FORM ENDS -->
                 </div>
             </div>
 
@@ -235,7 +263,7 @@
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
     <!--end::Required Plugin(Bootstrap 5)--><!--begin::Required Plugin(AdminLTE)-->
-    <script src="../home-section/js/js/adminlte.js"></script>
+    <script src="../home-section/js/adminlte.js"></script>
     <!--end::Required Plugin(AdminLTE)--><!--begin::OverlayScrollbars Configure-->
     <script>
         const SELECTOR_SIDEBAR_WRAPPER = '.sidebar-wrapper';

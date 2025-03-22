@@ -177,10 +177,14 @@
     gap: 15px;
 }
 .eventsOnlyImageWrapper {
-    width: 20%;
+    width: 30%;
     height: 50vh;
+    max-height: 100vh;
     transition: 0.8s all ease-in-out;
 }
 .eventsOnlyImageWrapper:hover {
     width: 60%;
+}
+.eventsImage {
+    border: 2px solid black;
 }

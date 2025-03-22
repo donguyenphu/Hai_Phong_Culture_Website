@@ -20,6 +20,6 @@
         <div class="peopleInformationWrapper">
         </div>
     </div>
-    <script src="./loader/loader.js"></script>
+    <?php require_once './elements/script.php';?>
 </body>
 </html>

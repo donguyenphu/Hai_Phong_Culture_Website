@@ -57,7 +57,7 @@
                                 <h3 class="infoDoSonMain">Lan Ha geoduck</h3>
                             </div>
                             <p class="foodDetailMain cuisine">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
+                                Geoduck, also known as elephant snail, is famous as one of the rare seafood, highly nutritious and has a special flavor. Geoduck can appear in many regions, including Lan Ha Bay, where the sea is suitable for the growth and development of this species.
                             </p>
                         </div> 
                     </div>
@@ -72,7 +72,7 @@
                                 <h3 class="infoDoSonMain">Cat Ba blue crab</h3>
                             </div>
                             <p class="foodDetailMain cuisine">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
+                                There are many types of crabs such as red crab, three-spot crab, green crab… but the most delicious, meaty and nutritious crab is still the green crab. Crabs are processed into many delicious dishes, from family meals to “star” hotels. Once you eat crab, it is hard to forget.
                             </p>
                         </div> 
                     </div>
@@ -102,7 +102,7 @@
                                 <h3 class="infoDoSonMain">Lan Ha Salted Mantis Shrimp</h3>
                             </div>
                             <p class="foodDetailMain cuisine">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed explicabo itaque ipsam. Quos reprehenderit distinctio maxime quia! Nulla, minima?
+                                When talking about Lan Ha Bay specialties, we cannot help but mention the salt-roasted mantis shrimp. The large, firm and plump mantis shrimps are extremely delicious and crispy when roasted with salt. In addition, steamed mantis shrimps with beer and lemongrass are also very popular with simple preparation methods but still retain the fresh and sweet taste of the mantis shrimps.
                             </p>
                         </div> 
                     </div>
@@ -126,7 +126,7 @@
             </div>
         </div>
     </div>
-    <script src="../loader/loader.js"></script>
+    <?php require_once '../elements/script.php';?>
 </body>
 
 </html>
