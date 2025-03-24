@@ -3,11 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .popUpImageOnlyWrapper {
     display: none;
 }
-
 .close {
     cursor: pointer;
     position: absolute;
@@ -17,19 +15,16 @@
     font-size: 30px;
     z-index: 99999;
 }
-
 .popUpImageOnlyMain {
     position: fixed;
     cursor: pointer;
     height: 90vh;
     width: auto;
-    /* center */
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
     z-index: 100;
 }
-
 .popUpImageOnlyWrapper {
     position: fixed;
     top: 0;
