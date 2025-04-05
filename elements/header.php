@@ -48,7 +48,7 @@ foreach ($menus as $key => $value) {
                     <div class="logo">
                         <img src="<?php echo $level; ?>image/HaiPhongLogo.png" class="logoMain">
                     </div>
-                    <a href="index.html" class="brandName">Hai Phong</a>
+                    <a href="index.php" class="brandName">Hai Phong</a>
                 </div>
             </div>
             <div class="allSectionWrapper">
