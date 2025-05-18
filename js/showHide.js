@@ -4,7 +4,7 @@ buttonHide.forEach((element, index) => {
   element.addEventListener('click', function () {
     const item = history[index];
     const isHidden = item.style.display === "none";
-    buttonHide[index].innerText = isHidden ? 'Hide' : 'Show';
+    buttonHide[index].innerHTML = isHidden ? '<i class="fa-solid fa-chevron-down"></i>' : '<i class="fa-solid fa-chevron-up"></i>';
     item.style.transition = "opacity 0.5s ease, transform 0.5s ease";
     if (isHidden) {
       item.style.display = "block";
