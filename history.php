@@ -47,13 +47,13 @@ $level = './';
                             - According to archaeology , Hai Phong was once inhabited by ancient Vietnamese people about 3,000 - 4,000 years ago.
                         </p>
                         <p class="foodDetailMain cuisine">
-                            - There are 2 typical monuments of Hai Phong City in the Ancient period: 
-                            <p class="foodDetailMain cuisine">
-                                + Cai Beo relic site: dating back about 4000 BC, it belongs to Ha Long's culture, a typical culture of prehistoric coastal residents.
-                            </p>
-                            <p class="foodDetailMain cuisine">
-                                + Trang Kenh relic site: Related to Dong Son's culture (about 700 BC - 100 AD), notable for bronze drums and weapons, it proves the developed civilization of residents of the residents.
-                            </p>
+                            - There are 2 typical monuments of Hai Phong City in the Ancient period:
+                        <p class="foodDetailMain cuisine">
+                            + Cai Beo relic site: dating back about 4000 BC, it belongs to Ha Long's culture, a typical culture of prehistoric coastal residents.
+                        </p>
+                        <p class="foodDetailMain cuisine">
+                            + Trang Kenh relic site: Related to Dong Son's culture (about 700 BC - 100 AD), notable for bronze drums and weapons, it proves the developed civilization of residents of the residents.
+                        </p>
                         </p>
                     </div>
                 </div>
@@ -99,7 +99,7 @@ $level = './';
                             - In the mid-19th century , this land attracted the attention of French colonialists because of its strategic location - a water traffic hub, leading to the Gulf of Tonkin.
                         </p>
                         <p class="foodDetailMain cuisine">
-                            - In 1873,  rance invaded Tonkin. In 1888, Hai Phong was officially established as a port city under French control – ending the feudal period and opening the colonial period.
+                            - In 1873, rance invaded Tonkin. In 1888, Hai Phong was officially established as a port city under French control – ending the feudal period and opening the colonial period.
                         </p>
                     </div>
                 </div>
@@ -127,48 +127,48 @@ $level = './';
                 </div>
                 <p class="foodDetailMain cuisine">
                     - There were many French Architechtural construction, such as:
-                    <div class="eventsImagesWrapper" style="display: flex; gap: 15px;">
-                        <div style="width: 20%;">
-                            <p class="foodDetailMain cuisine">
-                                <strong>+ Nhà hát lớn Hải Phòng</strong>
-                            </p>
-                            <div class="eventsOnlyImageWrapper" style="width: 100%;">
-                                <img src="./image/NhaHatLonPhapThuoc.jpg" class="eventsImage">
-                            </div>
-                        </div>
-                        <div style="width: 20%;">
-                            <p class="foodDetailMain cuisine">
-                                <strong>+ Ngân hàng Đông Dương</strong>
-                            </p>
-                            <div class="eventsOnlyImageWrapper" style="width: 100%;;">
-                                <img src="./image/NganHangDongDuongPhapThuoc.jpg" class="eventsImage">
-                            </div>
-                        </div>
-                        <div style="width: 20%;">
-                            <p class="foodDetailMain cuisine">
-                                <strong>+ Tòa thị chính</strong>
-                            </p>
-                            <div class="eventsOnlyImageWrapper" style="width: 100%;">
-                                <img src="./image/ToaThiChinhPhapThuoc.jpg" class="eventsImage">
-                            </div>
-                        </div>
-                        <div style="width: 20%;">
-                            <p class="foodDetailMain cuisine">
-                                <strong>+ Cảng Hải Phòng</strong>
-                            </p>
-                            <div class="eventsOnlyImageWrapper" style="width: 100%;">
-                                <img src="./image/CangHaiPhongPhapThuoc.jpg" class="eventsImage">
-                            </div>
-                        </div>
-                        <div style="width: 20%;">
-                            <p class="foodDetailMain cuisine">
-                                <strong>+ Ga Hải Phòng</strong>
-                            </p>
-                            <div class="eventsOnlyImageWrapper" style="width: 100%;">
-                                <img src="./image/GaHaiPhongPhapThuoc.webp" class="eventsImage">
-                            </div>
+                <div class="eventsImagesWrapper" style="display: flex; gap: 15px;">
+                    <div style="width: 20%;">
+                        <p class="foodDetailMain cuisine">
+                            <strong>+ Nhà hát lớn Hải Phòng</strong>
+                        </p>
+                        <div class="eventsOnlyImageWrapper" style="width: 100%;">
+                            <img src="./image/NhaHatLonPhapThuoc.jpg" class="eventsImage">
                         </div>
                     </div>
+                    <div style="width: 20%;">
+                        <p class="foodDetailMain cuisine">
+                            <strong>+ Ngân hàng Đông Dương</strong>
+                        </p>
+                        <div class="eventsOnlyImageWrapper" style="width: 100%;;">
+                            <img src="./image/NganHangDongDuongPhapThuoc.jpg" class="eventsImage">
+                        </div>
+                    </div>
+                    <div style="width: 20%;">
+                        <p class="foodDetailMain cuisine">
+                            <strong>+ Tòa thị chính</strong>
+                        </p>
+                        <div class="eventsOnlyImageWrapper" style="width: 100%;">
+                            <img src="./image/ToaThiChinhPhapThuoc.jpg" class="eventsImage">
+                        </div>
+                    </div>
+                    <div style="width: 20%;">
+                        <p class="foodDetailMain cuisine">
+                            <strong>+ Cảng Hải Phòng</strong>
+                        </p>
+                        <div class="eventsOnlyImageWrapper" style="width: 100%;">
+                            <img src="./image/CangHaiPhongPhapThuoc.jpg" class="eventsImage">
+                        </div>
+                    </div>
+                    <div style="width: 20%;">
+                        <p class="foodDetailMain cuisine">
+                            <strong>+ Ga Hải Phòng</strong>
+                        </p>
+                        <div class="eventsOnlyImageWrapper" style="width: 100%;">
+                            <img src="./image/GaHaiPhongPhapThuoc.webp" class="eventsImage">
+                        </div>
+                    </div>
+                </div>
                 </p>
             </div>
             <div class="infoDoSonWrapper" style="align-items: center; display: flex; margin-bottom: 15px; gap: 30px;">
@@ -211,7 +211,7 @@ $level = './';
                             After the Geneva Accords in 1954, the French withdrew from the North. On May 13, 1955, Hai Phong was completely liberated, ending nearly 9 years of occupation. The city entered a period of peace and socialism.
                         </p>
                         <p class="foodDetailMain cuisine">
-                            <strong>5. Resistance against the US(1955- 1975)</strong>
+                            <strong>5. Resistance against the US(1955-1975)</strong>
                         </p>
                         <p class="foodDetailMain cuisine">
                             American <strong>B-52, F-105, F-4</strong> aircraft repeatedly bombed the city. Many places were severely damaged, many people died. December 1972: In the "Điện Biên Phủ trên không" campaign, the US focused on bombing Hanoi - Hai Phong with B-52, but was fiercely fought back.
@@ -220,32 +220,32 @@ $level = './';
                 </div>
                 <p class="foodDetailMain cuisine">
                     - Some popular images of Hai Phong in Resistance Period
-                    <div class="eventsImagesWrapper" style="display: flex; gap: 15px;">
-                        <div style="width: 33%;">
-                            <p class="foodDetailMain cuisine">
-                                <strong>+ After the August Revolution of 1945</strong>
-                            </p>
-                            <div class="eventsOnlyImageWrapper" style="width: 100%;">
-                                <img src="./image/CachMangThangTam.jpg" class="eventsImage">
-                            </div>
-                        </div>
-                        <div style="width: 33%;">
-                            <p class="foodDetailMain cuisine">
-                                <strong>+ The Geneva Accords in 1954</strong>
-                            </p>
-                            <div class="eventsOnlyImageWrapper" style="width: 100%;">
-                                <img src="./image/geneva.jpg" class="eventsImage">
-                            </div>
-                        </div>
-                        <div style="width: 33%;">
-                            <p class="foodDetailMain cuisine">
-                                <strong>+ Trận Điện Biên Phủ trên không (1972)</strong>
-                            </p>
-                            <div class="eventsOnlyImageWrapper" style="width: 100%;">
-                                <img src="./image/DienBienPhuTrenKhong.jpg" class="eventsImage">
-                            </div>
+                <div class="eventsImagesWrapper" style="display: flex; gap: 15px;">
+                    <div style="width: 33%;">
+                        <p class="foodDetailMain cuisine">
+                            <strong>+ After the August Revolution of 1945</strong>
+                        </p>
+                        <div class="eventsOnlyImageWrapper" style="width: 100%;">
+                            <img src="./image/CachMangThangTam.jpg" class="eventsImage">
                         </div>
                     </div>
+                    <div style="width: 33%;">
+                        <p class="foodDetailMain cuisine">
+                            <strong>+ The Geneva Accords in 1954</strong>
+                        </p>
+                        <div class="eventsOnlyImageWrapper" style="width: 100%;">
+                            <img src="./image/geneva.jpg" class="eventsImage">
+                        </div>
+                    </div>
+                    <div style="width: 33%;">
+                        <p class="foodDetailMain cuisine">
+                            <strong>+ Trận Điện Biên Phủ trên không (1972)</strong>
+                        </p>
+                        <div class="eventsOnlyImageWrapper" style="width: 100%;">
+                            <img src="./image/DienBienPhuTrenKhong.jpg" class="eventsImage">
+                        </div>
+                    </div>
+                </div>
                 </p>
             </div>
             <div class="infoDoSonWrapper" style="align-items: center; display: flex; margin-bottom: 15px; gap: 30px;">
@@ -253,16 +253,65 @@ $level = './';
                 <button class="buttonHide" style="cursor: pointer; padding: 10px; border-radius: 15px; font-size: 25px; font-weight: 600;"><i class="fa-solid fa-chevron-down"></i></button>
             </div>
             <div class="allInfoTravelWrapper history">
-                <div class="imageAndContentCuisineWrapper" style="gap: 30px;">
-                    <div class="imgCNSwrapper" style="aspect-ratio: 755/431;">
-                        <img src="./image/Hai-phong-modern-period.jpg" class="imgCNSmain">
+                <div class="imageAndContentCuisineWrapper" style="gap: 30px; display: flex;">
+                    <div class="imgCNSwrapper">
+                        <img src="./image/HaiPhong2.jpg" class="imgCNSmain">
                     </div>
-                    <div class="foodDetailWrapper">
-                        <p class="foodDetailMain cuisine">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, similique!
-                        </p>
+                    <div class="foodDetailWrapper" style="width: 70%; height: auto;">
+                        <div style="width: 100%;">
+                            <p class="foodDetailMain cuisine">
+                                - Tourism in Hai Phong is developed, notably with Cat Ba, Do Son, and typical cultural festivals.
+                            </p>
+                        </div>
+                        <div style="width: 100%;">
+                            <p class="foodDetailMain cuisine">
+                                - Hai Phong is among the cities with the <strong>highest GRDP in the country.</strong>
+                            </p>
+                        </div>
+                        <div style="width: 100%;">
+                            <p class="foodDetailMain cuisine">
+                                - Hai Phong Port is the international import and export gateway in the North.
+                            </p>
+                            <div style="display: flex; gap: 15px;">
+                                <div class="eventsOnlyImageWrapper" style="width: 50%;">
+                                    <img src="./image/HaiPhongTourism.jpg" class="eventsImage">
+                                </div>
+                                <div class="eventsOnlyImageWrapper" style="width: 50%;">
+                                    <img src="./image/HaiPhongImportExport.jpeg" class="eventsImage">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <p class="foodDetailMain cuisine">
+                    - After 1975, Hai Phong restored and continued to be the industrial center and major seaport of the north, building modern infrastructure:
+                    <div class="eventsImagesWrapper" style="display: flex; gap: 15px;">
+                        <div style="width: 33%;">
+                            <p class="foodDetailMain cuisine">
+                                <strong>+ Bach Dang Bridge</strong>
+                            </p>
+                            <div class="eventsOnlyImageWrapper" style="width: 100%;">
+                                <img src="./image/BachDangBridge.jpg" class="eventsImage">
+                            </div>
+                        </div>
+                        <div style="width: 33%;">
+                            <p class="foodDetailMain cuisine">
+                                <strong>+ Hanoi - Hai Phong Expressway</strong>
+                            </p>
+                            <div class="eventsOnlyImageWrapper" style="width: 100%;">
+                                <img src="./image/HanoiHaiphongExpressway.jpg" class="eventsImage">
+                            </div>
+                        </div>
+                        <div style="width: 33%;">
+                            <p class="foodDetailMain cuisine">
+                                <strong>+ Cat Bi airport</strong>
+                            </p>
+                            <div class="eventsOnlyImageWrapper" style="width: 100%;">
+                                <img src="./image/CatBiAirport.jpg" class="eventsImage">
+                            </div>
+                        </div>
+                    </div>
+                </p>
             </div>
         </div>
     </div>
@@ -274,4 +323,5 @@ $level = './';
     </div>
     <?php require_once './elements/script.php'; ?>
 </body>
+
 </html>
