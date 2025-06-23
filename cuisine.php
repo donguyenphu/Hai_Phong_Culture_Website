@@ -28,7 +28,7 @@
 <html lang="en">
 <head>
     <?php require_once './elements/head.php'; ?>
-    <title>Hai Phong City - Cuisines</title>
+    <title>Hai Phong City - Cuisine</title>
 </head>
 <body>
     <div id="preloader"></div>

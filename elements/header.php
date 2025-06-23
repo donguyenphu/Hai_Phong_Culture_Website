@@ -5,7 +5,7 @@ $fileName = pathinfo($currentUrl, PATHINFO_BASENAME);
 $menus = [
     ['name' => 'Home', 'link' => 'index.php'],
     ['name' => 'History', 'link' => 'history.php'],
-    ['name' => 'Culture', 'link' => 'culture.php'],
+    ['name' => 'Festivals', 'link' => 'culture.php'],
     [
         'name' => 'Travel',
         'link' => 'travel.php',
