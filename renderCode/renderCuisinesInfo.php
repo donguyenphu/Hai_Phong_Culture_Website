@@ -43,7 +43,6 @@
                                 </div>';
             }
             $htmlCuisines .= '</div>';
-            // ingredient
             $htmlCuisines .= '<div class="ingredientWrapper">
                                 <div class="introduceIngredientWrapper">
                                     <h1 class="introduceIngredientMain">
@@ -64,7 +63,6 @@
             } 
             $htmlCuisines .= '</div>';
             $htmlCuisines .= '</div>';
-            // end Ingredient Wrapper
             if (isset($value['video'])) {
                 $htmlCuisines .= '<div class="introduceIngredientWrapper">
                                     <h1 class="introduceIngredientMain">
