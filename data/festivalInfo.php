@@ -1,3 +1,4 @@
+<!-- 4 pics each fes -->
 <?php
     $festival = [
         [
@@ -18,6 +19,9 @@
                 'Flower boat parades, folk sea songs, dragon dances',
                 'Fishermen competitions (net casting, knot tying...)',
                 'Tourism fairs and cultural performances'
+            ],
+            'ImagesFestival' => [
+                '../image/CatBa1.webp', '../image/CatBa3.jpg', '../image/CatBa4.jpg', '../image/CatBa5.jpg'
             ]
         ],
         [
@@ -38,9 +42,10 @@
                 'Fierce, thrilling buffalo fights with specially trained animals',
                 'Traditional dances, lion and dragon performances, and ancestral worship rituals'
             ],
-            'Notes' => [
-                'The festival was recognized as a National Intangible Cultural Heritage'
-            ]
+            'ImagesFestival' => [
+                '../image/choiTrau1.jpg', '../image/choiTrau2.jpg', '../image/choiTrau3.jpg', '../image/choiTrau4.jpg'
+            ],
+            'Notes' => 'The festival was recognized as a National Intangible Cultural Heritage'
         ],
         [
             'title' => ' Red Flamboyant Flower Festival',
@@ -59,6 +64,9 @@
                 'Parades, art performances, international street shows',
                 'Fireworks displays, light shows, music concerts',
                 'Tourism and food fairs, exhibitions, photo contests'
+            ],
+            'ImagesFestival' => [
+                '../image/hoaPhuongDo1.jpg', '../image/hoaPhuongDo2.jpg', '../image/hoaPhuongDo3.jpg', '../image/hoaPhuongDo4.jpg'
             ]
         ],
         [
@@ -78,6 +86,9 @@
                 'Traditional offerings and ceremonial worship',
                 'Parades, lion and dragon dances, martial arts performances',
                 'Folk games and cultural programs'
+            ],
+            'ImagesFestival' => [
+                '../image/LeChan1.jpg', '../image/LeChan2.webp', '../image/LeChan3.jpg', '../image/LeChan4.jpg'
             ]
         ],
         [
@@ -98,8 +109,9 @@
                 'Poetry contests, calligraphy exhibitions, scholarly discussions',
                 'Performances of ca trù (ceremonial singing) – linked to his era'
             ],
-            'Notes' => [
-                'The site is a national special historical-cultural relic'
+            'Notes' => 'The site is a national special historical-cultural relic',
+            'ImagesFestival' => [
+                '../image/TrangTrinh1.jpg', '../image/TrangTrinh2.jpg', '../image/TrangTrinh3.png', '../image/TrangTrinh5.jpg'
             ]
         ]
     ];

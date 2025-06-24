@@ -1,6 +1,6 @@
 <?php
     require_once '../data/cuisinesInfo.php';
-    $sequence = ['crabNoodleSoup.php', 'coconutIceCream.php', 'spicyBread.php', 'stirfriedBeanSprouts.php', 'steamedRiceRoll.php', 'FreshSpringRolls.php'];
+    $sequence = ['CatBa.php', 'DoSon.php', 'HoaPhuongDo.php', 'LeChan.php', 'TrangTrinh.php'];
     $currentUrl = $_SERVER["SCRIPT_NAME"];
     $fileName = pathinfo($currentUrl, PATHINFO_BASENAME);
     $keyCuisineInfo = 0;
@@ -14,9 +14,9 @@
     foreach($dishesInformation as $key => $value) {
         if ($key == $keyCuisineInfo) {
             $htmlCuisines .='<div class="titleIntroductionWrapper">
-                                <a href="'.$value['linkTitle'].'" class="titleFoodMain">
+                                <h3 class="titleFoodMain">
                                     '.$value['title'].'
-                                </a>
+                                </h3>
                             </div>'; 
             $htmlCuisines .= '<div class="descriptionCuisinesWrapper">';
             
