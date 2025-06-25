@@ -1,57 +1,7 @@
 <?php
 
 $dishesInformation = [
-    [
-        'title' => 'Crab noodle soup',
-        // 'linkTitle' => 'https://www.dienmayxanh.com/vao-bep/cach-nau-banh-da-cua-ngon-dung-chuan-vi-hai-phong-01617',
-        'linkTitle' => 'crabNoodleSoup.php',
-        'mainImage' => "image/CrabNoodleSoup.jpg",
-        'description' => 'Hai Phong crab noodle soup (bánh đa cua) brings a rich, fatty but not greasy feeling, combined with the fresh taste of raw vegetables, the soft chewiness of rice noodles and the strong taste of the sea from crab and shrimp. A memorable dish!',
-        'GoogleMapLocation' => [
-            [
-                'LocationName' => 'Bún cá cay thằng Bờm',
-                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29816.26248046438!2d106.63760991083983!3d20.9109996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7bdf2eb4a9c3%3A0xfe9ffcd7975fcf75!2zQsO6biBDw6EgQ2F5IFRo4bqxbmcgQuG7nW0!5e0!3m2!1svi!2s!4v1733576521908!5m2!1svi!2s'
-            ],
-            [
-                'LocationName' => 'Bún Cá Cay Bà Béo',
-                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59632.16541502954!2d106.63271074308481!3d20.911903722449452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b9d0e04141b%3A0xbb5b8e4d8fdb6a35!2zQsO6biBDw6EgQ2F5IELDoCBCw6lv!5e0!3m2!1svi!2s!4v1733576624898!5m2!1svi!2s'
-            ],
-            [
-                'LocationName' => 'Bún Cá Cay Cổng Cảng',
-                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3727.010215201154!2d106.67133587417362!3d20.91190868070834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b9db04c5223%3A0x93956b9366557399!2zQsO6biBDw6EgQ2F5IEPhu5VuZyBD4bqjbmcgxJDhurdjIFPhuqNuIEjhuqNpIFBow7JuZw!5e0!3m2!1svi!2s!4v1733576593298!5m2!1svi!2s'
-            ]
-        ],
-        'mainIngredients' => [
-            [
-                'nameIngredient' => 'Noodles:',
-                'moreInfo' => [
-                    '<strong>Red rice noodles: </strong>A specialty of Hai Phong, these noodles are made from red rice and have a chewy texture.',
-                ]
-            ],
-            [
-                'nameIngredient' => 'Crab:',
-                'moreInfo' => [
-                    '<strong>Field crab: </strong>Usually from freshwater crabs, which are cooked and processed to create the crab broth.',
-                    '<strong>Crab roe: </strong>Adds richness and flavor to the soup.'
-                ]
-            ],
-            [
-                'nameIngredient' => 'Meat:',
-                'moreInfo' => [
-                    '<strong>Grilled pork rolls or meatballs: </strong>Added to make the broth more flavorful.'
-                ]
-            ],
-            [
-                'nameIngredient' => 'Side spices:',
-                'moreInfo' => [
-                    '<strong>Shrimp: </strong>Optional but commonly included for added flavor.',
-                    '<strong>Tomato: </strong>To give the broth its characteristic reddish color and tanginess.',
-                    '<strong>Garlic: </strong>Sautéed with oil to add depth to the broth.',
-                    '<strong>Salt: </strong>Seasoning the broth.'
-                ]
-            ]
-        ]
-    ],
+    // coconut ice cream
     [
         'title' => 'Coconut Ice Cream',
         // 'linkTitle' => 'https://vnexpress.net/doi-song-cooking-che-dua-dam-hai-phong-4600276.html',
@@ -104,6 +54,104 @@ $dishesInformation = [
             ]
         ]
     ],
+    // crab noodle soup
+    [
+        'title' => 'Crab noodle soup',
+        // 'linkTitle' => 'https://www.dienmayxanh.com/vao-bep/cach-nau-banh-da-cua-ngon-dung-chuan-vi-hai-phong-01617',
+        'linkTitle' => 'crabNoodleSoup.php',
+        'mainImage' => "image/CrabNoodleSoup.jpg",
+        'description' => 'Hai Phong crab noodle soup (bánh đa cua) brings a rich, fatty but not greasy feeling, combined with the fresh taste of raw vegetables, the soft chewiness of rice noodles and the strong taste of the sea from crab and shrimp. A memorable dish!',
+        'GoogleMapLocation' => [
+            [
+                'LocationName' => 'Bún cá cay thằng Bờm',
+                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29816.26248046438!2d106.63760991083983!3d20.9109996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7bdf2eb4a9c3%3A0xfe9ffcd7975fcf75!2zQsO6biBDw6EgQ2F5IFRo4bqxbmcgQuG7nW0!5e0!3m2!1svi!2s!4v1733576521908!5m2!1svi!2s'
+            ],
+            [
+                'LocationName' => 'Bún Cá Cay Bà Béo',
+                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59632.16541502954!2d106.63271074308481!3d20.911903722449452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b9d0e04141b%3A0xbb5b8e4d8fdb6a35!2zQsO6biBDw6EgQ2F5IELDoCBCw6lv!5e0!3m2!1svi!2s!4v1733576624898!5m2!1svi!2s'
+            ],
+            [
+                'LocationName' => 'Bún Cá Cay Cổng Cảng',
+                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3727.010215201154!2d106.67133587417362!3d20.91190868070834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b9db04c5223%3A0x93956b9366557399!2zQsO6biBDw6EgQ2F5IEPhu5VuZyBD4bqjbmcgxJDhurdjIFPhuqNuIEjhuqNpIFBow7JuZw!5e0!3m2!1svi!2s!4v1733576593298!5m2!1svi!2s'
+            ]
+        ],
+        'mainIngredients' => [
+            [
+                'nameIngredient' => 'Noodles:',
+                'moreInfo' => [
+                    '<strong>Red rice noodles: </strong>A specialty of Hai Phong, these noodles are made from red rice and have a chewy texture.',
+                ]
+            ],
+            [
+                'nameIngredient' => 'Crab:',
+                'moreInfo' => [
+                    '<strong>Field crab: </strong>Usually from freshwater crabs, which are cooked and processed to create the crab broth.',
+                    '<strong>Crab roe: </strong>Adds richness and flavor to the soup.'
+                ]
+            ],
+            [
+                'nameIngredient' => 'Meat:',
+                'moreInfo' => [
+                    '<strong>Grilled pork rolls or meatballs: </strong>Added to make the broth more flavorful.'
+                ]
+            ],
+            [
+                'nameIngredient' => 'Side spices:',
+                'moreInfo' => [
+                    '<strong>Shrimp: </strong>Optional but commonly included for added flavor.',
+                    '<strong>Tomato: </strong>To give the broth its characteristic reddish color and tanginess.',
+                    '<strong>Garlic: </strong>Sautéed with oil to add depth to the broth.',
+                    '<strong>Salt: </strong>Seasoning the broth.'
+                ]
+            ]
+        ]
+    ],
+    // fresh spring rolls
+    [
+        'title' => 'Fresh Spring Rolls',
+        // 'linkTitle' => 'https://vnexpress.net/gia-be-xao-dac-san-thu-thach-long-kien-nhan-o-hai-phong-4637033.html',
+        'linkTitle' => 'FreshSpringRolls.php',
+        'mainImage' => 'image/VietnameseSpringRolls.jpg',
+        'description' => 'Vietnamese (phở cuốn) is a traditional Vietnamese dish consisted of spring rolls filled with a variety of food categories, including vegetables, beef, and so on. The combination of taste from different kinds of food focused on the spring roll gives you a sense of satisfaction.',
+        'GoogleMapLocation' => [
+            [
+                'LocationName' => 'Phở chiên phồng Nguyễn Gia',
+                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119317.74009876305!2d106.5273578433594!3d20.844649699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b471bccf627%3A0x84ad29b4660a14d2!2zUGjhu58gY2hpw6puIHBo4buTbmcgTmd1eeG7hW4gR2lh!5e0!3m2!1sen!2s!4v1738385277266!5m2!1sen!2s'
+            ],
+            [
+                'LocationName' => 'Hàng Cuốn Lê Hồng Phong, Hải Phòng',
+                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119317.74009876305!2d106.5273578433594!3d20.844649699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b84fd204df9%3A0x463f8e7adbdf511f!2zSMOgbmcgQ3Xhu5FuIEzDqiBI4buTbmcgUGhvbmcsIEjhuqNpIFBow7JuZw!5e0!3m2!1sen!2s!4v1738385345822!5m2!1sen!2s'
+            ],
+            [
+                'LocationName' => 'Quán Ớt Xanh - Bánh tráng cuốn thịt heo',
+                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119317.74009876305!2d106.5273578433594!3d20.844649699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7ae961ad1a07%3A0x2ff3886b0169344!2zUXXDoW4g4buadCBYYW5oIC0gQsOhbmggdHLDoW5nIGN14buRbiB0aOG7i3QgaGVv!5e0!3m2!1sen!2s!4v1738385414345!5m2!1sen!2s'
+            ]
+        ],
+        'mainIngredients' => [
+            [
+                'nameIngredient' => 'The filling:',
+                'moreInfo' => [
+                    '<strong>Rice noodle sheets  - </strong>(10 - 15 sheets) soft, large, and flexible.',
+                    '<strong>Beef - </strong>200 - 300g commonly flank steak, brisket, or sirloin, thinly sliced.',
+                    '<strong>One small cucumber - </strong> julienned',
+                    '<strong>Bean sprouts (optional) - </strong> 100g.',
+                    '<strong>Vegetables  - </strong>6 - 7 leaves'
+                ]
+            ],
+            [
+                'nameIngredient' => 'The dipping sauce:',
+                'moreInfo' => [
+                    '<strong>Fish sauce - </strong> 4 tablespoons.',
+                    '<strong>Sugar - </strong> 2 tablespoons.',
+                    '<strong>Warm water - </strong> 3 - 4 tablespoons.',
+                    '<strong>Lime juice - </strong> 1-2 teaspoons.',
+                    '<strong>Fresh chili and minced garlic - </strong> Adjust to taste.'
+                ]
+            ]
+        ],
+        'video' => ['../image/FreshPhoRolls.mp4']
+    ],
+    // spicy bread
     [
         'title' => 'Spicy bread',
         // 'linkTitle' => 'hhttps://www.dienmayxanh.com/vao-bep/cach-lam-banh-mi-cay-hai-phong-thom-ngon-chuan-vi-05808',
@@ -153,50 +201,7 @@ $dishesInformation = [
             ]
         ]
     ],
-    [
-        'title' => 'Stir-fried bean sprouts',
-        // 'linkTitle' => 'https://vnexpress.net/gia-be-xao-dac-san-thu-thach-long-kien-nhan-o-hai-phong-4637033.html',
-        'linkTitle' => 'stirfriedBeanSprouts.php',
-        'mainImage' => 'image/giaBeXao.jpeg',
-        'description' => 'Stir-fried bean sprouts (Gía bể xào) with Hai Phong is a rustic but extremely special dish of the port city, famous for its rich flavor and unique preparation method. Bean sprouts are a small seafood, shaped like bean sprouts, often stir-fried with spices and herbs to create a delicious and unique dish.',
-        'GoogleMapLocation' => [
-            [
-                'LocationName' => 'Giá bể chợ Chu Văn An',
-                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.4841982122052!2d106.6863720741717!3d20.852525180753084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b12548392fb%3A0x9e1ed33104652852!2zR2nDoSBi4buDIGNo4bujIENodSBWxINuIEFu!5e0!3m2!1svi!2s!4v1733576908943!5m2!1svi!2s'
-            ],
-            [
-                'LocationName' => 'Bà Minh-Giá bể',
-                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.557874648664!2d106.68248877417157!3d20.8495526807553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7a8e8aac1ec3%3A0xb1f20750f9892a23!2zQsOgIE1pbmgtR2nDoSBi4buD!5e0!3m2!1svi!2s!4v1733576990085!5m2!1svi!2s'
-            ],
-            [
-                'LocationName' => 'Giá Bể Xào, Gỏi',
-                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.548722772593!2d106.66639357073532!3d20.849921938221744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b0034579b4b%3A0x797a0871c07a559b!2zR2nDoSBC4buDIFjDoG8sIEfhu49p!5e0!3m2!1svi!2s!4v1733577074253!5m2!1svi!2s'
-            ]
-        ],
-        'mainIngredients' => [
-            [
-                'nameIngredient' => 'Sprout bean:',
-                'moreInfo' => [
-                    'A type of seafood that lives in salt or brackish water, has a soft body, about 3-5cm long, and is clear white.',
-                    'When processed, the tank price is often cleaned of the thin outer shell.'
-                ]
-            ],
-            [
-                'nameIngredient' => 'Vietnamese coriander:',
-                'moreInfo' => [
-                    '<strong>Herbs - </strong>Indispensable, helping to enhance the characteristic flavor of the dish.'
-                ]
-            ],
-            [
-                'nameIngredient' => 'Spices:',
-                'moreInfo' => [
-                    '<strong>Shallots, minced garlic - </strong> Fry until fragrant.',
-                    '<strong>Cooking oil, fish sauce, seasoning powder, pepper - </strong>Enhance rich flavor.',
-                    '<strong>Chili - </strong>Creates a mild spicy taste.'
-                ]
-            ]
-        ]
-    ],
+    // steamed rice roll
     [
         'title' => 'Steamed Rice Roll',
         // 'linkTitle' => 'https://vnexpress.net/gia-be-xao-dac-san-thu-thach-long-kien-nhan-o-hai-phong-4637033.html',
@@ -259,50 +264,64 @@ $dishesInformation = [
         ],
         'video' => ['../image/SteamedRiceRolls1.mp4','../image/SteamedRiceRolls2.mp4']
     ],
+    // stir-fried bean sprouts
     [
-        'title' => 'Fresh Spring Rolls',
+        'title' => 'Stir-fried bean sprouts',
         // 'linkTitle' => 'https://vnexpress.net/gia-be-xao-dac-san-thu-thach-long-kien-nhan-o-hai-phong-4637033.html',
-        'linkTitle' => 'FreshSpringRolls.php',
-        'mainImage' => 'image/VietnameseSpringRolls.jpg',
-        'description' => 'Vietnamese (phở cuốn) is a traditional Vietnamese dish consisted of spring rolls filled with a variety of food categories, including vegetables, beef, and so on. The combination of taste from different kinds of food focused on the spring roll gives you a sense of satisfaction.',
+        'linkTitle' => 'stirfriedBeanSprouts.php',
+        'mainImage' => 'image/giaBeXao.jpeg',
+        'description' => 'Stir-fried bean sprouts (Gía bể xào) with Hai Phong is a rustic but extremely special dish of the port city, famous for its rich flavor and unique preparation method. Bean sprouts are a small seafood, shaped like bean sprouts, often stir-fried with spices and herbs to create a delicious and unique dish.',
         'GoogleMapLocation' => [
             [
-                'LocationName' => 'Phở chiên phồng Nguyễn Gia',
-                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119317.74009876305!2d106.5273578433594!3d20.844649699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b471bccf627%3A0x84ad29b4660a14d2!2zUGjhu58gY2hpw6puIHBo4buTbmcgTmd1eeG7hW4gR2lh!5e0!3m2!1sen!2s!4v1738385277266!5m2!1sen!2s'
+                'LocationName' => 'Giá bể chợ Chu Văn An',
+                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.4841982122052!2d106.6863720741717!3d20.852525180753084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b12548392fb%3A0x9e1ed33104652852!2zR2nDoSBi4buDIGNo4bujIENodSBWxINuIEFu!5e0!3m2!1svi!2s!4v1733576908943!5m2!1svi!2s'
             ],
             [
-                'LocationName' => 'Hàng Cuốn Lê Hồng Phong, Hải Phòng',
-                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119317.74009876305!2d106.5273578433594!3d20.844649699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b84fd204df9%3A0x463f8e7adbdf511f!2zSMOgbmcgQ3Xhu5FuIEzDqiBI4buTbmcgUGhvbmcsIEjhuqNpIFBow7JuZw!5e0!3m2!1sen!2s!4v1738385345822!5m2!1sen!2s'
+                'LocationName' => 'Bà Minh-Giá bể',
+                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.557874648664!2d106.68248877417157!3d20.8495526807553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7a8e8aac1ec3%3A0xb1f20750f9892a23!2zQsOgIE1pbmgtR2nDoSBi4buD!5e0!3m2!1svi!2s!4v1733576990085!5m2!1svi!2s'
             ],
             [
-                'LocationName' => 'Quán Ớt Xanh - Bánh tráng cuốn thịt heo',
-                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119317.74009876305!2d106.5273578433594!3d20.844649699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7ae961ad1a07%3A0x2ff3886b0169344!2zUXXDoW4g4buadCBYYW5oIC0gQsOhbmggdHLDoW5nIGN14buRbiB0aOG7i3QgaGVv!5e0!3m2!1sen!2s!4v1738385414345!5m2!1sen!2s'
+                'LocationName' => 'Giá Bể Xào, Gỏi',
+                'Frame' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.548722772593!2d106.66639357073532!3d20.849921938221744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b0034579b4b%3A0x797a0871c07a559b!2zR2nDoSBC4buDIFjDoG8sIEfhu49p!5e0!3m2!1svi!2s!4v1733577074253!5m2!1svi!2s'
             ]
         ],
         'mainIngredients' => [
             [
-                'nameIngredient' => 'The filling:',
+                'nameIngredient' => 'Sprout bean:',
                 'moreInfo' => [
-                    '<strong>Rice noodle sheets  - </strong>(10 - 15 sheets) soft, large, and flexible.',
-                    '<strong>Beef - </strong>200 - 300g commonly flank steak, brisket, or sirloin, thinly sliced.',
-                    '<strong>One small cucumber - </strong> julienned',
-                    '<strong>Bean sprouts (optional) - </strong> 100g.',
-                    '<strong>Vegetables  - </strong>6 - 7 leaves'
+                    'A type of seafood that lives in salt or brackish water, has a soft body, about 3-5cm long, and is clear white.',
+                    'When processed, the tank price is often cleaned of the thin outer shell.'
                 ]
             ],
             [
-                'nameIngredient' => 'The dipping sauce:',
+                'nameIngredient' => 'Vietnamese coriander:',
                 'moreInfo' => [
-                    '<strong>Fish sauce - </strong> 4 tablespoons.',
-                    '<strong>Sugar - </strong> 2 tablespoons.',
-                    '<strong>Warm water - </strong> 3 - 4 tablespoons.',
-                    '<strong>Lime juice - </strong> 1-2 teaspoons.',
-                    '<strong>Fresh chili and minced garlic - </strong> Adjust to taste.'
+                    '<strong>Herbs - </strong>Indispensable, helping to enhance the characteristic flavor of the dish.'
+                ]
+            ],
+            [
+                'nameIngredient' => 'Spices:',
+                'moreInfo' => [
+                    '<strong>Shallots, minced garlic - </strong> Fry until fragrant.',
+                    '<strong>Cooking oil, fish sauce, seasoning powder, pepper - </strong>Enhance rich flavor.',
+                    '<strong>Chili - </strong>Creates a mild spicy taste.'
                 ]
             ]
-        ],
-        'video' => ['../image/FreshPhoRolls.mp4']
-    ]
+        ]
+    ],
+    // geoduck
+    // blue crab
+    // grilled sea cucumber eggs
+    // salted mantis shrimp
+    // satled fried crab
+    // jellyfish salad 
+    // crab hotpot, crab spring rolls
+    // sun-dried anchovies
+    // fresh seafood
+    // horseshoe crab
+    // grouper
+    // lobster
+    // shrimp vermicelli
 ];
 
 ?>
