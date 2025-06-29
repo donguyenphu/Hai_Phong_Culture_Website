@@ -1,6 +1,6 @@
 <?php
     require_once '../data/cuisinesInfo.php';
-    $sequence = ['coconutIceCream.php', 'crabNoodleSoup.php', 'FreshSpringRolls.php', 'spicyBread.php', 'steamedRiceRoll.php', 'stirfriedBeanSprouts.php'];
+    $sequence = ['blueCrab.php', 'coconutIceCream.php', 'crabNoodleSoup.php', 'crabSpringRolls.php', 'FreshSpringRolls.php', 'geoduck.php', 'grilledSeaCucumberEggs.php', 'grouper.php', 'horseshoeCrab.php', 'jellyFishSalad.php', 'lobster.php', 'saltedFriedCrab.php', 'saltedMantisShrimp.php', 'shrimpVermicelli.php', 'spicyBread.php', 'steamedRiceRoll.php', 'stirfriedBeanSprouts.php', 'sundriedAnchovies.php'];
     $currentUrl = $_SERVER["SCRIPT_NAME"];
     $fileName = pathinfo($currentUrl, PATHINFO_BASENAME);
     $keyCuisineInfo = 0;
@@ -43,10 +43,18 @@
                                 </div>';
             }
             $htmlCuisines .= '</div>';
+            // end location
+            if (isset($value['TipsForGoogleMap'])) {
+                $htmlCuisines .='<ul class="detailIngredientMain" id="detailIngredientMainList"><strong>***TIPS for processing the dish***</strong>';
+                foreach($value['TipsForGoogleMap'] as $key2 => $value2) {
+                    $htmlCuisines .= '<li><small>+ '.$value2.'</small></li>';
+                }
+                $htmlCuisines .= '</ul>';
+            }
             $htmlCuisines .= '<div class="ingredientWrapper">
                                 <div class="introduceIngredientWrapper">
                                     <h1 class="introduceIngredientMain">
-                                        Main ingredient:
+                                        Main ingredients & Method
                                     </h1>
                                 </div>
                                 <div class="detailIngredientWrapper">';
@@ -55,7 +63,7 @@
                 $htmlCuisines .='<ul class="detailIngredientMain" id="detailIngredientMainList">
                                     '.($key3+1).'.'.$value3['nameIngredient'];
                 foreach ($value3['moreInfo'] as $key4 => $value4) {
-                    $htmlCuisines .= '<li class="describeIngredient">';
+                    $htmlCuisines .= '<li class="describeIngredient">+ ';
                     $htmlCuisines .= $value4;
                     $htmlCuisines .= '</li>';
                 }
@@ -77,6 +85,22 @@
                 }
                 $htmlCuisines .= '</div>';   
             }
+
+            if (isset($value['TipsForCooking'])) {
+                $htmlCuisines .='<ul class="detailIngredientMain" id="detailIngredientMainList"><strong>***TIPS for cooking the dish***</strong>';
+                foreach($value['TipsForCooking'] as $key2 => $value2) {
+                    $htmlCuisines .= '<li><small>+ '.$value2.'</small></li>';
+                }
+                $htmlCuisines .= '</ul>';
+            }
+
+            $htmlCuisines .= '<div class="ingredientWrapper">
+                                <div class="introduceIngredientWrapper">
+                                    <h1 class="introduceIngredientMain">
+                                        Enjoying your meal!
+                                    </h1>
+                                </div>
+                                <div class="detailIngredientWrapper">';
             // end
             $htmlCuisines .= '</div>';
         }

@@ -1,6 +1,6 @@
 <?php
-    $level = '../';
-    require_once '../renderCode/renderCuisinesInfo.php';
+$level = '../';
+require_once '../renderCode/renderCuisinesInfo.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,6 +9,7 @@
     <title>Hai Phong City - Cuisines</title>
 </head>
 <body>
+    <div id="preloader"></div>
     <?php require_once '../elements/header.php'; ?>
     <div class="peopleContact">
         <div class="overallTitleWrapper">
@@ -18,11 +19,11 @@
         </div>
         <div class="peopleInformationWrapper">
             <?php
-                echo $htmlCuisines; 
+            echo $htmlCuisines;
             ?>
             <!-- overall view of cuisines -->
-        </div> 
+        </div>
     </div>
-    <?php require_once '../elements/script.php';?>
+    <?php require_once '../elements/script.php'; ?>
 </body>
 </html>

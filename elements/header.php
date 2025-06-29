@@ -18,7 +18,7 @@ $menus = [
     [
         'name' => 'Cuisines', 
         'link' => 'cuisine.php',
-        'child' => ['crabNoodleSoup.php', 'spicyBread.php', 'steamedRiceRoll.php', 'stirfriedBeanSprouts.php', 'coconutIceCream.php', 'FreshSpringRolls.php']
+        'child' => ['blueCrab.php', 'coconutIceCream.php', 'crabNoodleSoup.php', 'crabSpringRolls.php', 'FreshSpringRolls.php', 'geoduck.php', 'grilledSeaCucumberEggs.php', 'grouper.php', 'horseshoeCrab.php', 'jellyFishSalad.php', 'lobster.php', 'saltedFriedCrab.php', 'saltedMantisShrimp.php', 'shrimpVermicelli.php', 'spicyBread.php', 'steamedRiceRoll.php', 'stirfriedBeanSprouts.php', 'sundriedAnchovies.php']
     ],
     [
         'name' => 'People and Song', 
