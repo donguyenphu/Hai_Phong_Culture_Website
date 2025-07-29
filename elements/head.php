@@ -21,3 +21,4 @@
 <link rel="stylesheet" href="<?php echo $level; ?>stylePopUpImage.css">
 <link rel="stylesheet" href="<?php echo $level; ?>styleShowHide.css">
 <link rel="stylesheet" href="<?php echo $level; ?>styleHistory.css">
+<link rel="stylesheet" href="<?php echo $level; ?>styleEmailForm.css">
