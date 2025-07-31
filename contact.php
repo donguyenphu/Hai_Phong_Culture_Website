@@ -28,7 +28,7 @@ $level = './';
                     <input type="text" name="user_subject" id="subject" required>
 
                     <label for="message" class="LAdetailMain"><strong>Message</strong></label>
-                    <strong><textarea name="message" id="message" rows="4" required></textarea></strong>
+                    <strong><textarea name="message" id="message" rows="4" required style="resize: none;"></textarea></strong>
 
                     <button type="submit" class="LAdetailMain" id="send_email_button">Send Message</button>
                 </form>
