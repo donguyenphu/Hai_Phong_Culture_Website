@@ -359,7 +359,7 @@ $dishesInformation = [
             'Don’t overfill the rolls or they will tear',
             'Serve immediately for best texture'
         ],
-        'video' => ['../image/FreshPhoRolls.mp4']
+        'video' => ['https://www.youtube.com/embed/FV5sAKE8wz4']
     ],
     // Steamed geoduck with lemongrass and ginger (ok)
     [
@@ -1188,7 +1188,7 @@ $dishesInformation = [
             'Avoid over-steaming to keep the sheets thin and chewy',
             'Use minimal oil to prevent sticking but keep it light and fresh'
         ],
-        'video' => ['../image/SteamedRiceRolls1.mp4', '../image/SteamedRiceRolls2.mp4']
+        'video' => ['https://www.youtube.com/embed/c38y--nT3vM', 'https://www.youtube.com/embed/Cp8qFVmMEds']
     ],
     // stir-fried bean sprouts (ok)
     [

@@ -80,7 +80,15 @@
                 $htmlCuisines .= '<div class = "videosWrapper">';
                 foreach ($value['video'] as $value2) {
                     $htmlCuisines .= '<div class = "onlyVideoWrapper">';
-                    $htmlCuisines .= '<video controls = "" class = "onlyVideoMain" src="'.$value2.'" type="video/mp4" src="'.$value2.'" type="video/mp4"></video>';
+                    $htmlCuisines .= '<iframe 
+                            src="'.$value2.'"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            class="onlyVideoMain" 
+                            controls="" type="video/mp4" 
+                            allowfullscreen>
+                        </iframe>';
+                    // $htmlCuisines .= '<video controls = "" class = "onlyVideoMain" src="'.$value2.'" type="video/mp4" src="'.$value2.'" type="video/mp4"></video>';
                     $htmlCuisines .= '</div>';
                 }
                 $htmlCuisines .= '</div>';   
