@@ -24,7 +24,7 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker buildx build --platform linux/amd64,linux/arm64 -t drakenevadie19/dnp-portfolio:latest --push .
+          docker buildx build --platform linux/amd64,linux/arm64 -t drakenevadie19/haiphong-culture-website:latest --push .
 
   deploy:
     needs: build
