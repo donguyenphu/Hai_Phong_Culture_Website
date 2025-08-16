@@ -139,6 +139,7 @@
     height: auto;
     border-radius: 10px;
     border: 2px solid black;
+    object-fit: cover;
 }
 .firstImageWrapper {
    overflow: hidden;
@@ -150,11 +151,11 @@
 }
 .firstImageMain {
     aspect-ratio: 10 / 9;
-    object-fit: cover;
+    margin-left: 5px;
 }
 .secondImageMain {
     aspect-ratio: 4 / 3;
-    object-fit: cover;
+    margin-bottom: 5px;
 }
 .Events {
     color: black;

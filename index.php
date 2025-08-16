@@ -26,18 +26,18 @@ foreach ($data as $key => $value) {
 </head>
 
 <body>
-    <div id="preloader"></div>
-    <?php require_once './elements/header.php';
-    ?>
-    <div class="container">
-        <div class="timeline">
-            <!-- 7 elements -->
-            <?php
-            echo $html;
-            ?>
+        <div id="preloader"></div>
+        <?php require_once './elements/header.php';
+        ?>
+        <div class="container">
+            <div class="timeline">
+                <!-- 7 elements -->
+                <?php
+                echo $html;
+                ?>
+            </div>
         </div>
-    </div>
-    <?php require_once './elements/script.php';?>
+        <?php require_once './elements/script.php'; ?>
 </body>
 
 </html>
